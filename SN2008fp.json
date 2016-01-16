@@ -10,24 +10,59 @@
                 "alias": "1"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001500/CBET001506.txt'>CBET 1506</a>",
-                "alias": "3"
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "3",
+                "secondary": true
             },
             {
-                "name": "Stan Howerton",
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001500/CBET001506.txt'>CBET 1506</a>",
                 "alias": "4"
             },
             {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "name": "Stan Howerton",
                 "alias": "5"
+            },
+            {
+                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "2,3"
+            }
+        ],
+        "discoverday": "10",
+        "discoverer": "CHASE",
+        "discovermonth": "9",
+        "discoveryear": "2008",
+        "galdec": "-291929",
+        "galra": "071631",
+        "host": "ESO 428-G14",
+        "hvel": "1630",
+        "lumdist": "24.22",
+        "maxabsmag": "-18.531",
+        "maxappmag": "13.39",
+        "maxday": "18",
+        "maxmonth": "9",
+        "maxyear": "2008",
+        "redshift": "0.00545",
+        "sndec": "-29:19:31.7",
+        "snra": "07:16:32.6",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "54719.5",
+                "band": "",
+                "abmag": "13.5",
+                "source": "4,3"
+            },
             {
                 "timeunit": "MJD",
                 "time": "54724.32370",
@@ -621,6 +656,13 @@
                 "instrument": "CSP",
                 "aberr": "0.007",
                 "source": "1"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "54738.769",
+                "band": "V",
+                "abmag": "14.20",
+                "source": "5,3"
             },
             {
                 "timeunit": "MJD",
@@ -2124,40 +2166,7 @@
                 "instrument": "CSP",
                 "aberr": "0.011",
                 "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54719.5",
-                "band": "",
-                "abmag": "13.5",
-                "source": "3,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54738.769",
-                "band": "V",
-                "abmag": "14.20",
-                "source": "4,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2008",
-        "redshift": "0.005452",
-        "snra": "07:16:32.6",
-        "sndec": "-29:19:31.7",
-        "discoverday": "10",
-        "discovermonth": "9",
-        "host": "ESO 428-G14",
-        "claimedtype": "Ia",
-        "hvel": "1630",
-        "galra": "071631",
-        "galdec": "-291929",
-        "discoverer": "CHASE",
-        "maxyear": "2008",
-        "maxmonth": "9",
-        "maxday": "18",
-        "maxappmag": "13.39",
-        "lumdist": "24.23",
-        "maxabsmag": "-18.53"
+        ]
     }
 }

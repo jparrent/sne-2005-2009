@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iau/cbet/000800/CBET000830.txt'>CBET 830</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "27",
+        "discoverer": "ESSENCE project",
+        "discovermonth": "11",
+        "discoveryear": "2006",
+        "galdec": "-044018",
+        "galra": "020414",
+        "host": "A020414-0440",
+        "hvel": "120000",
+        "lumdist": "3100",
+        "maxabsmag": "-20",
+        "maxappmag": "22.2",
+        "maxday": "27",
+        "maxmonth": "11",
+        "maxyear": "2006",
+        "redshift": "0.52",
+        "sndec": "-04:40:18.67",
+        "snra": "02:04:14.171",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54066.5",
                 "band": "",
                 "abmag": "22.2",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2006",
-        "discoverday": "27",
-        "discovermonth": "11",
-        "host": "A020414-0440",
-        "claimedtype": "Ia",
-        "redshift": "0.52",
-        "galra": "020414",
-        "galdec": "-044018",
-        "snra": "02:04:14.171",
-        "sndec": "-04:40:18.67",
-        "discoverer": "ESSENCE project",
-        "maxyear": "2006",
-        "maxmonth": "11",
-        "maxday": "27",
-        "maxappmag": "22.2",
-        "hvel": "118700",
-        "lumdist": "3059",
-        "maxabsmag": "-20.23"
+        ]
     }
 }

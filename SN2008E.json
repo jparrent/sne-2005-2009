@@ -6,26 +6,59 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001200/CBET001206.txt'>CBET 1206</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "5",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "3",
+        "discoverer": "ROTSE",
+        "discovermonth": "1",
+        "discoveryear": "2008",
+        "galdec": "+520825",
+        "galra": "112536",
+        "host": "A112536+5208",
+        "hvel": "10200",
+        "lumdist": "157.1",
+        "maxabsmag": "-17.98",
+        "maxappmag": "18",
+        "maxday": "3",
+        "maxmonth": "1",
+        "maxyear": "2008",
+        "redshift": "0.0346",
+        "sndec": "+52:08:25.9",
+        "snra": "11:25:36.95",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54468.5",
                 "band": "",
                 "abmag": "18.0",
-                "source": "2,1"
+                "source": "3,2"
             }
         ],
         "spectra": [
@@ -13449,26 +13482,9 @@
                         "1.1840232e-16",
                         "1.7358480e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             }
-        ],
-        "discoveryear": "2008",
-        "discoverday": "3",
-        "discovermonth": "1",
-        "host": "A112536+5208",
-        "claimedtype": "Ia",
-        "hvel": "10200",
-        "galra": "112536",
-        "galdec": "+520825",
-        "snra": "11:25:36.95",
-        "sndec": "+52:08:25.9",
-        "discoverer": "ROTSE",
-        "maxyear": "2008",
-        "maxmonth": "1",
-        "maxday": "3",
-        "maxappmag": "18",
-        "redshift": "0.03462",
-        "lumdist": "157.2",
-        "maxabsmag": "-17.98"
+        ]
     }
 }

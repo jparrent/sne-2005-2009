@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iau/cbet/001000/CBET001057.txt'>CBET 1057</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "2",
+        "discoverer": "SDSS Collaboration",
+        "discovermonth": "9",
+        "discoveryear": "2007",
+        "galdec": "-010145",
+        "galra": "210308",
+        "host": "A210308-0101",
+        "hvel": "39000",
+        "lumdist": "680",
+        "maxabsmag": "-19",
+        "maxappmag": "19.7",
+        "maxday": "2",
+        "maxmonth": "9",
+        "maxyear": "2007",
+        "redshift": "0.14",
+        "sndec": "-01:01:45.1",
+        "snra": "21:03:08.95",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54345.5",
                 "band": "",
                 "abmag": "19.7",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2007",
-        "discoverday": "2",
-        "discovermonth": "9",
-        "host": "A210308-0101",
-        "claimedtype": "Ia",
-        "redshift": "0.14",
-        "galra": "210308",
-        "galdec": "-010145",
-        "snra": "21:03:08.95",
-        "sndec": "-01:01:45.1",
-        "discoverer": "SDSS Collaboration",
-        "maxyear": "2007",
-        "maxmonth": "9",
-        "maxday": "2",
-        "maxappmag": "19.7",
-        "hvel": "39060",
-        "lumdist": "682.9",
-        "maxabsmag": "-19.47"
+        ]
     }
 }

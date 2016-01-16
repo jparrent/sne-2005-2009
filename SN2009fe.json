@@ -7,46 +7,59 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iau/cbet/001800/CBET001820.txt'>CBET 1820</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1"
+            },
+            {
+                "type": "Ia",
+                "source": "2"
+            }
+        ],
+        "discoverday": "16",
+        "discoverer": "PTF",
+        "discovermonth": "5",
+        "discoveryear": "2009",
+        "galdec": "+495000",
+        "galra": "164734",
+        "host": "PGC 2354835",
+        "hvel": "14100",
+        "lumdist": "221.1",
+        "maxabsmag": "-18.62",
+        "maxappmag": "18.1",
+        "maxday": "16",
+        "maxmonth": "5",
+        "maxyear": "2009",
+        "redshift": "0.0482",
+        "sndec": "+49:50:00.4",
+        "snra": "16:47:34.81",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54967.5",
                 "band": "",
                 "abmag": "18.1",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2009",
-        "discoverday": "16",
-        "discovermonth": "5",
-        "host": "PGC 2354835",
-        "claimedtype": "Ia",
-        "hvel": "14100",
-        "galra": "164734",
-        "galdec": "+495000",
-        "snra": "16:47:34.81",
-        "sndec": "+49:50:00.4",
-        "discoverer": "PTF",
-        "redshift": "0.04819",
-        "maxyear": "2009",
-        "maxmonth": "5",
-        "maxday": "16",
-        "maxappmag": "18.1",
-        "lumdist": "221",
-        "maxabsmag": "-18.62"
+        ]
     }
 }

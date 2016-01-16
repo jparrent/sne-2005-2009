@@ -15,19 +15,51 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08700/08700.html#Item2'>IAUC 8700</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II P",
+                "source": "3"
+            },
+            {
+                "type": "II",
+                "source": "4"
+            }
+        ],
+        "discoverday": "10",
+        "discoverer": "Koichi Itagaki",
+        "discovermonth": "4",
+        "discoveryear": "2006",
+        "galdec": "+521939",
+        "galra": "115349",
+        "host": "NGC 3953",
+        "hvel": "987",
+        "lumdist": "14.64",
+        "maxabsmag": "-15.91",
+        "maxappmag": "14.92",
+        "maxday": "13",
+        "maxmonth": "4",
+        "maxyear": "2006",
+        "redshift": "0.0033",
+        "sndec": "+52:21:09.4",
+        "snra": "11:53:55.74",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -327,6 +359,13 @@
             },
             {
                 "timeunit": "MJD",
+                "time": "53865.5",
+                "band": "",
+                "abmag": "15.1",
+                "source": "5,4"
+            },
+            {
+                "timeunit": "MJD",
                 "time": "53866.69",
                 "band": "B",
                 "abmag": "16.39",
@@ -388,33 +427,7 @@
                 "abmag": "15.52",
                 "aberr": "0.02",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "53865.5",
-                "band": "",
-                "abmag": "15.1",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2006",
-        "maxday": "13",
-        "maxmonth": "4",
-        "host": "NGC 3953",
-        "claimedtype": "II",
-        "hvel": "987",
-        "galra": "115349",
-        "galdec": "+521939",
-        "snra": "11:53:55.74",
-        "sndec": "+52:21:09.4",
-        "discoverer": "Koichi Itagaki",
-        "discoverday": "10",
-        "discovermonth": "4",
-        "maxyear": "2006",
-        "maxappmag": "14.92",
-        "redshift": "0.003298",
-        "lumdist": "14.63",
-        "maxabsmag": "-15.91"
+        ]
     }
 }

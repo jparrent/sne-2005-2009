@@ -20,19 +20,51 @@
                 "alias": "3"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "4",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "5",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001900/CBET001928.txt'>CBET 1928</a>",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "Stan Howerton",
-                "alias": "6"
+                "alias": "7"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "IIn?",
+                "source": "4"
+            },
+            {
+                "type": "LBV",
+                "source": "5"
+            }
+        ],
+        "discoverday": "30",
+        "discoverer": "CHASE",
+        "discovermonth": "8",
+        "discoveryear": "2009",
+        "galdec": "-285717",
+        "galra": "222305",
+        "host": "NGC 7259",
+        "hvel": "1718",
+        "lumdist": "25.5462",
+        "maxabsmag": "-19.2166",
+        "maxappmag": "12.82",
+        "maxday": "6",
+        "maxmonth": "10",
+        "maxyear": "2012",
+        "redshift": "0.005747",
+        "sndec": "-28:56:52.4",
+        "snra": "22:23:08.26",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -2412,6 +2444,13 @@
             },
             {
                 "timeunit": "MJD",
+                "time": "56204.5",
+                "band": "",
+                "abmag": "13.3",
+                "source": "6,5"
+            },
+            {
+                "timeunit": "MJD",
                 "time": "56206.9",
                 "band": "B",
                 "abmag": "13.8",
@@ -2588,37 +2627,11 @@
             },
             {
                 "timeunit": "MJD",
-                "time": "56204.5",
-                "band": "",
-                "abmag": "13.3",
-                "source": "5,4"
-            },
-            {
-                "timeunit": "MJD",
                 "time": "56596.403",
                 "band": "C",
                 "abmag": "19.7",
-                "source": "6,4"
+                "source": "7,5"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2009",
-        "discoverday": "30",
-        "discovermonth": "8",
-        "host": "NGC 7259",
-        "claimedtype": "LBV",
-        "hvel": "1718",
-        "galra": "222305",
-        "galdec": "-285717",
-        "snra": "22:23:08.26",
-        "sndec": "-28:56:52.4",
-        "discoverer": "CHASE",
-        "redshift": "0.005747",
-        "maxyear": "2012",
-        "maxmonth": "10",
-        "maxday": "6",
-        "maxappmag": "12.82",
-        "lumdist": "25.55",
-        "maxabsmag": "-19.22"
+        ]
     }
 }

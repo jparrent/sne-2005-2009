@@ -7,46 +7,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001600/CBET001683.txt'>CBET 1683</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II P",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "1",
+        "discoverer": "CRTS",
+        "discovermonth": "2",
+        "discoveryear": "2009",
+        "galdec": "+114423",
+        "galra": "162347",
+        "host": "A162347+1144",
+        "hvel": "5100",
+        "lumdist": "76.2",
+        "maxabsmag": "-16.5",
+        "maxappmag": "17.9",
+        "maxday": "1",
+        "maxmonth": "2",
+        "maxyear": "2009",
+        "redshift": "0.017",
+        "sndec": "+11:44:07.0",
+        "snra": "16:23:45.60",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54863.5",
                 "band": "",
                 "abmag": "17.9",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2009",
-        "discoverday": "1",
-        "discovermonth": "2",
-        "host": "A162347+1144",
-        "claimedtype": "IIP",
-        "hvel": "5100",
-        "galra": "162347",
-        "galdec": "+114423",
-        "snra": "16:23:45.60",
-        "sndec": "+11:44:07.0",
-        "discoverer": "CRTS",
-        "redshift": "0.01716",
-        "maxyear": "2009",
-        "maxmonth": "2",
-        "maxday": "1",
-        "maxappmag": "17.9",
-        "lumdist": "76.94",
-        "maxabsmag": "-16.53"
+        ]
     }
 }

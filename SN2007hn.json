@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001000/CBET001050.txt'>CBET 1050</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ib/c",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "30",
+        "discoverer": "Nearby Supernova Factory",
+        "discovermonth": "8",
+        "discoveryear": "2007",
+        "galdec": "-040525",
+        "galra": "210246",
+        "host": "A210246-0405",
+        "hvel": "9000",
+        "lumdist": "140",
+        "maxabsmag": "-17",
+        "maxappmag": "18.6",
+        "maxday": "30",
+        "maxmonth": "8",
+        "maxyear": "2007",
+        "redshift": "0.03",
+        "sndec": "-04:05:25.2",
+        "snra": "21:02:46.85",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54342.5",
                 "band": "",
                 "abmag": "18.6",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2007",
-        "discoverday": "30",
-        "discovermonth": "8",
-        "host": "A210246-0405",
-        "claimedtype": "Ib/c",
-        "hvel": "9000",
-        "galra": "210246",
-        "galdec": "-040525",
-        "snra": "21:02:46.85",
-        "sndec": "-04:05:25.2",
-        "discoverer": "Nearby Supernova Factory",
-        "redshift": "0.03049",
-        "maxyear": "2007",
-        "maxmonth": "8",
-        "maxday": "30",
-        "maxappmag": "18.6",
-        "lumdist": "138.1",
-        "maxabsmag": "-17.1"
+        ]
     }
 }

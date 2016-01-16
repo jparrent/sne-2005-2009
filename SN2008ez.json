@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001400/CBET001474.txt'>CBET 1474</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "17",
+        "discoverer": "Berto Monard",
+        "discovermonth": "8",
+        "discoveryear": "2008",
+        "galdec": "+134432",
+        "galra": "133456",
+        "host": "NGC 5222",
+        "hvel": "6860",
+        "lumdist": "104.5",
+        "maxabsmag": "-17.7",
+        "maxappmag": "17.4",
+        "maxday": "17",
+        "maxmonth": "8",
+        "maxyear": "2008",
+        "redshift": "0.0232",
+        "sndec": "+13:43:48.6",
+        "snra": "13:34:55.27",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54695.5",
                 "band": "",
                 "abmag": "17.4",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2008",
-        "discoverday": "17",
-        "discovermonth": "8",
-        "host": "NGC 5222",
-        "claimedtype": "Ia",
-        "hvel": "6860",
-        "galra": "133456",
-        "galdec": "+134432",
-        "snra": "13:34:55.27",
-        "sndec": "+13:43:48.6",
-        "discoverer": "Berto Monard",
-        "maxyear": "2008",
-        "maxmonth": "8",
-        "maxday": "17",
-        "maxappmag": "17.4",
-        "redshift": "0.02315",
-        "lumdist": "104.3",
-        "maxabsmag": "-17.69"
+        ]
     }
 }

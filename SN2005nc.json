@@ -7,46 +7,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08600/08696.html#Item1'>IAUC 8696</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ic",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "29",
+        "discoverer": "ESO",
+        "discovermonth": "5",
+        "discoveryear": "2005",
+        "galdec": "+262022",
+        "galra": "183232",
+        "host": "A183232+2620",
+        "hvel": "132000",
+        "lumdist": "3680",
+        "maxabsmag": "-18.8",
+        "maxappmag": "24",
+        "maxday": "29",
+        "maxmonth": "5",
+        "maxyear": "2005",
+        "redshift": "0.606",
+        "sndec": "+26:20:22.6",
+        "snra": "18:32:32.58",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "53519.5",
                 "band": "",
                 "abmag": "24.0",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2005",
-        "discoverday": "29",
-        "discovermonth": "5",
-        "host": "A183232+2620",
-        "claimedtype": "Ic",
-        "redshift": "0.606",
-        "galra": "183232",
-        "galdec": "+262022",
-        "snra": "18:32:32.58",
-        "sndec": "+26:20:22.6",
-        "discoverer": "ESO",
-        "maxyear": "2005",
-        "maxmonth": "5",
-        "maxday": "29",
-        "maxappmag": "24",
-        "hvel": "132300",
-        "lumdist": "3679",
-        "maxabsmag": "-18.83"
+        ]
     }
 }

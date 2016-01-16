@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001300/CBET001385.txt'>CBET 1385</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "20",
+        "discoverer": "Perth Observatory",
+        "discovermonth": "5",
+        "discoveryear": "2008",
+        "galdec": "-405833",
+        "galra": "124056",
+        "host": "NGC 4603",
+        "hvel": "2440",
+        "lumdist": "36.384",
+        "maxabsmag": "-17.505",
+        "maxappmag": "15.3",
+        "maxday": "20",
+        "maxmonth": "5",
+        "maxyear": "2008",
+        "redshift": "0.00817",
+        "sndec": "-40:58:12:.1",
+        "snra": "12:40:55.66",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54606.5",
                 "band": "",
                 "abmag": "15.3",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2008",
-        "discoverday": "20",
-        "discovermonth": "5",
-        "host": "NGC 4603",
-        "claimedtype": "II",
-        "hvel": "2440",
-        "galra": "124056",
-        "galdec": "-405833",
-        "snra": "12:40:55.66",
-        "sndec": "-40:58:12:.1",
-        "discoverer": "Perth Observatory",
-        "redshift": "0.008172",
-        "maxyear": "2008",
-        "maxmonth": "5",
-        "maxday": "20",
-        "maxappmag": "15.3",
-        "lumdist": "36.39",
-        "maxabsmag": "-17.51"
+        ]
     }
 }

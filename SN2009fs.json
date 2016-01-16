@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001800/CBET001829.txt'>CBET 1829</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "IIn",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "31",
+        "discoverer": "Tim Puckett et al.",
+        "discovermonth": "5",
+        "discoveryear": "2009",
+        "galdec": "+424822",
+        "galra": "181911",
+        "host": "UGC 11205",
+        "hvel": "16170",
+        "lumdist": "255.775",
+        "maxabsmag": "-20.0393",
+        "maxappmag": "17",
+        "maxday": "31",
+        "maxmonth": "5",
+        "maxyear": "2009",
+        "redshift": "0.05548",
+        "sndec": "+42:48:21.8",
+        "snra": "18:19:11.93",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54982.5",
                 "band": "",
                 "abmag": "17.0",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2009",
-        "discoverday": "31",
-        "discovermonth": "5",
-        "host": "UGC 11205",
-        "claimedtype": "IIn",
-        "hvel": "16170",
-        "galra": "181911",
-        "galdec": "+424822",
-        "snra": "18:19:11.93",
-        "sndec": "+42:48:21.8",
-        "discoverer": "Tim Puckett et al.",
-        "redshift": "0.05548",
-        "maxyear": "2009",
-        "maxmonth": "5",
-        "maxday": "31",
-        "maxappmag": "17",
-        "lumdist": "255.8",
-        "maxabsmag": "-20.04"
+        ]
     }
 }

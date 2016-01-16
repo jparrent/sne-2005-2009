@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08400/08468.html#Item1'>IAUC 8468</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "14",
+        "discoverer": "Mike Schwartz",
+        "discovermonth": "1",
+        "discoveryear": "2005",
+        "galdec": "+164537",
+        "galra": "093604",
+        "host": "NGC 2923",
+        "hvel": "8151",
+        "lumdist": "124.57",
+        "maxabsmag": "-17.677",
+        "maxappmag": "17.8",
+        "maxday": "14",
+        "maxmonth": "1",
+        "maxyear": "2005",
+        "redshift": "0.02757",
+        "sndec": "+16:45:46.8",
+        "snra": "09:36:04.31",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "53384.5",
                 "band": "",
                 "abmag": "17.8",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2005",
-        "discoverday": "14",
-        "discovermonth": "1",
-        "host": "NGC 2923",
-        "claimedtype": "II",
-        "hvel": "8151",
-        "galra": "093604",
-        "galdec": "+164537",
-        "snra": "09:36:04.31",
-        "sndec": "+16:45:46.8",
-        "discoverer": "Mike Schwartz",
-        "redshift": "0.02757",
-        "maxyear": "2005",
-        "maxmonth": "1",
-        "maxday": "14",
-        "maxappmag": "17.8",
-        "lumdist": "124.6",
-        "maxabsmag": "-17.68"
+        ]
     }
 }

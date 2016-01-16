@@ -10,19 +10,52 @@
                 "alias": "1"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "3",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08400/08459.html#Item2'>IAUC 8459</a>",
-                "alias": "3"
+                "alias": "4"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
+                "alias": "5"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "6",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "2,3"
+            }
+        ],
+        "discoverday": "6",
+        "discoverer": "LOSS",
+        "discovermonth": "1",
+        "discoveryear": "2005",
+        "galdec": "-025621",
+        "galra": "023043",
+        "host": "NGC 958",
+        "hvel": "5738",
+        "lumdist": "86.809",
+        "maxabsmag": "-18.523",
+        "maxappmag": "16.17",
+        "maxday": "3",
+        "maxmonth": "2",
+        "maxyear": "2005",
+        "redshift": "0.01933",
+        "sndec": "-02:56:19.8",
+        "snra": "02:30:43.25",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -293,6 +326,13 @@
                 "instrument": "CSP",
                 "aberr": "0.013",
                 "source": "1"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "53383.5",
+                "band": "",
+                "abmag": "17.0",
+                "source": "4,3"
             },
             {
                 "timeunit": "MJD",
@@ -1787,13 +1827,6 @@
                 "instrument": "CSP",
                 "aberr": "0.034",
                 "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "53383.5",
-                "band": "",
-                "abmag": "17.0",
-                "source": "3,2"
             }
         ],
         "spectra": [
@@ -15167,7 +15200,8 @@
                         "-2.4919468e-17",
                         "1.7745549e-17"
                     ]
-                ]
+                ],
+                "source": "6"
             },
             {
                 "deredshifted": false,
@@ -28534,7 +28568,8 @@
                         "2.2817612e-16",
                         "1.5445268e-17"
                     ]
-                ]
+                ],
+                "source": "6"
             },
             {
                 "deredshifted": false,
@@ -34161,7 +34196,8 @@
                         "1.4184174e-16",
                         "2.1371353e-16"
                     ]
-                ]
+                ],
+                "source": "6"
             },
             {
                 "deredshifted": false,
@@ -38656,26 +38692,9 @@
                         "9514.80",
                         "1.3226065e-16"
                     ]
-                ]
+                ],
+                "source": "6"
             }
-        ],
-        "discoveryear": "2005",
-        "redshift": "0.01933",
-        "snra": "02:30:43.25",
-        "sndec": "-02:56:19.8",
-        "discoverday": "6",
-        "discovermonth": "1",
-        "host": "NGC 958",
-        "claimedtype": "Ia",
-        "hvel": "5738",
-        "galra": "023043",
-        "galdec": "-025621",
-        "discoverer": "LOSS",
-        "maxyear": "2005",
-        "maxmonth": "2",
-        "maxday": "3",
-        "maxappmag": "16.17",
-        "lumdist": "86.81",
-        "maxabsmag": "-18.52"
+        ]
     }
 }

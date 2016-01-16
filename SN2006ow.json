@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08700/08781.html#Item2'>IAUC 8781</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "25",
+        "discoverer": "Tom Boles",
+        "discovermonth": "11",
+        "discoveryear": "2006",
+        "galdec": "+662454",
+        "galra": "073539",
+        "host": "UGC 3908",
+        "hvel": "24100",
+        "lumdist": "395",
+        "maxabsmag": "-20",
+        "maxappmag": "18",
+        "maxday": "25",
+        "maxmonth": "11",
+        "maxyear": "2006",
+        "redshift": "0.084",
+        "sndec": "+66:24:50.0",
+        "snra": "07:35:37.44",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54064.5",
                 "band": "",
                 "abmag": "18.0",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2006",
-        "discoverday": "25",
-        "discovermonth": "11",
-        "host": "UGC 3908",
-        "claimedtype": "Ia",
-        "galra": "073539",
-        "galdec": "+662454",
-        "snra": "07:35:37.44",
-        "sndec": "+66:24:50.0",
-        "discoverer": "Tom Boles",
-        "redshift": "0.084",
-        "maxyear": "2006",
-        "maxmonth": "11",
-        "maxday": "25",
-        "maxappmag": "18",
-        "hvel": "24130",
-        "lumdist": "395",
-        "maxabsmag": "-19.98"
+        ]
     }
 }

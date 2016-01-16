@@ -7,46 +7,59 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/002000/CBET002059.txt'>CBET 2059</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II n",
+                "source": "1"
+            },
+            {
+                "type": "II P",
+                "source": "2"
+            }
+        ],
+        "discoverday": "16",
+        "discoverer": "CRTS",
+        "discovermonth": "10",
+        "discoveryear": "2009",
+        "galdec": "-003512",
+        "galra": "082858",
+        "host": "A082858-0035",
+        "hvel": "26700",
+        "lumdist": "442",
+        "maxabsmag": "-20.03",
+        "maxappmag": "18.2",
+        "maxday": "16",
+        "maxmonth": "10",
+        "maxyear": "2009",
+        "redshift": "0.0934",
+        "sndec": "-00:35:12.3",
+        "snra": "08:28:58.20",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "55120.5",
                 "band": "",
                 "abmag": "18.2",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2009",
-        "discoverday": "16",
-        "discovermonth": "10",
-        "host": "A082858-0035",
-        "claimedtype": "IIP",
-        "hvel": "26700",
-        "galra": "082858",
-        "galdec": "-003512",
-        "snra": "08:28:58.20",
-        "sndec": "-00:35:12.3",
-        "discoverer": "CRTS",
-        "redshift": "0.09341",
-        "maxyear": "2009",
-        "maxmonth": "10",
-        "maxday": "16",
-        "maxappmag": "18.2",
-        "lumdist": "442.1",
-        "maxabsmag": "-20.03"
+        ]
     }
 }

@@ -15,27 +15,60 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08700/08784.html#Item1'>IAUC 8784</a>",
-                "alias": "4"
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
             },
             {
-                "name": "LLA",
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08700/08784.html#Item1'>IAUC 8784</a>",
                 "alias": "5"
             },
             {
-                "name": "Pro",
+                "name": "LLA",
                 "alias": "6"
             },
             {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "name": "Pro",
                 "alias": "7"
+            },
+            {
+                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "alias": "8"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "9",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "20",
+        "discoverer": "Doug Rich",
+        "discovermonth": "12",
+        "discoveryear": "2006",
+        "galdec": "+231201",
+        "galra": "000335",
+        "host": "UGC 14",
+        "hvel": "7290",
+        "lumdist": "110.9",
+        "maxabsmag": "-19.42",
+        "maxappmag": "15.8",
+        "maxday": "26",
+        "maxmonth": "12",
+        "maxyear": "2006",
+        "redshift": "0.0246",
+        "sndec": "+23:11:46.2",
+        "snra": "00:03:35.02",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -135,6 +168,27 @@
             },
             {
                 "timeunit": "MJD",
+                "time": "54095.5",
+                "band": "",
+                "abmag": "15.8",
+                "source": "5,4"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "54095.733",
+                "band": "CR",
+                "abmag": "16.2",
+                "source": "6,4"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "54096.764",
+                "band": "CR",
+                "abmag": "15.8",
+                "source": "7,4"
+            },
+            {
+                "timeunit": "MJD",
                 "time": "54098.63867",
                 "band": "V",
                 "abmag": "16.603",
@@ -231,6 +285,34 @@
             },
             {
                 "timeunit": "MJD",
+                "time": "54103.725",
+                "band": "CR",
+                "abmag": "16.6",
+                "source": "6,4"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "54103.73",
+                "band": "V",
+                "abmag": "16.8",
+                "source": "6,4"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "54109.777",
+                "band": "CR",
+                "abmag": "17.0",
+                "source": "6,4"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "54109.779",
+                "band": "R",
+                "abmag": "16.9",
+                "source": "6,4"
+            },
+            {
+                "timeunit": "MJD",
                 "time": "54116.61663",
                 "band": "V",
                 "abmag": "17.707",
@@ -287,6 +369,13 @@
             },
             {
                 "timeunit": "MJD",
+                "time": "54135.733",
+                "band": "CR",
+                "abmag": "16.98",
+                "source": "7,4"
+            },
+            {
+                "timeunit": "MJD",
                 "time": "54138.59425",
                 "band": "V",
                 "abmag": "18.881",
@@ -316,62 +405,6 @@
                 "abmag": "19.989",
                 "aberr": "0.347",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54095.5",
-                "band": "",
-                "abmag": "15.8",
-                "source": "4,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54095.733",
-                "band": "CR",
-                "abmag": "16.2",
-                "source": "5,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54096.764",
-                "band": "CR",
-                "abmag": "15.8",
-                "source": "6,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54103.725",
-                "band": "CR",
-                "abmag": "16.6",
-                "source": "5,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54103.73",
-                "band": "V",
-                "abmag": "16.8",
-                "source": "5,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54109.777",
-                "band": "CR",
-                "abmag": "17.0",
-                "source": "5,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54109.779",
-                "band": "R",
-                "abmag": "16.9",
-                "source": "5,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54135.733",
-                "band": "CR",
-                "abmag": "16.98",
-                "source": "6,3"
             }
         ],
         "spectra": [
@@ -13780,7 +13813,8 @@
                         "3.3521345e-16",
                         "1.4198903e-17"
                     ]
-                ]
+                ],
+                "source": "9"
             },
             {
                 "deredshifted": false,
@@ -27187,7 +27221,8 @@
                         "2.9719212e-16",
                         "1.1875339e-17"
                     ]
-                ]
+                ],
+                "source": "9"
             },
             {
                 "deredshifted": false,
@@ -40594,7 +40629,8 @@
                         "3.3608880e-16",
                         "1.5309888e-17"
                     ]
-                ]
+                ],
+                "source": "9"
             },
             {
                 "deredshifted": false,
@@ -54001,7 +54037,8 @@
                         "3.4364423e-16",
                         "1.4668576e-17"
                     ]
-                ]
+                ],
+                "source": "9"
             },
             {
                 "deredshifted": false,
@@ -67408,7 +67445,8 @@
                         "8.7800857e-16",
                         "9.0858548e-17"
                     ]
-                ]
+                ],
+                "source": "9"
             },
             {
                 "deredshifted": false,
@@ -80815,26 +80853,9 @@
                         "1.5434800e-16",
                         "1.1153418e-17"
                     ]
-                ]
+                ],
+                "source": "9"
             }
-        ],
-        "discoveryear": "2006",
-        "discoverday": "20",
-        "discovermonth": "12",
-        "host": "UGC 14",
-        "claimedtype": "Ia",
-        "hvel": "7290",
-        "galra": "000335",
-        "galdec": "+231201",
-        "snra": "00:03:35.02",
-        "sndec": "+23:11:46.2",
-        "discoverer": "Doug Rich",
-        "redshift": "0.02462",
-        "maxyear": "2006",
-        "maxmonth": "12",
-        "maxday": "26",
-        "maxappmag": "15.8",
-        "lumdist": "111",
-        "maxabsmag": "-19.43"
+        ]
     }
 }

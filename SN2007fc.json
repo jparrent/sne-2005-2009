@@ -6,26 +6,59 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/000900/CBET000995.txt'>CBET 995</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "5",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "7",
+        "discoverer": "LOSS",
+        "discovermonth": "7",
+        "discoveryear": "2007",
+        "galdec": "-220000",
+        "galra": "235732",
+        "host": "ESO 538-G8",
+        "hvel": "10120",
+        "lumdist": "155.898",
+        "maxabsmag": "-19.0642",
+        "maxappmag": "16.9",
+        "maxday": "7",
+        "maxmonth": "7",
+        "maxyear": "2007",
+        "redshift": "0.03433",
+        "sndec": "-21:59:53.0",
+        "snra": "23:57:33.89",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54288.5",
                 "band": "",
                 "abmag": "16.9",
-                "source": "2,1"
+                "source": "3,2"
             }
         ],
         "spectra": [
@@ -13454,26 +13487,9 @@
                         "8.1144168e-17",
                         "2.2087825e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             }
-        ],
-        "discoveryear": "2007",
-        "discoverday": "7",
-        "discovermonth": "7",
-        "host": "ESO 538-G8",
-        "claimedtype": "Ia",
-        "hvel": "10120",
-        "galra": "235732",
-        "galdec": "-220000",
-        "snra": "23:57:33.89",
-        "sndec": "-21:59:53.0",
-        "discoverer": "LOSS",
-        "redshift": "0.03433",
-        "maxyear": "2007",
-        "maxmonth": "7",
-        "maxday": "7",
-        "maxappmag": "16.9",
-        "lumdist": "155.9",
-        "maxabsmag": "-19.06"
+        ]
     }
 }

@@ -10,19 +10,47 @@
                 "alias": "1"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "3",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08400/08475.html#Item1'>IAUC 8475</a>",
-                "alias": "3"
+                "alias": "4"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
+                "alias": "5"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "2,3"
+            }
+        ],
+        "discoverday": "3",
+        "discoverer": "Yoji Hirose",
+        "discovermonth": "2",
+        "discoveryear": "2005",
+        "galdec": "+214535",
+        "galra": "015042",
+        "host": "NGC 691",
+        "hvel": "2604",
+        "lumdist": "38.8672",
+        "maxabsmag": "-18.9479",
+        "maxappmag": "14",
+        "maxday": "11",
+        "maxmonth": "2",
+        "maxyear": "2005",
+        "redshift": "0.008724",
+        "sndec": "+21:45:35.4",
+        "snra": "01:50:45.77",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -392,6 +420,13 @@
                 "instrument": "CSP",
                 "aberr": "0.008",
                 "source": "1"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "53412.5",
+                "band": "",
+                "abmag": "14.0",
+                "source": "4,3"
             },
             {
                 "timeunit": "MJD",
@@ -1058,33 +1093,7 @@
                 "instrument": "CSP",
                 "aberr": "0.014",
                 "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "53412.5",
-                "band": "",
-                "abmag": "14.0",
-                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2005",
-        "redshift": "0.008724",
-        "snra": "01:50:45.77",
-        "sndec": "+21:45:35.4",
-        "discoverday": "3",
-        "discovermonth": "2",
-        "host": "NGC 691",
-        "claimedtype": "Ia",
-        "hvel": "2604",
-        "galra": "015042",
-        "galdec": "+214535",
-        "discoverer": "Yoji Hirose",
-        "maxyear": "2005",
-        "maxmonth": "2",
-        "maxday": "11",
-        "maxappmag": "14",
-        "lumdist": "38.87",
-        "maxabsmag": "-18.95"
+        ]
     }
 }

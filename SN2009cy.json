@@ -7,42 +7,51 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001700/CBET001755.txt'>CBET 1755</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II P",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "17",
+        "discoverer": "CRTS",
+        "discovermonth": "3",
+        "discoveryear": "2009",
+        "galdec": "+011605",
+        "galra": "094056",
+        "host": "A094056+0116",
+        "maxappmag": "17.3",
+        "maxday": "17",
+        "maxmonth": "3",
+        "maxyear": "2009",
+        "sndec": "+01:16:08.3",
+        "snra": "09:40:55.44",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54907.5",
                 "band": "",
                 "abmag": "17.3",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2009",
-        "discoverday": "17",
-        "discovermonth": "3",
-        "host": "A094056+0116",
-        "claimedtype": "IIP",
-        "galra": "094056",
-        "galdec": "+011605",
-        "snra": "09:40:55.44",
-        "sndec": "+01:16:08.3",
-        "discoverer": "CRTS",
-        "maxyear": "2009",
-        "maxmonth": "3",
-        "maxday": "17",
-        "maxappmag": "17.3"
+        ]
     }
 }

@@ -6,26 +6,59 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08700/08789.html#Item1'>IAUC 8789</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "5",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "17",
+        "discoverer": "Grzegorz Duszanowicz",
+        "discovermonth": "12",
+        "discoveryear": "2006",
+        "galdec": "+363151",
+        "galra": "124656",
+        "host": "IC 3772",
+        "hvel": "14040",
+        "lumdist": "219.976",
+        "maxabsmag": "-19.3119",
+        "maxappmag": "17.4",
+        "maxday": "17",
+        "maxmonth": "12",
+        "maxyear": "2006",
+        "redshift": "0.04797",
+        "sndec": "+36:32:01.8",
+        "snra": "12:46:56.88",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54086.5",
                 "band": "",
                 "abmag": "17.4",
-                "source": "2,1"
+                "source": "3,2"
             }
         ],
         "spectra": [
@@ -13434,26 +13467,9 @@
                         "4.8343009e-17",
                         "6.7549697e-18"
                     ]
-                ]
+                ],
+                "source": "5"
             }
-        ],
-        "discoveryear": "2006",
-        "discoverday": "17",
-        "discovermonth": "12",
-        "host": "IC 3772",
-        "claimedtype": "Ia",
-        "hvel": "14040",
-        "galra": "124656",
-        "galdec": "+363151",
-        "snra": "12:46:56.88",
-        "sndec": "+36:32:01.8",
-        "discoverer": "Grzegorz Duszanowicz",
-        "redshift": "0.04797",
-        "maxyear": "2006",
-        "maxmonth": "12",
-        "maxday": "17",
-        "maxappmag": "17.4",
-        "lumdist": "220",
-        "maxabsmag": "-19.31"
+        ]
     }
 }

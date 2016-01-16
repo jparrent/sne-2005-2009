@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001500/CBET001502.txt'>CBET 1502</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ib/c",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "9",
+        "discoverer": "ROTSE",
+        "discovermonth": "8",
+        "discoveryear": "2008",
+        "galdec": "+370341",
+        "galra": "162148",
+        "host": "A162148+3703",
+        "hvel": "8940",
+        "lumdist": "137.2",
+        "maxabsmag": "-18.89",
+        "maxappmag": "16.8",
+        "maxday": "9",
+        "maxmonth": "8",
+        "maxyear": "2008",
+        "redshift": "0.0303",
+        "sndec": "+37:03:41.0",
+        "snra": "16:21:48.53",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54687.5",
                 "band": "",
                 "abmag": "16.8",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2008",
-        "discoverday": "9",
-        "discovermonth": "8",
-        "host": "A162148+3703",
-        "claimedtype": "Ibc",
-        "hvel": "8940",
-        "galra": "162148",
-        "galdec": "+370341",
-        "snra": "16:21:48.53",
-        "sndec": "+37:03:41.0",
-        "discoverer": "ROTSE",
-        "redshift": "0.03028",
-        "maxyear": "2008",
-        "maxmonth": "8",
-        "maxday": "9",
-        "maxappmag": "16.8",
-        "lumdist": "137.1",
-        "maxabsmag": "-18.89"
+        ]
     }
 }

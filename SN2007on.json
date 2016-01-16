@@ -10,19 +10,47 @@
                 "alias": "1"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "3",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001100/CBET001121.txt'>CBET 1121</a>",
-                "alias": "3"
+                "alias": "4"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
+                "alias": "5"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "2,3"
+            }
+        ],
+        "discoverday": "6",
+        "discoverer": "TAROT collaboration",
+        "discovermonth": "11",
+        "discoveryear": "2007",
+        "galdec": "-353539",
+        "galra": "033852",
+        "host": "NGC 1404",
+        "hvel": "1929",
+        "lumdist": "28.7088",
+        "maxabsmag": "-19.3401",
+        "maxappmag": "12.95",
+        "maxday": "17",
+        "maxmonth": "11",
+        "maxyear": "2007",
+        "redshift": "0.006455",
+        "sndec": "-35:34:30",
+        "snra": "03:38:50.9",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -2438,6 +2466,13 @@
             },
             {
                 "timeunit": "MJD",
+                "time": "54477.5",
+                "band": "",
+                "abmag": "14.9",
+                "source": "4,3"
+            },
+            {
+                "timeunit": "MJD",
                 "time": "54484.08747",
                 "band": "u",
                 "abmag": "18.130",
@@ -2858,33 +2893,7 @@
                 "instrument": "CSP",
                 "aberr": "0.014",
                 "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54477.5",
-                "band": "",
-                "abmag": "14.9",
-                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2007",
-        "redshift": "0.006455",
-        "snra": "03:38:50.9",
-        "sndec": "-35:34:30",
-        "discoverday": "6",
-        "discovermonth": "11",
-        "host": "NGC 1404",
-        "claimedtype": "Ia",
-        "hvel": "1929",
-        "galra": "033852",
-        "galdec": "-353539",
-        "discoverer": "TAROT collaboration",
-        "maxyear": "2007",
-        "maxmonth": "11",
-        "maxday": "17",
-        "maxappmag": "12.95",
-        "lumdist": "28.71",
-        "maxabsmag": "-19.34"
+        ]
     }
 }

@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001800/CBET001803.txt'>CBET 1803</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "23",
+        "discoverer": "Very Large Array",
+        "discovermonth": "3",
+        "discoveryear": "2008",
+        "galdec": "+694047",
+        "galra": "095552",
+        "host": "M82",
+        "hvel": "300",
+        "lumdist": "4.43",
+        "maxabsmag": "-8.23",
+        "maxappmag": "20",
+        "maxday": "23",
+        "maxmonth": "3",
+        "maxyear": "2008",
+        "redshift": "0.001",
+        "sndec": "+69:40:45.8",
+        "snra": "09:55:51.55",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54548.5",
                 "band": "",
                 "abmag": "20.0",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2008",
-        "discoverday": "23",
-        "discovermonth": "3",
-        "host": "M82",
-        "claimedtype": "II",
-        "hvel": "300",
-        "galra": "095552",
-        "galdec": "+694047",
-        "snra": "09:55:51.55",
-        "sndec": "+69:40:45.8",
-        "discoverer": "Very Large Array",
-        "redshift": "0.001001",
-        "maxyear": "2008",
-        "maxmonth": "3",
-        "maxday": "23",
-        "maxappmag": "20",
-        "lumdist": "4.433",
-        "maxabsmag": "-8.234"
+        ]
     }
 }

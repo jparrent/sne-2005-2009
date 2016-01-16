@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001900/CBET001904.txt'>CBET 1904</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "4",
+        "discoverer": "CHASE",
+        "discovermonth": "8",
+        "discoveryear": "2009",
+        "galdec": "-030037",
+        "galra": "045317",
+        "host": "MCG -1-13-33",
+        "hvel": "4601",
+        "lumdist": "69.274",
+        "maxabsmag": "-19.303",
+        "maxappmag": "14.9",
+        "maxday": "4",
+        "maxmonth": "8",
+        "maxyear": "2009",
+        "redshift": "0.01547",
+        "sndec": "-03:00:59.6",
+        "snra": "04:53:18.03",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "55047.5",
                 "band": "",
                 "abmag": "14.9",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2009",
-        "discoverday": "4",
-        "discovermonth": "8",
-        "host": "MCG -1-13-33",
-        "claimedtype": "Ia",
-        "hvel": "4601",
-        "galra": "045317",
-        "galdec": "-030037",
-        "snra": "04:53:18.03",
-        "sndec": "-03:00:59.6",
-        "discoverer": "CHASE",
-        "redshift": "0.01547",
-        "maxyear": "2009",
-        "maxmonth": "8",
-        "maxday": "4",
-        "maxappmag": "14.9",
-        "lumdist": "69.27",
-        "maxabsmag": "-19.3"
+        ]
     }
 }

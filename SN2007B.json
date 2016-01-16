@@ -6,55 +6,88 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/000700/CBET000797.txt'>CBET 797</a>",
-                "alias": "2"
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
             },
             {
-                "name": "TON",
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/000700/CBET000797.txt'>CBET 797</a>",
                 "alias": "3"
             },
             {
-                "name": "LLA",
+                "name": "TON",
                 "alias": "4"
             },
             {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "name": "LLA",
                 "alias": "5"
+            },
+            {
+                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "alias": "6"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "7",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "4",
+        "discoverer": "Koichi Itagaki",
+        "discovermonth": "1",
+        "discoveryear": "2007",
+        "galdec": "+344811",
+        "galra": "223532",
+        "host": "NGC 7315",
+        "hvel": "6098",
+        "lumdist": "92.372",
+        "maxabsmag": "-18.928",
+        "maxappmag": "15.9",
+        "maxday": "9",
+        "maxmonth": "1",
+        "maxyear": "2007",
+        "redshift": "0.02055",
+        "sndec": "+34:48:06.6",
+        "snra": "22:35:31.10",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54104.5",
                 "band": "",
                 "abmag": "16.2",
-                "source": "2,1"
+                "source": "3,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "54109.685",
                 "band": "CR",
                 "abmag": "15.9",
-                "source": "3,1"
+                "source": "4,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "54109.738",
                 "band": "CR",
                 "abmag": "16.2",
-                "source": "4,1"
+                "source": "5,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "54117.743",
                 "band": "CR",
                 "abmag": "16.2",
-                "source": "4,1"
+                "source": "5,2"
             }
         ],
         "spectra": [
@@ -13463,7 +13496,8 @@
                         "2.1334184e-16",
                         "1.6408031e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -26870,7 +26904,8 @@
                         "5.3770499e-16",
                         "1.9699094e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -40277,7 +40312,8 @@
                         "2.3898945e-16",
                         "1.8771120e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -53684,26 +53720,9 @@
                         "2.0495148e-16",
                         "1.6481107e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             }
-        ],
-        "discoveryear": "2007",
-        "discoverday": "4",
-        "discovermonth": "1",
-        "host": "NGC 7315",
-        "claimedtype": "Ia",
-        "hvel": "6098",
-        "galra": "223532",
-        "galdec": "+344811",
-        "snra": "22:35:31.10",
-        "sndec": "+34:48:06.6",
-        "discoverer": "Koichi Itagaki",
-        "redshift": "0.02055",
-        "maxyear": "2007",
-        "maxmonth": "1",
-        "maxday": "9",
-        "maxappmag": "15.9",
-        "lumdist": "92.37",
-        "maxabsmag": "-18.93"
+        ]
     }
 }

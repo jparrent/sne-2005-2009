@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iau/cbet/001700/CBET001727.txt'>CBET 1727</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "24",
+        "discoverer": "Canada-France-Hawaii Telescope",
+        "discovermonth": "1",
+        "discoveryear": "2009",
+        "galdec": "+245508",
+        "galra": "063147",
+        "host": "A063147+2455",
+        "hvel": "24000",
+        "lumdist": "395",
+        "maxabsmag": "-18.2",
+        "maxappmag": "19.8",
+        "maxday": "24",
+        "maxmonth": "1",
+        "maxyear": "2009",
+        "redshift": "0.084",
+        "sndec": "+24:55:08.9",
+        "snra": "06:31:47.08",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54855.5",
                 "band": "",
                 "abmag": "19.8",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2009",
-        "discoverday": "24",
-        "discovermonth": "1",
-        "host": "A063147+2455",
-        "claimedtype": "Ia",
-        "hvel": "24000",
-        "galra": "063147",
-        "galdec": "+245508",
-        "snra": "06:31:47.08",
-        "sndec": "+24:55:08.9",
-        "discoverer": "Canada-France-Hawaii Telescope",
-        "redshift": "0.08353",
-        "maxyear": "2009",
-        "maxmonth": "1",
-        "maxday": "24",
-        "maxappmag": "19.8",
-        "lumdist": "392.7",
-        "maxabsmag": "-18.17"
+        ]
     }
 }

@@ -15,27 +15,51 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08700/08789.html#Item1'>IAUC 8789</a>",
-                "alias": "4"
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
             },
             {
-                "name": "LLA",
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08700/08789.html#Item1'>IAUC 8789</a>",
                 "alias": "5"
             },
             {
-                "name": "Pro",
+                "name": "LLA",
                 "alias": "6"
             },
             {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "name": "Pro",
                 "alias": "7"
+            },
+            {
+                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "alias": "8"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "29",
+        "discoverer": "Wolfgang Kloehr",
+        "discovermonth": "12",
+        "discoveryear": "2006",
+        "galdec": "+362057",
+        "galra": "015815",
+        "host": "LEDA 74050",
+        "maxappmag": "15.5",
+        "maxday": "30",
+        "maxmonth": "12",
+        "maxyear": "2006",
+        "sndec": "+36:20:58.3",
+        "snra": "01:58:15.7",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -68,6 +92,13 @@
                 "abmag": "16.095",
                 "aberr": "0.017",
                 "source": "1,2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "54099.724",
+                "band": "CR",
+                "abmag": "15.5",
+                "source": "6,4"
             },
             {
                 "timeunit": "MJD",
@@ -127,6 +158,27 @@
             },
             {
                 "timeunit": "MJD",
+                "time": "54103.748",
+                "band": "CR",
+                "abmag": "15.5",
+                "source": "6,4"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "54103.756",
+                "band": "R",
+                "abmag": "15.6",
+                "source": "6,4"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "54113.5",
+                "band": "",
+                "abmag": "15.6",
+                "source": "5,4"
+            },
+            {
+                "timeunit": "MJD",
                 "time": "54116.651",
                 "band": "V",
                 "abmag": "16.79",
@@ -143,6 +195,13 @@
             },
             {
                 "timeunit": "MJD",
+                "time": "54135.774",
+                "band": "CR",
+                "abmag": "16.24",
+                "source": "7,4"
+            },
+            {
+                "timeunit": "MJD",
                 "time": "54138.621",
                 "band": "V",
                 "abmag": "18.095",
@@ -156,6 +215,13 @@
                 "abmag": "19.284",
                 "aberr": "0.056",
                 "source": "1,2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "54144.771",
+                "band": "CR",
+                "abmag": "16.5",
+                "source": "6,4"
             },
             {
                 "timeunit": "MJD",
@@ -212,64 +278,7 @@
                 "abmag": "19.876",
                 "aberr": "0.118",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54113.5",
-                "band": "",
-                "abmag": "15.6",
-                "source": "4,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54099.724",
-                "band": "CR",
-                "abmag": "15.5",
-                "source": "5,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54103.748",
-                "band": "CR",
-                "abmag": "15.5",
-                "source": "5,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54103.756",
-                "band": "R",
-                "abmag": "15.6",
-                "source": "5,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54135.774",
-                "band": "CR",
-                "abmag": "16.24",
-                "source": "6,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54144.771",
-                "band": "CR",
-                "abmag": "16.5",
-                "source": "5,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2006",
-        "discoverday": "29",
-        "discovermonth": "12",
-        "host": "LEDA 74050",
-        "claimedtype": "Ia",
-        "galra": "015815",
-        "galdec": "+362057",
-        "snra": "01:58:15.7",
-        "sndec": "+36:20:58.3",
-        "discoverer": "Wolfgang Kloehr",
-        "maxyear": "2006",
-        "maxmonth": "12",
-        "maxday": "30",
-        "maxappmag": "15.5"
+        ]
     }
 }

@@ -6,90 +6,99 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/000900/CBET000917.txt'>CBET 917</a>",
-                "alias": "2"
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
             },
             {
-                "name": "Nic",
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/000900/CBET000917.txt'>CBET 917</a>",
                 "alias": "3"
             },
             {
-                "name": "LLA",
+                "name": "Nic",
                 "alias": "4"
             },
             {
-                "name": "Van",
+                "name": "LLA",
                 "alias": "5"
             },
             {
-                "name": "VAN",
+                "name": "Van",
                 "alias": "6"
             },
             {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "name": "VAN",
                 "alias": "7"
+            },
+            {
+                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "alias": "8"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "6",
+        "discoverer": "Stefano Moretti",
+        "discovermonth": "4",
+        "discoveryear": "2007",
+        "galdec": "-000141",
+        "galra": "123806",
+        "host": "UGC 7800",
+        "hvel": "3766",
+        "lumdist": "56.481",
+        "maxabsmag": "-16.96",
+        "maxappmag": "16.8",
+        "maxday": "6",
+        "maxmonth": "4",
+        "maxyear": "2007",
+        "redshift": "0.01264",
+        "sndec": "-00:01:51.4",
+        "snra": "12:38:06.65",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54196.5",
                 "band": "",
                 "abmag": "16.8",
-                "source": "2,1"
+                "source": "3,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "54209.881",
                 "band": "CR",
                 "abmag": "17.3",
-                "source": "3,1"
+                "source": "4,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "54213.864",
                 "band": "CR",
                 "abmag": "16.9",
-                "source": "4,1"
+                "source": "5,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "54221.909",
                 "band": "CR",
                 "abmag": "17.1",
-                "source": "5,1"
+                "source": "6,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "54243.919",
                 "band": "CR",
                 "abmag": "18.1",
-                "source": "6,1"
+                "source": "7,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2007",
-        "discoverday": "6",
-        "discovermonth": "4",
-        "host": "UGC 7800",
-        "claimedtype": "II",
-        "hvel": "3766",
-        "galra": "123806",
-        "galdec": "-000141",
-        "snra": "12:38:06.65",
-        "sndec": "-00:01:51.4",
-        "discoverer": "Stefano Moretti",
-        "redshift": "0.01264",
-        "maxyear": "2007",
-        "maxmonth": "4",
-        "maxday": "6",
-        "maxappmag": "16.8",
-        "lumdist": "56.48",
-        "maxabsmag": "-16.96"
+        ]
     }
 }

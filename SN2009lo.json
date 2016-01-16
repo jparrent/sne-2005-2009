@@ -6,30 +6,58 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/002000/CBET002036.txt'>CBET 2036</a>",
-                "alias": "2"
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
             },
             {
-                "name": "3 J47 USN",
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/002000/CBET002036.txt'>CBET 2036</a>",
                 "alias": "3"
             },
             {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "name": "3 J47 USN",
                 "alias": "4"
+            },
+            {
+                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "alias": "5"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II P",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "19",
+        "discoverer": "LOSS",
+        "discovermonth": "11",
+        "discoveryear": "2009",
+        "galdec": "+142032",
+        "galra": "010922",
+        "host": "UGC 717",
+        "hvel": "11520",
+        "lumdist": "178.527",
+        "maxabsmag": "-19.9985",
+        "maxappmag": "16.26",
+        "maxday": "2",
+        "maxmonth": "12",
+        "maxyear": "2009",
+        "redshift": "0.03918",
+        "sndec": "+14:20:22.8",
+        "snra": "01:09:21.48",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "55154.5",
                 "band": "",
                 "abmag": "18.0",
-                "source": "2,1"
+                "source": "3,2"
             },
             {
                 "timeunit": "MJD",
@@ -37,27 +65,8 @@
                 "band": "CR",
                 "abmag": "16.26",
                 "aberr": "0.23",
-                "source": "3,1"
+                "source": "4,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2009",
-        "discoverday": "19",
-        "discovermonth": "11",
-        "host": "UGC 717",
-        "claimedtype": "IIP",
-        "hvel": "11520",
-        "galra": "010922",
-        "galdec": "+142032",
-        "snra": "01:09:21.48",
-        "sndec": "+14:20:22.8",
-        "discoverer": "LOSS",
-        "redshift": "0.03918",
-        "maxyear": "2009",
-        "maxmonth": "12",
-        "maxday": "2",
-        "maxappmag": "16.26",
-        "lumdist": "178.5",
-        "maxabsmag": "-20"
+        ]
     }
 }

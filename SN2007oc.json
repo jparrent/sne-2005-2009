@@ -6,46 +6,59 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001100/CBET001114.txt'>CBET 1114</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II P",
+                "source": "1"
+            },
+            {
+                "type": "II",
+                "source": "2"
+            }
+        ],
+        "discoverday": "22",
+        "discoverer": "CHASE",
+        "discovermonth": "10",
+        "discoveryear": "2007",
+        "galdec": "-364621",
+        "galra": "225642",
+        "host": "NGC 7418A",
+        "hvel": "2103",
+        "lumdist": "31.325",
+        "maxabsmag": "-19.179",
+        "maxappmag": "13.3",
+        "maxday": "22",
+        "maxmonth": "10",
+        "maxyear": "2007",
+        "redshift": "0.00704",
+        "sndec": "-36:46:22.3",
+        "snra": "22:56:41.77",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54395.5",
                 "band": "",
                 "abmag": "13.3",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2007",
-        "discoverday": "22",
-        "discovermonth": "10",
-        "host": "NGC 7418A",
-        "claimedtype": "II",
-        "hvel": "2103",
-        "galra": "225642",
-        "galdec": "-364621",
-        "snra": "22:56:41.77",
-        "sndec": "-36:46:22.3",
-        "discoverer": "CHASE",
-        "redshift": "0.00704",
-        "maxyear": "2007",
-        "maxmonth": "10",
-        "maxday": "22",
-        "maxappmag": "13.3",
-        "lumdist": "31.32",
-        "maxabsmag": "-19.18"
+        ]
     }
 }

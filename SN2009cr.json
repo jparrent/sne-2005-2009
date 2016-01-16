@@ -7,46 +7,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iau/cbet/001700/CBET001754.txt'>CBET 1754</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1"
+            }
+        ],
+        "discoverday": "24",
+        "discoverer": "PTF",
+        "discovermonth": "3",
+        "discoveryear": "2009",
+        "galdec": "+125343",
+        "galra": "111806",
+        "host": "A111806+1253",
+        "hvel": "39000",
+        "lumdist": "680",
+        "maxabsmag": "-21",
+        "maxappmag": "18",
+        "maxday": "24",
+        "maxmonth": "3",
+        "maxyear": "2009",
+        "redshift": "0.14",
+        "sndec": "+12:53:43.1",
+        "snra": "11:18:06.46",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54914.5",
                 "band": "",
                 "abmag": "18.0",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2009",
-        "discoverday": "24",
-        "discovermonth": "3",
-        "host": "A111806+1253",
-        "claimedtype": "Ia",
-        "redshift": "0.14",
-        "galra": "111806",
-        "galdec": "+125343",
-        "snra": "11:18:06.46",
-        "sndec": "+12:53:43.1",
-        "discoverer": "PTF",
-        "maxyear": "2009",
-        "maxmonth": "3",
-        "maxday": "24",
-        "maxappmag": "18",
-        "hvel": "39060",
-        "lumdist": "682.9",
-        "maxabsmag": "-21.17"
+        ]
     }
 }

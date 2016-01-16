@@ -6,26 +6,59 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08400/08473.html#Item1'>IAUC 8473</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "5",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "IIb",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "29",
+        "discoverer": "Nuclear Supernova Search",
+        "discovermonth": "1",
+        "discoveryear": "2005",
+        "galdec": "+583344",
+        "galra": "112832",
+        "host": "NGC 3690",
+        "hvel": "3033",
+        "lumdist": "45.359",
+        "maxabsmag": "-17.483",
+        "maxappmag": "15.8",
+        "maxday": "29",
+        "maxmonth": "1",
+        "maxyear": "2005",
+        "redshift": "0.01017",
+        "sndec": "+58:33:41.3",
+        "snra": "11:28:33.13",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "53399.5",
                 "band": "",
                 "abmag": "15.8",
-                "source": "2,1"
+                "source": "3,2"
             }
         ],
         "spectra": [
@@ -10710,7 +10743,8 @@
                         "7410.4900",
                         "1.2050791"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -21409,7 +21443,8 @@
                         "7411.3700",
                         "1.0528477"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -32108,7 +32143,8 @@
                         "7411.3700",
                         "0.29183587"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -42807,26 +42843,9 @@
                         "7411.3700",
                         "7.3703632"
                     ]
-                ]
+                ],
+                "source": "5"
             }
-        ],
-        "discoveryear": "2005",
-        "discoverday": "29",
-        "discovermonth": "1",
-        "host": "NGC 3690",
-        "claimedtype": "IIb",
-        "hvel": "3033",
-        "galra": "112832",
-        "galdec": "+583344",
-        "snra": "11:28:33.13",
-        "sndec": "+58:33:41.3",
-        "discoverer": "Nuclear Supernova Search",
-        "redshift": "0.01017",
-        "maxyear": "2005",
-        "maxmonth": "1",
-        "maxday": "29",
-        "maxappmag": "15.8",
-        "lumdist": "45.36",
-        "maxabsmag": "-17.48"
+        ]
     }
 }

@@ -10,20 +10,55 @@
                 "alias": "1"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "3",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001500/CBET001555.txt'>CBET 1555</a>",
-                "alias": "3"
+                "alias": "4"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
+                "alias": "5"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "2,3"
+            }
+        ],
+        "discoverday": "26",
+        "discoverer": "LOSS",
+        "discovermonth": "10",
+        "discoveryear": "2008",
+        "galdec": "+012155",
+        "galra": "032300",
+        "host": "MCG +0-9-74",
+        "hvel": "10040",
+        "lumdist": "154.744",
+        "maxabsmag": "-19.1981",
+        "maxappmag": "16.75",
+        "maxday": "9",
+        "maxmonth": "11",
+        "maxyear": "2008",
+        "redshift": "0.03408",
+        "sndec": "+01:21:42.8",
+        "snra": "03:23:00.73",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "54765.5",
+                "band": "",
+                "abmag": "18.1",
+                "source": "4,3"
+            },
             {
                 "timeunit": "MJD",
                 "time": "54768.24059",
@@ -1247,33 +1282,7 @@
                 "instrument": "CSP",
                 "aberr": "0.095",
                 "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54765.5",
-                "band": "",
-                "abmag": "18.1",
-                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2008",
-        "redshift": "0.03408",
-        "snra": "03:23:00.73",
-        "sndec": "+01:21:42.8",
-        "discoverday": "26",
-        "discovermonth": "10",
-        "host": "MCG +0-9-74",
-        "claimedtype": "Ia",
-        "hvel": "10040",
-        "galra": "032300",
-        "galdec": "+012155",
-        "discoverer": "LOSS",
-        "maxyear": "2008",
-        "maxmonth": "11",
-        "maxday": "9",
-        "maxappmag": "16.75",
-        "lumdist": "154.7",
-        "maxabsmag": "-19.2"
+        ]
     }
 }

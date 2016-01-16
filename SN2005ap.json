@@ -6,42 +6,51 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08400/08492.html#Item1'>IAUC 8492</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "2",
+        "discoverer": "ROTSE",
+        "discovermonth": "3",
+        "discoveryear": "2005",
+        "galdec": "+274331",
+        "galra": "130114",
+        "host": "A130114+2743",
+        "maxappmag": "18.5",
+        "maxday": "2",
+        "maxmonth": "3",
+        "maxyear": "2005",
+        "sndec": "+27:43:31.4",
+        "snra": "13:01:14.84",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "53431.5",
                 "band": "",
                 "abmag": "18.5",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2005",
-        "maxday": "2",
-        "maxmonth": "3",
-        "host": "A130114+2743",
-        "claimedtype": "II",
-        "galra": "130114",
-        "galdec": "+274331",
-        "snra": "13:01:14.84",
-        "sndec": "+27:43:31.4",
-        "discoverer": "ROTSE",
-        "discoverday": "2",
-        "discovermonth": "3",
-        "maxyear": "2005",
-        "maxappmag": "18.5"
+        ]
     }
 }

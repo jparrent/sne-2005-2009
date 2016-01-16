@@ -15,20 +15,60 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08600/08677.html#Item1'>IAUC 8677</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "7",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "20",
+        "discoverer": "R. Holmes et al.",
+        "discovermonth": "2",
+        "discoveryear": "2006",
+        "galdec": "+051101",
+        "galra": "103929",
+        "host": "A103929+0511",
+        "hvel": "20340",
+        "lumdist": "327.581",
+        "maxabsmag": "-20.6766",
+        "maxappmag": "16.9",
+        "maxday": "20",
+        "maxmonth": "2",
+        "maxyear": "2006",
+        "redshift": "0.07032",
+        "sndec": "+05:11:00.3",
+        "snra": "10:39:28.26",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "53786.5",
+                "band": "",
+                "abmag": "16.9",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "53790.81145",
@@ -156,13 +196,6 @@
                 "abmag": "21.115",
                 "aberr": "0.261",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "53786.5",
-                "band": "",
-                "abmag": "16.9",
-                "source": "4,3"
             }
         ],
         "spectra": [
@@ -13041,7 +13074,8 @@
                         "6.1808040e-17",
                         "7.6784799e-18"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -26398,7 +26432,8 @@
                         "9.5282697e-17",
                         "1.1067072e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -39755,7 +39790,8 @@
                         "1.1357080e-16",
                         "1.9830582e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -53112,7 +53148,8 @@
                         "6.5678187e-17",
                         "8.1261402e-18"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -65539,7 +65576,8 @@
                         "4.9087965e-17",
                         "1.5633540e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -77656,26 +77694,9 @@
                         "4.2997156e-17",
                         "1.2495756e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             }
-        ],
-        "discoveryear": "2006",
-        "discoverday": "20",
-        "discovermonth": "2",
-        "host": "A103929+0511",
-        "claimedtype": "Ia",
-        "hvel": "20340",
-        "galra": "103929",
-        "galdec": "+051101",
-        "snra": "10:39:28.26",
-        "sndec": "+05:11:00.3",
-        "discoverer": "R. Holmes et al.",
-        "redshift": "0.07032",
-        "maxyear": "2006",
-        "maxmonth": "2",
-        "maxday": "20",
-        "maxappmag": "16.9",
-        "lumdist": "327.6",
-        "maxabsmag": "-20.68"
+        ]
     }
 }

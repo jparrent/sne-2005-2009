@@ -6,57 +6,66 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001400/CBET001498.txt'>CBET 1498</a>",
-                "alias": "2"
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
             },
             {
-                "name": "Stan Howerton",
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001400/CBET001498.txt'>CBET 1498</a>",
                 "alias": "3"
             },
             {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "name": "Stan Howerton",
                 "alias": "4"
+            },
+            {
+                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "alias": "5"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "6",
+        "discoverer": "CHASE",
+        "discovermonth": "9",
+        "discoveryear": "2008",
+        "galdec": "-373316",
+        "galra": "193646",
+        "host": "NGC 6805",
+        "hvel": "5985",
+        "lumdist": "90.638",
+        "maxabsmag": "-18.587",
+        "maxappmag": "16.2",
+        "maxday": "6",
+        "maxmonth": "9",
+        "maxyear": "2008",
+        "redshift": "0.02017",
+        "sndec": "-37:33:04.5",
+        "snra": "19:36:44.84",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54715.5",
                 "band": "",
                 "abmag": "16.2",
-                "source": "2,1"
+                "source": "3,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "54717.636",
                 "band": "C",
                 "abmag": "16.2",
-                "source": "3,1"
+                "source": "4,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2008",
-        "discoverday": "6",
-        "discovermonth": "9",
-        "host": "NGC 6805",
-        "claimedtype": "Ia",
-        "hvel": "5985",
-        "galra": "193646",
-        "galdec": "-373316",
-        "snra": "19:36:44.84",
-        "sndec": "-37:33:04.5",
-        "discoverer": "CHASE",
-        "redshift": "0.02017",
-        "maxyear": "2008",
-        "maxmonth": "9",
-        "maxday": "6",
-        "maxappmag": "16.2",
-        "lumdist": "90.64",
-        "maxabsmag": "-18.59"
+        ]
     }
 }

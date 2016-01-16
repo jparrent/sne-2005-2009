@@ -15,20 +15,60 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/000800/CBET000856.txt'>CBET 856</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "7",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "18",
+        "discoverer": "Markku Nissinen and Veli-Pekka Hentunen",
+        "discovermonth": "2",
+        "discoveryear": "2007",
+        "galdec": "+790216",
+        "galra": "170149",
+        "host": "UGC 10704",
+        "hvel": "19300",
+        "lumdist": "309.47",
+        "maxabsmag": "-20.0531",
+        "maxappmag": "17.4",
+        "maxday": "18",
+        "maxmonth": "2",
+        "maxyear": "2007",
+        "redshift": "0.0666",
+        "sndec": "+79:01:54.6",
+        "snra": "17:01:51.95",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "54149.5",
+                "band": "",
+                "abmag": "17.4",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "54157.03413",
@@ -212,13 +252,6 @@
                 "abmag": "20.29",
                 "aberr": "0.131",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54149.5",
-                "band": "",
-                "abmag": "17.4",
-                "source": "4,3"
             }
         ],
         "spectra": [
@@ -13627,7 +13660,8 @@
                         "7.8760055e-17",
                         "1.4519431e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -26409,26 +26443,9 @@
                         "1.6542294e-17",
                         "2.3737975e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             }
-        ],
-        "discoveryear": "2007",
-        "discoverday": "18",
-        "discovermonth": "2",
-        "host": "UGC 10704",
-        "claimedtype": "Ia",
-        "hvel": "19300",
-        "galra": "170149",
-        "galdec": "+790216",
-        "snra": "17:01:51.95",
-        "sndec": "+79:01:54.6",
-        "discoverer": "Markku Nissinen and Veli-Pekka Hentunen",
-        "redshift": "0.0666",
-        "maxyear": "2007",
-        "maxmonth": "2",
-        "maxday": "18",
-        "maxappmag": "17.4",
-        "lumdist": "309.5",
-        "maxabsmag": "-20.05"
+        ]
     }
 }

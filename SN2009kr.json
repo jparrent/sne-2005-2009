@@ -15,24 +15,70 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/002000/CBET002006.txt'>CBET 2006</a>",
-                "alias": "4"
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
             },
             {
-                "name": "Stan Howerton",
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/002000/CBET002006.txt'>CBET 2006</a>",
                 "alias": "5"
             },
             {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "name": "Stan Howerton",
                 "alias": "6"
+            },
+            {
+                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "alias": "7"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II L",
+                "source": "3"
+            },
+            {
+                "type": "IIn",
+                "source": "4"
+            }
+        ],
+        "discoverday": "5",
+        "discoverer": "Koichi Itagaki",
+        "discovermonth": "11",
+        "discoveryear": "2009",
+        "galdec": "-154116",
+        "galra": "051203",
+        "host": "NGC 1832",
+        "hvel": "1994",
+        "lumdist": "29.6878",
+        "maxabsmag": "-17.4629",
+        "maxappmag": "14.9",
+        "maxday": "17",
+        "maxmonth": "11",
+        "maxyear": "2009",
+        "redshift": "0.006674",
+        "sndec": "-15:41:52.2",
+        "snra": "05:12:03.30",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "55140.5",
+                "band": "",
+                "abmag": "15.6",
+                "source": "5,4"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "55144.453",
+                "band": "C",
+                "abmag": "15.5",
+                "source": "6,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "55152.8862",
@@ -536,40 +582,7 @@
                 "band": "R",
                 "abmag": "16.7277",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "55140.5",
-                "band": "",
-                "abmag": "15.6",
-                "source": "4,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "55144.453",
-                "band": "C",
-                "abmag": "15.5",
-                "source": "5,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2009",
-        "maxday": "17",
-        "maxmonth": "11",
-        "host": "NGC 1832",
-        "claimedtype": "IIn",
-        "hvel": "1994",
-        "galra": "051203",
-        "galdec": "-154116",
-        "snra": "05:12:03.30",
-        "sndec": "-15:41:52.2",
-        "discoverer": "Koichi Itagaki",
-        "discoverday": "5",
-        "discovermonth": "11",
-        "redshift": "0.006674",
-        "maxyear": "2009",
-        "maxappmag": "14.9",
-        "lumdist": "29.69",
-        "maxabsmag": "-17.46"
+        ]
     }
 }

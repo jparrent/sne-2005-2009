@@ -7,46 +7,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001600/CBET001602.txt'>CBET 1602</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ic",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "6",
+        "discoverer": "M. Della Valle et. el.",
+        "discovermonth": "10",
+        "discoveryear": "2008",
+        "galdec": "-400849",
+        "galra": "223950",
+        "host": "A223950-4008",
+        "hvel": "120000",
+        "lumdist": "3100",
+        "maxabsmag": "-26",
+        "maxappmag": "16.4",
+        "maxday": "6",
+        "maxmonth": "10",
+        "maxyear": "2008",
+        "redshift": "0.53",
+        "sndec": "-40:08:48.3",
+        "snra": "22:39:50.58",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54745.5",
                 "band": "",
                 "abmag": "16.4",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2008",
-        "discoverday": "6",
-        "discovermonth": "10",
-        "host": "A223950-4008",
-        "claimedtype": "Ic",
-        "redshift": "0.53",
-        "galra": "223950",
-        "galdec": "-400849",
-        "snra": "22:39:50.58",
-        "sndec": "-40:08:48.3",
-        "discoverer": "M. Della Valle et. el.",
-        "maxyear": "2008",
-        "maxmonth": "10",
-        "maxday": "6",
-        "maxappmag": "16.4",
-        "hvel": "120300",
-        "lumdist": "3130",
-        "maxabsmag": "-26.08"
+        ]
     }
 }

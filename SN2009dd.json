@@ -15,19 +15,47 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001700/CBET001764.txt'>CBET 1764</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "14",
+        "discoverer": "Giancarlo Cortini",
+        "discovermonth": "4",
+        "discoveryear": "2009",
+        "galdec": "+503223",
+        "galra": "120535",
+        "host": "NGC 4088",
+        "hvel": "723",
+        "lumdist": "10.686",
+        "maxabsmag": "-16.644",
+        "maxappmag": "13.5",
+        "maxday": "14",
+        "maxmonth": "4",
+        "maxyear": "2009",
+        "redshift": "0.00241",
+        "sndec": "+50:32:19.4",
+        "snra": "12:05:34.1",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -36,6 +64,13 @@
                 "abmag": "13.88",
                 "aberr": "0.1",
                 "source": "1,2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "54935.5",
+                "band": "",
+                "abmag": "13.5",
+                "source": "5,4"
             },
             {
                 "timeunit": "MJD",
@@ -644,33 +679,7 @@
                 "abmag": "19.73",
                 "aberr": "0.2",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54935.5",
-                "band": "",
-                "abmag": "13.5",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2009",
-        "discoverday": "14",
-        "discovermonth": "4",
-        "host": "NGC 4088",
-        "claimedtype": "II",
-        "hvel": "723",
-        "galra": "120535",
-        "galdec": "+503223",
-        "snra": "12:05:34.1",
-        "sndec": "+50:32:19.4",
-        "discoverer": "Giancarlo Cortini",
-        "redshift": "0.002415",
-        "maxyear": "2009",
-        "maxmonth": "4",
-        "maxday": "14",
-        "maxappmag": "13.5",
-        "lumdist": "10.71",
-        "maxabsmag": "-16.65"
+        ]
     }
 }

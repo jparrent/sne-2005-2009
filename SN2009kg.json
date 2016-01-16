@@ -6,45 +6,49 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001900/CBET001988.txt'>CBET 1988</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "discoverday": "9",
+        "discoverer": "PS1",
+        "discovermonth": "6",
+        "discoveryear": "2009",
+        "galdec": "+545801",
+        "galra": "161756",
+        "host": "A161756+5458",
+        "hvel": "85000",
+        "lumdist": "1900",
+        "maxabsmag": "-19",
+        "maxappmag": "21.9",
+        "maxday": "9",
+        "maxmonth": "6",
+        "maxyear": "2009",
+        "redshift": "0.34",
+        "sndec": "+54:58:01.3",
+        "snra": "16:17:56.05",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54991.5",
                 "band": "",
                 "abmag": "21.9",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2009",
-        "discoverday": "9",
-        "discovermonth": "6",
-        "host": "A161756+5458",
-        "redshift": "0.34",
-        "galra": "161756",
-        "galdec": "+545801",
-        "snra": "16:17:56.05",
-        "sndec": "+54:58:01.3",
-        "discoverer": "PS1",
-        "maxyear": "2009",
-        "maxmonth": "6",
-        "maxday": "9",
-        "maxappmag": "21.9",
-        "hvel": "85320",
-        "lumdist": "1851",
-        "maxabsmag": "-19.44"
+        ]
     }
 }

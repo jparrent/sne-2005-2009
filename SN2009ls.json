@@ -15,28 +15,63 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/002000/CBET002041.txt'>CBET 2041</a>",
-                "alias": "4"
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
             },
             {
-                "name": "Nic",
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/002000/CBET002041.txt'>CBET 2041</a>",
                 "alias": "5"
             },
             {
-                "name": "LLA",
+                "name": "Nic",
                 "alias": "6"
             },
             {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "name": "LLA",
                 "alias": "7"
+            },
+            {
+                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "alias": "8"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "22",
+        "discoverer": "Koichi Nishiyama and Fujio Kabashima",
+        "discovermonth": "11",
+        "discoveryear": "2009",
+        "galdec": "+055024",
+        "galra": "105114",
+        "host": "NGC 3423",
+        "hvel": "835",
+        "lumdist": "12.374",
+        "maxabsmag": "-16.153",
+        "maxappmag": "14.31",
+        "maxday": "1",
+        "maxmonth": "12",
+        "maxyear": "2009",
+        "redshift": "0.00279",
+        "sndec": "+05:50:58.8",
+        "snra": "10:51:14.58",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "55157.5",
+                "band": "",
+                "abmag": "15.4",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "55160.4851",
@@ -165,6 +200,13 @@
             },
             {
                 "timeunit": "MJD",
+                "time": "55167.225",
+                "band": "CR",
+                "abmag": "15.4",
+                "source": "6,4"
+            },
+            {
+                "timeunit": "MJD",
                 "time": "55168.55375",
                 "band": "B",
                 "abmag": "15.108",
@@ -218,6 +260,13 @@
                 "band": "R",
                 "abmag": "14.3803",
                 "source": "1,2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "55176.236",
+                "band": "CR",
+                "abmag": "15.4",
+                "source": "7,4"
             },
             {
                 "timeunit": "MJD",
@@ -564,6 +613,20 @@
             },
             {
                 "timeunit": "MJD",
+                "time": "55233.233",
+                "band": "CR",
+                "abmag": "16.6",
+                "source": "7,4"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "55234.036",
+                "band": "CR",
+                "abmag": "16.6",
+                "source": "6,4"
+            },
+            {
+                "timeunit": "MJD",
                 "time": "55240.48508",
                 "band": "V",
                 "abmag": "16.4202",
@@ -631,61 +694,7 @@
                 "band": "R",
                 "abmag": "16.6808",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "55157.5",
-                "band": "",
-                "abmag": "15.4",
-                "source": "4,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "55167.225",
-                "band": "CR",
-                "abmag": "15.4",
-                "source": "5,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "55176.236",
-                "band": "CR",
-                "abmag": "15.4",
-                "source": "6,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "55233.233",
-                "band": "CR",
-                "abmag": "16.6",
-                "source": "6,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "55234.036",
-                "band": "CR",
-                "abmag": "16.6",
-                "source": "5,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2009",
-        "discoverday": "22",
-        "discovermonth": "11",
-        "host": "NGC 3423",
-        "claimedtype": "II",
-        "hvel": "835",
-        "galra": "105114",
-        "galdec": "+055024",
-        "snra": "10:51:14.58",
-        "sndec": "+05:50:58.8",
-        "discoverer": "Koichi Nishiyama and Fujio Kabashima",
-        "redshift": "0.002789",
-        "maxyear": "2009",
-        "maxmonth": "12",
-        "maxday": "1",
-        "maxappmag": "14.31",
-        "lumdist": "12.37",
-        "maxabsmag": "-16.15"
+        ]
     }
 }

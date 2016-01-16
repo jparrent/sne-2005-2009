@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08700/08716.html#Item1'>IAUC 8716</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "26",
+        "discoverer": "Brazilian Supernovae Search",
+        "discovermonth": "5",
+        "discoveryear": "2006",
+        "galdec": "-390142",
+        "galra": "125239",
+        "host": "ESO 323-G25",
+        "hvel": "4239",
+        "lumdist": "63.707",
+        "maxabsmag": "-18.321",
+        "maxappmag": "15.7",
+        "maxday": "26",
+        "maxmonth": "5",
+        "maxyear": "2006",
+        "redshift": "0.01424",
+        "sndec": "-39:01:48.9",
+        "snra": "12:52:40.93",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "53881.5",
                 "band": "",
                 "abmag": "15.7",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2006",
-        "discoverday": "26",
-        "discovermonth": "5",
-        "host": "ESO 323-G25",
-        "claimedtype": "II",
-        "hvel": "4239",
-        "galra": "125239",
-        "galdec": "-390142",
-        "snra": "12:52:40.93",
-        "sndec": "-39:01:48.9",
-        "discoverer": "Brazilian Supernovae Search",
-        "redshift": "0.01424",
-        "maxyear": "2006",
-        "maxmonth": "5",
-        "maxday": "26",
-        "maxappmag": "15.7",
-        "lumdist": "63.71",
-        "maxabsmag": "-18.32"
+        ]
     }
 }

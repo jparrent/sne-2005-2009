@@ -6,57 +6,66 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001400/CBET001467.txt'>CBET 1467</a>",
-                "alias": "2"
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
             },
             {
-                "name": "Stan Howerton",
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001400/CBET001467.txt'>CBET 1467</a>",
                 "alias": "3"
             },
             {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "name": "Stan Howerton",
                 "alias": "4"
+            },
+            {
+                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "alias": "5"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "9",
+        "discoverer": "BRASS",
+        "discovermonth": "8",
+        "discoveryear": "2008",
+        "galdec": "-470707",
+        "galra": "221644",
+        "host": "ESO 289-G10",
+        "hvel": "3022",
+        "lumdist": "45.179",
+        "maxabsmag": "-17.475",
+        "maxappmag": "15.8",
+        "maxday": "9",
+        "maxmonth": "8",
+        "maxyear": "2008",
+        "redshift": "0.01013",
+        "sndec": "-47:07:12.6",
+        "snra": "22:16:44.39",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54687.5",
                 "band": "",
                 "abmag": "15.8",
-                "source": "2,1"
+                "source": "3,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "54691.632",
                 "band": "C",
                 "abmag": "16.5",
-                "source": "3,1"
+                "source": "4,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2008",
-        "discoverday": "9",
-        "discovermonth": "8",
-        "host": "ESO 289-G10",
-        "claimedtype": "II",
-        "hvel": "3022",
-        "galra": "221644",
-        "galdec": "-470707",
-        "snra": "22:16:44.39",
-        "sndec": "-47:07:12.6",
-        "discoverer": "BRASS",
-        "redshift": "0.01013",
-        "maxyear": "2008",
-        "maxmonth": "8",
-        "maxday": "9",
-        "maxappmag": "15.8",
-        "lumdist": "45.18",
-        "maxabsmag": "-17.47"
+        ]
     }
 }

@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08600/08661.html#Item1'>IAUC 8661</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "19",
+        "discoverer": "LOSS",
+        "discovermonth": "1",
+        "discoveryear": "2006",
+        "galdec": "+074201",
+        "galra": "002020",
+        "host": "IC 13",
+        "hvel": "5696",
+        "lumdist": "86.126",
+        "maxabsmag": "-16.376",
+        "maxappmag": "18.3",
+        "maxday": "19",
+        "maxmonth": "1",
+        "maxyear": "2006",
+        "redshift": "0.01918",
+        "sndec": "+07:42:07.0",
+        "snra": "00:20:20.15",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "53754.5",
                 "band": "",
                 "abmag": "18.3",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2006",
-        "discoverday": "19",
-        "discovermonth": "1",
-        "host": "IC 13",
-        "claimedtype": "II",
-        "hvel": "5696",
-        "galra": "002020",
-        "galdec": "+074201",
-        "snra": "00:20:20.15",
-        "sndec": "+07:42:07.0",
-        "discoverer": "LOSS",
-        "maxyear": "2006",
-        "maxmonth": "1",
-        "maxday": "19",
-        "maxappmag": "18.3",
-        "redshift": "0.01918",
-        "lumdist": "86.13",
-        "maxabsmag": "-16.38"
+        ]
     }
 }

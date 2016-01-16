@@ -10,20 +10,55 @@
                 "alias": "1"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "3",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001400/CBET001427.txt'>CBET 1427</a>",
-                "alias": "3"
+                "alias": "4"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
+                "alias": "5"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "2,3"
+            }
+        ],
+        "discoverday": "23",
+        "discoverer": "ROTSE",
+        "discovermonth": "6",
+        "discoveryear": "2008",
+        "galdec": "+275716",
+        "galra": "130014",
+        "host": "A130014+2757",
+        "hvel": "10500",
+        "lumdist": "162.3",
+        "maxabsmag": "-18.65",
+        "maxappmag": "17.4",
+        "maxday": "23",
+        "maxmonth": "6",
+        "maxyear": "2008",
+        "redshift": "0.0357",
+        "sndec": "+27:57:16.4",
+        "snra": "13:00:14.31",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "54640.5",
+                "band": "",
+                "abmag": "17.4",
+                "source": "4,3"
+            },
             {
                 "timeunit": "MJD",
                 "time": "54645.20",
@@ -401,33 +436,7 @@
                 "instrument": "kait4",
                 "aberr": "0.19300",
                 "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54640.5",
-                "band": "",
-                "abmag": "17.4",
-                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2008",
-        "discoverday": "23",
-        "discovermonth": "6",
-        "host": "A130014+2757",
-        "claimedtype": "Ia",
-        "hvel": "10500",
-        "galra": "130014",
-        "galdec": "+275716",
-        "snra": "13:00:14.31",
-        "sndec": "+27:57:16.4",
-        "discoverer": "ROTSE",
-        "redshift": "0.03566",
-        "maxyear": "2008",
-        "maxmonth": "6",
-        "maxday": "23",
-        "maxappmag": "17.4",
-        "lumdist": "162.1",
-        "maxabsmag": "-18.65"
+        ]
     }
 }

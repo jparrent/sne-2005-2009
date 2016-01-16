@@ -7,42 +7,51 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08500/08598.html#Item1'>IAUC 8598</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "7",
+        "discoverer": "Nearby Supernova Factory",
+        "discovermonth": "8",
+        "discoveryear": "2005",
+        "galdec": "+124521",
+        "galra": "000934",
+        "host": "A000934+1245",
+        "maxappmag": "19.7",
+        "maxday": "7",
+        "maxmonth": "8",
+        "maxyear": "2005",
+        "sndec": "+12:45:21.4",
+        "snra": "00:09:34.7",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "53589.5",
                 "band": "",
                 "abmag": "19.7",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2005",
-        "discoverday": "7",
-        "discovermonth": "8",
-        "host": "A000934+1245",
-        "claimedtype": "II",
-        "galra": "000934",
-        "galdec": "+124521",
-        "snra": "00:09:34.7",
-        "sndec": "+12:45:21.4",
-        "discoverer": "Nearby Supernova Factory",
-        "maxyear": "2005",
-        "maxmonth": "8",
-        "maxday": "7",
-        "maxappmag": "19.7"
+        ]
     }
 }

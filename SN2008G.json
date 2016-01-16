@@ -6,46 +6,59 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001200/CBET001208.txt'>CBET 1208</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II P",
+                "source": "1"
+            },
+            {
+                "type": "II",
+                "source": "2"
+            }
+        ],
+        "discoverday": "31",
+        "discoverer": "LOSS",
+        "discovermonth": "12",
+        "discoveryear": "2007",
+        "galdec": "+464024",
+        "galra": "034544",
+        "host": "UGC 2851",
+        "hvel": "5477",
+        "lumdist": "82.757",
+        "maxabsmag": "-16.489",
+        "maxappmag": "18.1",
+        "maxday": "31",
+        "maxmonth": "12",
+        "maxyear": "2007",
+        "redshift": "0.01844",
+        "sndec": "+46:40:06.0",
+        "snra": "03:45:46.02",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54465.5",
                 "band": "",
                 "abmag": "18.1",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2007",
-        "discoverday": "31",
-        "discovermonth": "12",
-        "host": "UGC 2851",
-        "claimedtype": "II",
-        "hvel": "5477",
-        "galra": "034544",
-        "galdec": "+464024",
-        "snra": "03:45:46.02",
-        "sndec": "+46:40:06.0",
-        "discoverer": "LOSS",
-        "redshift": "0.01844",
-        "maxyear": "2007",
-        "maxmonth": "12",
-        "maxday": "31",
-        "maxappmag": "18.1",
-        "lumdist": "82.76",
-        "maxabsmag": "-16.49"
+        ]
     }
 }

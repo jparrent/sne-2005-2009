@@ -15,20 +15,55 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08700/08758.html#Item1'>IAUC 8758</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "26",
+        "discoverer": "LOSS",
+        "discovermonth": "9",
+        "discoveryear": "2006",
+        "galdec": "+151022",
+        "galra": "225834",
+        "host": "IC 1461",
+        "hvel": "9190",
+        "lumdist": "140.9",
+        "maxabsmag": "-17.34",
+        "maxappmag": "18.4",
+        "maxday": "26",
+        "maxmonth": "9",
+        "maxyear": "2006",
+        "redshift": "0.0311",
+        "sndec": "+15:10:25.8",
+        "snra": "22:58:34.30",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "54004.5",
+                "band": "",
+                "abmag": "18.4",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "54006.66403",
@@ -76,33 +111,7 @@
                 "abmag": "20.248",
                 "aberr": "0.126",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54004.5",
-                "band": "",
-                "abmag": "18.4",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2006",
-        "discoverday": "26",
-        "discovermonth": "9",
-        "host": "IC 1461",
-        "claimedtype": "Ia",
-        "hvel": "9190",
-        "galra": "225834",
-        "galdec": "+151022",
-        "snra": "22:58:34.30",
-        "sndec": "+15:10:25.8",
-        "discoverer": "LOSS",
-        "maxyear": "2006",
-        "maxmonth": "9",
-        "maxday": "26",
-        "maxappmag": "18.4",
-        "redshift": "0.03114",
-        "lumdist": "141.1",
-        "maxabsmag": "-17.35"
+        ]
     }
 }

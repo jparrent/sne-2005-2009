@@ -6,45 +6,49 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001000/CBET001082.txt'>CBET 1082</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "discoverday": "20",
+        "discoverer": "Mirko Villi",
+        "discovermonth": "9",
+        "discoveryear": "2007",
+        "galdec": "+421658",
+        "galra": "132136",
+        "host": "UGC 8400",
+        "hvel": "3396",
+        "lumdist": "50.847",
+        "maxabsmag": "-17.831",
+        "maxappmag": "15.7",
+        "maxday": "20",
+        "maxmonth": "9",
+        "maxyear": "2007",
+        "redshift": "0.01139",
+        "sndec": "+42:16:50.0",
+        "snra": "13:21:34.92",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54363.5",
                 "band": "",
                 "abmag": "15.7",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2007",
-        "discoverday": "20",
-        "discovermonth": "9",
-        "host": "UGC 8400",
-        "hvel": "3396",
-        "galra": "132136",
-        "galdec": "+421658",
-        "snra": "13:21:34.92",
-        "sndec": "+42:16:50.0",
-        "discoverer": "Mirko Villi",
-        "redshift": "0.01139",
-        "maxyear": "2007",
-        "maxmonth": "9",
-        "maxday": "20",
-        "maxappmag": "15.7",
-        "lumdist": "50.85",
-        "maxabsmag": "-17.83"
+        ]
     }
 }

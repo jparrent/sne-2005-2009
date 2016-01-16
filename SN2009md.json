@@ -15,32 +15,67 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/002000/CBET002065.txt'>CBET 2065</a>",
-                "alias": "4"
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
             },
             {
-                "name": "Stan Howerton",
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/002000/CBET002065.txt'>CBET 2065</a>",
                 "alias": "5"
             },
             {
-                "name": "LLA",
+                "name": "Stan Howerton",
                 "alias": "6"
             },
             {
-                "name": "Nic",
+                "name": "LLA",
                 "alias": "7"
             },
             {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "name": "Nic",
                 "alias": "8"
+            },
+            {
+                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "alias": "9"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II P",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "3",
+        "discoverer": "Koichi Itagaki",
+        "discovermonth": "12",
+        "discoveryear": "2009",
+        "galdec": "+123159",
+        "galra": "104828",
+        "host": "NGC 3389",
+        "hvel": "1302",
+        "lumdist": "19.3247",
+        "maxabsmag": "-15.7706",
+        "maxappmag": "15.66",
+        "maxday": "16",
+        "maxmonth": "1",
+        "maxyear": "2010",
+        "redshift": "0.004352",
+        "sndec": "+12:32:02.8",
+        "snra": "10:48:26.28",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "55168.5",
+                "band": "",
+                "abmag": "16.5",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "55171.92864",
@@ -96,6 +131,20 @@
                 "band": "R",
                 "abmag": "16.6499",
                 "source": "1,2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "55175.436",
+                "band": "C",
+                "abmag": "16.8",
+                "source": "6,4"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "55176.216",
+                "band": "CR",
+                "abmag": "16.3",
+                "source": "7,4"
             },
             {
                 "timeunit": "MJD",
@@ -274,58 +323,18 @@
             },
             {
                 "timeunit": "MJD",
-                "time": "55168.5",
-                "band": "",
-                "abmag": "16.5",
-                "source": "4,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "55175.436",
-                "band": "C",
-                "abmag": "16.8",
-                "source": "5,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "55176.216",
-                "band": "CR",
-                "abmag": "16.3",
-                "source": "6,3"
-            },
-            {
-                "timeunit": "MJD",
                 "time": "55233.219",
                 "band": "CR",
                 "abmag": "16.5",
-                "source": "6,3"
+                "source": "7,4"
             },
             {
                 "timeunit": "MJD",
                 "time": "55234.011",
                 "band": "CR",
                 "abmag": "16.5",
-                "source": "7,3"
+                "source": "8,4"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2009",
-        "discoverday": "3",
-        "discovermonth": "12",
-        "host": "NGC 3389",
-        "claimedtype": "IIP",
-        "hvel": "1302",
-        "galra": "104828",
-        "galdec": "+123159",
-        "snra": "10:48:26.28",
-        "sndec": "+12:32:02.8",
-        "discoverer": "Koichi Itagaki",
-        "redshift": "0.004352",
-        "maxyear": "2010",
-        "maxmonth": "1",
-        "maxday": "16",
-        "maxappmag": "15.66",
-        "lumdist": "19.32",
-        "maxabsmag": "-15.77"
+        ]
     }
 }

@@ -15,19 +15,52 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08600/08664.html#Item2'>IAUC 8664</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "7",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "28",
+        "discoverer": "Tim Puckett et al.",
+        "discovermonth": "1",
+        "discoveryear": "2006",
+        "galdec": "+350502",
+        "galra": "124539",
+        "host": "UGC 7934",
+        "hvel": "9624",
+        "lumdist": "147.99",
+        "maxabsmag": "-19.451",
+        "maxappmag": "16.4",
+        "maxday": "7",
+        "maxmonth": "2",
+        "maxyear": "2006",
+        "redshift": "0.03263",
+        "sndec": "+35:05:12.4",
+        "snra": "12:45:39.10",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -196,6 +229,13 @@
                 "abmag": "16.99",
                 "aberr": "0.046",
                 "source": "1,2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "53773.5",
+                "band": "",
+                "abmag": "16.4",
+                "source": "5,4"
             },
             {
                 "timeunit": "MJD",
@@ -620,13 +660,6 @@
                 "abmag": "20.04",
                 "aberr": "0.138",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "53773.5",
-                "band": "",
-                "abmag": "16.4",
-                "source": "4,3"
             }
         ],
         "spectra": [
@@ -13980,7 +14013,8 @@
                         "3.1602463e-16",
                         "1.6483255e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -27332,7 +27366,8 @@
                         "3.4473939e-16",
                         "1.4533732e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -40684,7 +40719,8 @@
                         "2.6977518e-16",
                         "1.2838238e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -54041,7 +54077,8 @@
                         "2.3008951e-16",
                         "1.0235978e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -67398,7 +67435,8 @@
                         "2.8043787e-16",
                         "1.1373034e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -80755,7 +80793,8 @@
                         "2.8140227e-16",
                         "1.0293451e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -94112,7 +94151,8 @@
                         "1.2469679e-16",
                         "1.3421146e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -106309,7 +106349,8 @@
                         "9.4612397e-18",
                         "0.0000000e+00"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -118676,26 +118717,9 @@
                         "7.8082846e-17",
                         "1.0162895e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             }
-        ],
-        "discoveryear": "2006",
-        "discoverday": "28",
-        "discovermonth": "1",
-        "host": "UGC 7934",
-        "claimedtype": "Ia",
-        "hvel": "9624",
-        "galra": "124539",
-        "galdec": "+350502",
-        "snra": "12:45:39.10",
-        "sndec": "+35:05:12.4",
-        "discoverer": "Tim Puckett et al.",
-        "redshift": "0.03263",
-        "maxyear": "2006",
-        "maxmonth": "2",
-        "maxday": "7",
-        "maxappmag": "16.4",
-        "lumdist": "148",
-        "maxabsmag": "-19.45"
+        ]
     }
 }

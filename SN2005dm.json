@@ -10,20 +10,59 @@
                 "alias": "1"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "3",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08500/08589.html#Item1'>IAUC 8589</a>",
-                "alias": "3"
+                "alias": "4"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
+                "alias": "5"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia P",
+                "source": "2"
+            },
+            {
+                "type": "Ia",
+                "source": "3"
+            }
+        ],
+        "discoverday": "25",
+        "discoverer": "LOSS",
+        "discovermonth": "8",
+        "discoveryear": "2005",
+        "galdec": "-065416",
+        "galra": "021839",
+        "host": "IC 219",
+        "hvel": "5048",
+        "lumdist": "76.122",
+        "maxabsmag": "-17.638",
+        "maxappmag": "16.77",
+        "maxday": "31",
+        "maxmonth": "8",
+        "maxyear": "2005",
+        "redshift": "0.01698",
+        "sndec": "-06:54:10.8",
+        "snra": "02:18:39.25",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "53607.5",
+                "band": "",
+                "abmag": "17.6",
+                "source": "4,3"
+            },
             {
                 "timeunit": "MJD",
                 "time": "53609.44",
@@ -590,33 +629,7 @@
                 "instrument": "kait3",
                 "aberr": "0.12000",
                 "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "53607.5",
-                "band": "",
-                "abmag": "17.6",
-                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2005",
-        "discoverday": "25",
-        "discovermonth": "8",
-        "host": "IC 219",
-        "claimedtype": "Ia",
-        "hvel": "5048",
-        "galra": "021839",
-        "galdec": "-065416",
-        "snra": "02:18:39.25",
-        "sndec": "-06:54:10.8",
-        "discoverer": "LOSS",
-        "maxyear": "2005",
-        "maxmonth": "8",
-        "maxday": "31",
-        "maxappmag": "16.77",
-        "redshift": "0.01698",
-        "lumdist": "76.12",
-        "maxabsmag": "-17.64"
+        ]
     }
 }

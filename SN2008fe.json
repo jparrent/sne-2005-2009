@@ -6,64 +6,73 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001400/CBET001485.txt'>CBET 1485</a>",
-                "alias": "2"
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
             },
             {
-                "name": "FKugel",
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001400/CBET001485.txt'>CBET 1485</a>",
                 "alias": "3"
             },
             {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "name": "FKugel",
                 "alias": "4"
+            },
+            {
+                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "alias": "5"
             }
         ],
-        "photometry": [
+        "claimedtype": [
             {
-                "timeunit": "MJD",
-                "time": "54707.5",
-                "band": "",
-                "abmag": "18.4",
-                "source": "2,1"
-            },
+                "type": "II P",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "27",
+        "discoverer": "Stanislav Korotkiy et al.",
+        "discovermonth": "8",
+        "discoveryear": "2008",
+        "galdec": "+200656",
+        "galra": "145347",
+        "host": "UGC 9578",
+        "hvel": "9280",
+        "lumdist": "142.3",
+        "maxabsmag": "-17.37",
+        "maxappmag": "18.4",
+        "maxday": "29",
+        "maxmonth": "8",
+        "maxyear": "2008",
+        "redshift": "0.0314",
+        "sndec": "+20:06:45.5",
+        "snra": "14:53:48.26",
+        "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "54705.876",
                 "band": "CR",
                 "abmag": "18.4",
-                "source": "3,1"
+                "source": "4,2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "54707.5",
+                "band": "",
+                "abmag": "18.4",
+                "source": "3,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "54710.84",
                 "band": "CR",
                 "abmag": "18.8",
-                "source": "3,1"
+                "source": "4,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2008",
-        "discoverday": "27",
-        "discovermonth": "8",
-        "host": "UGC 9578",
-        "claimedtype": "IIP",
-        "hvel": "9280",
-        "galra": "145347",
-        "galdec": "+200656",
-        "snra": "14:53:48.26",
-        "sndec": "+20:06:45.5",
-        "discoverer": "Stanislav Korotkiy et al.",
-        "redshift": "0.03145",
-        "maxyear": "2008",
-        "maxmonth": "8",
-        "maxday": "29",
-        "maxappmag": "18.4",
-        "lumdist": "142.5",
-        "maxabsmag": "-17.37"
+        ]
     }
 }

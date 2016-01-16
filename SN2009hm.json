@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001800/CBET001880.txt'>CBET 1880</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ib",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "16",
+        "discoverer": "Stu Parker",
+        "discovermonth": "7",
+        "discoveryear": "2009",
+        "galdec": "-635410",
+        "galra": "213544",
+        "host": "NGC 7083",
+        "hvel": "3112",
+        "lumdist": "46.528",
+        "maxabsmag": "-18.639",
+        "maxappmag": "14.7",
+        "maxday": "16",
+        "maxmonth": "7",
+        "maxyear": "2009",
+        "redshift": "0.01043",
+        "sndec": "-63:54:23.6",
+        "snra": "21:35:44.44",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "55028.5",
                 "band": "",
                 "abmag": "14.7",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2009",
-        "discoverday": "16",
-        "discovermonth": "7",
-        "host": "NGC 7083",
-        "claimedtype": "Ib",
-        "hvel": "3112",
-        "galra": "213544",
-        "galdec": "-635410",
-        "snra": "21:35:44.44",
-        "sndec": "-63:54:23.6",
-        "discoverer": "Stu Parker",
-        "redshift": "0.01043",
-        "maxyear": "2009",
-        "maxmonth": "7",
-        "maxday": "16",
-        "maxappmag": "14.7",
-        "lumdist": "46.53",
-        "maxabsmag": "-18.64"
+        ]
     }
 }
