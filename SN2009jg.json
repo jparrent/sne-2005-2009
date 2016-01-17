@@ -7,12 +7,14 @@
         ],
         "sources": [
             {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+                "name": "Asiago Supernova Catalogue",
+                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
                 "alias": "2",
                 "secondary": true
             },
@@ -21,16 +23,22 @@
                 "alias": "3"
             },
             {
-                "name": "Stan Howerton",
+                "name": "J47",
                 "alias": "4"
             },
             {
-                "name": "LLA",
+                "name": "Stan Howerton",
                 "alias": "5"
             },
             {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "name": "LLA",
                 "alias": "6"
+            },
+            {
+                "name": "2012A&A...538A.120L",
+                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+                "bibcode": "2012A&A...538A.120L",
+                "alias": "7"
             }
         ],
         "claimedtype": [
@@ -65,35 +73,43 @@
                 "time": "55106.113",
                 "band": "C",
                 "abmag": "16.4",
-                "source": "4,2"
+                "source": "5,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "55107.78",
                 "band": "CR",
                 "abmag": "15.9",
-                "source": "5,2"
+                "source": "6,2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "55107.838",
+                "band": "CR",
+                "abmag": "15.89",
+                "aberr": "1",
+                "source": "4,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "55117.781",
                 "band": "CR",
                 "abmag": "16.2",
-                "source": "5,2"
+                "source": "6,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "55118.764",
                 "band": "CR",
                 "abmag": "16.3",
-                "source": "5,2"
+                "source": "6,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "55123.782",
                 "band": "CR",
                 "abmag": "16.4",
-                "source": "5,2"
+                "source": "6,2"
             }
         ]
     }
