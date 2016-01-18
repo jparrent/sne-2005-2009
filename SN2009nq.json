@@ -18,14 +18,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/002100/CBET002110.txt'>CBET 2110</a>",
+                "alias": "3"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/002100/CBET002110.txt'>CBET 2110</a>",
-                "alias": "4"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "4",
+                "secondary": true
             },
             {
                 "name": "LLA",
@@ -48,8 +48,8 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "2,3"
+                "value": "Ia",
+                "source": "2,3,4"
             }
         ],
         "discoverday": "27",
@@ -58,15 +58,30 @@
         "discoveryear": "2009",
         "galdec": "+190230",
         "galra": "231517",
-        "host": "NGC 7549",
-        "hvel": "4688",
-        "lumdist": "70.588",
-        "maxabsmag": "-19.044",
+        "host": [
+            {
+                "value": "NGC 7549",
+                "source": "2,3,4"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "4688",
+                "source": "2"
+            }
+        ],
+        "lumdist": "70.3",
+        "maxabsmag": "-19",
         "maxappmag": "15.2",
         "maxday": "27",
         "maxmonth": "12",
         "maxyear": "2009",
-        "redshift": "0.01576",
+        "redshift": [
+            {
+                "value": "0.015700",
+                "source": "3,4"
+            }
+        ],
         "sndec": "+19:01:22.5",
         "snra": "23:15:16.97",
         "photometry": [
@@ -75,14 +90,14 @@
                 "time": "55192.5",
                 "band": "",
                 "abmag": "15.2",
-                "source": "4,3"
+                "source": "3,4"
             },
             {
                 "timeunit": "MJD",
                 "time": "55202.771",
                 "band": "CR",
                 "abmag": "15.2",
-                "source": "5,3"
+                "source": "5,4"
             },
             {
                 "timeunit": "MJD",
@@ -193,7 +208,7 @@
                 "time": "55209.083",
                 "band": "C",
                 "abmag": "15.7",
-                "source": "6,3"
+                "source": "6,4"
             },
             {
                 "timeunit": "MJD",
@@ -232,14 +247,14 @@
                 "time": "55211.751",
                 "band": "CR",
                 "abmag": "15.5",
-                "source": "5,3"
+                "source": "5,4"
             },
             {
                 "timeunit": "MJD",
                 "time": "55211.756",
                 "band": "CR",
                 "abmag": "15.6",
-                "source": "7,3"
+                "source": "7,4"
             },
             {
                 "timeunit": "MJD",

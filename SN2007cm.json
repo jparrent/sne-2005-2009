@@ -12,14 +12,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/000900/CBET000973.txt'>CBET 973</a>",
+                "alias": "2"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/000900/CBET000973.txt'>CBET 973</a>",
-                "alias": "3"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "3",
+                "secondary": true
             },
             {
                 "name": "L. Franco",
@@ -38,8 +38,8 @@
         ],
         "claimedtype": [
             {
-                "type": "IIn",
-                "source": "1,2"
+                "value": "IIn",
+                "source": "1,2,3"
             }
         ],
         "discoverday": "23",
@@ -48,15 +48,30 @@
         "discoveryear": "2007",
         "galdec": "+550844",
         "galra": "124243",
-        "host": "NGC 4644",
-        "hvel": "4937",
-        "lumdist": "74.442",
-        "maxabsmag": "-18.259",
+        "host": [
+            {
+                "value": "NGC 4644",
+                "source": "1,2,3"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "4937",
+                "source": "1"
+            }
+        ],
+        "lumdist": "72",
+        "maxabsmag": "-18",
         "maxappmag": "16.1",
         "maxday": "23",
         "maxmonth": "5",
         "maxyear": "2007",
-        "redshift": "0.01661",
+        "redshift": [
+            {
+                "value": "0.016000",
+                "source": "2,3"
+            }
+        ],
         "sndec": "+55:08:57.1",
         "snra": "12:42:45.18",
         "photometry": [
@@ -65,42 +80,42 @@
                 "time": "54243.5",
                 "band": "",
                 "abmag": "16.1",
-                "source": "3,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "54245.882",
                 "band": "C",
                 "abmag": "16.2",
-                "source": "4,2"
+                "source": "4,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "54250.001",
                 "band": "CR",
                 "abmag": "16.40",
-                "source": "2"
+                "source": "3"
             },
             {
                 "timeunit": "MJD",
                 "time": "54255.946",
                 "band": "CR",
                 "abmag": "17.1",
-                "source": "5,2"
+                "source": "5,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "54268.007",
                 "band": "CR",
                 "abmag": "17.2",
-                "source": "5,2"
+                "source": "5,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "54272.934",
                 "band": "CR",
                 "abmag": "17.4",
-                "source": "5,2"
+                "source": "5,3"
             }
         ]
     }

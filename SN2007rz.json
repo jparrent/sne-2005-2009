@@ -18,14 +18,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001100/CBET001158.txt'>CBET 1158</a>",
+                "alias": "3"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001100/CBET001158.txt'>CBET 1158</a>",
-                "alias": "4"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "4",
+                "secondary": true
             },
             {
                 "name": "C L. Franco",
@@ -46,8 +46,8 @@
         ],
         "claimedtype": [
             {
-                "type": "Ic",
-                "source": "2,3"
+                "value": "Ic",
+                "source": "2,3,4"
             }
         ],
         "discoverday": "7",
@@ -56,15 +56,30 @@
         "discoveryear": "2007",
         "galdec": "+073751",
         "galra": "043110",
-        "host": "NGC 1590",
-        "hvel": "3806",
-        "lumdist": "57.112",
-        "maxabsmag": "-16.984",
+        "host": [
+            {
+                "value": "NGC 1590",
+                "source": "2,3,4"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "3806",
+                "source": "2"
+            }
+        ],
+        "lumdist": "58",
+        "maxabsmag": "-17",
         "maxappmag": "16.8",
         "maxday": "19",
         "maxmonth": "12",
         "maxyear": "2007",
-        "redshift": "0.01278",
+        "redshift": [
+            {
+                "value": "0.013000",
+                "source": "3,4"
+            }
+        ],
         "sndec": "+07:37:51.5",
         "snra": "04:31:10.84",
         "photometry": [
@@ -73,14 +88,14 @@
                 "time": "54441.5",
                 "band": "",
                 "abmag": "16.9",
-                "source": "4,3"
+                "source": "3,4"
             },
             {
                 "timeunit": "MJD",
                 "time": "54453.992",
                 "band": "",
                 "abmag": "16.8",
-                "source": "5,3"
+                "source": "5,4"
             },
             {
                 "timeunit": "MJD",

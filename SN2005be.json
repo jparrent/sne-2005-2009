@@ -6,19 +6,19 @@
         ],
         "sources": [
             {
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
+            },
+            {
                 "name": "Carnegie Supernova Project",
                 "url": "http://csp.obs.carnegiescience.edu/data",
-                "alias": "1"
+                "alias": "2"
             },
             {
                 "name": "Asiago Supernova Catalogue",
                 "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
                 "alias": "3",
                 "secondary": true
             },
@@ -27,27 +27,27 @@
                 "alias": "4"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "5",
+                "secondary": true
+            },
+            {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "6",
+                "alias": "7",
                 "secondary": true
             },
             {
                 "name": "2013ApJ...773...53F",
                 "url": "http://adsabs.harvard.edu/abs/2013ApJ...773...53F",
                 "bibcode": "2013ApJ...773...53F",
-                "alias": "7"
-            },
-            {
-                "name": "2012MNRAS.425.1789S",
-                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
-                "bibcode": "2012MNRAS.425.1789S",
                 "alias": "8"
             },
             {
@@ -59,25 +59,54 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "2,3,8,9,8,9"
+                "value": "Ia",
+                "source": "3,4,5,1,9,1,9"
             }
         ],
         "discoverday": "5",
         "discoverer": "Tim Puckett et al.",
         "discovermonth": "4",
         "discoveryear": "2005",
+        "ebv": [
+            {
+                "value": "0.032",
+                "source": "1"
+            }
+        ],
         "galdec": "+164011",
         "galra": "145932",
-        "host": "LEDA 214352",
-        "hvel": "10500",
-        "lumdist": "162.3",
-        "maxabsmag": "-20.05",
+        "host": [
+            {
+                "value": "2MASX J14593310+1640070",
+                "source": "1"
+            },
+            {
+                "value": "A145932+1640",
+                "source": "3"
+            },
+            {
+                "value": "LEDA 214352",
+                "source": "4,5"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "10493",
+                "source": "1"
+            }
+        ],
+        "lumdist": "159.1",
+        "maxabsmag": "-20.01",
         "maxappmag": "16",
         "maxday": "5",
         "maxmonth": "4",
         "maxyear": "2005",
-        "redshift": "0.0357",
+        "redshift": [
+            {
+                "value": "0.03502",
+                "source": "8,8,8,8"
+            }
+        ],
         "sndec": "+16:40:11.6",
         "snra": "14:59:32.72",
         "photometry": [
@@ -86,7 +115,7 @@
                 "time": "53465.5",
                 "band": "",
                 "abmag": "16.0",
-                "source": "4,3"
+                "source": "4,5"
             },
             {
                 "timeunit": "MJD",
@@ -95,7 +124,7 @@
                 "abmag": "18.298",
                 "instrument": "CSP",
                 "aberr": "0.021",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -104,7 +133,7 @@
                 "abmag": "17.452",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -113,7 +142,7 @@
                 "abmag": "17.177",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -122,7 +151,7 @@
                 "abmag": "17.243",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -131,7 +160,7 @@
                 "abmag": "17.175",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -140,7 +169,7 @@
                 "abmag": "17.870",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -149,7 +178,7 @@
                 "abmag": "18.414",
                 "instrument": "CSP",
                 "aberr": "0.018",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -158,7 +187,7 @@
                 "abmag": "17.541",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -167,7 +196,7 @@
                 "abmag": "17.242",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -176,7 +205,7 @@
                 "abmag": "17.311",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -185,7 +214,7 @@
                 "abmag": "17.255",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -194,7 +223,7 @@
                 "abmag": "17.980",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -203,7 +232,7 @@
                 "abmag": "19.078",
                 "instrument": "CSP",
                 "aberr": "0.023",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -212,7 +241,7 @@
                 "abmag": "18.042",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -221,7 +250,7 @@
                 "abmag": "17.523",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -230,7 +259,7 @@
                 "abmag": "17.732",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -239,7 +268,7 @@
                 "abmag": "17.532",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -248,7 +277,7 @@
                 "abmag": "18.213",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -257,7 +286,7 @@
                 "abmag": "19.288",
                 "instrument": "CSP",
                 "aberr": "0.030",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -266,7 +295,7 @@
                 "abmag": "18.194",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -275,7 +304,7 @@
                 "abmag": "17.604",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -284,7 +313,7 @@
                 "abmag": "17.855",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -293,7 +322,7 @@
                 "abmag": "17.565",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -302,7 +331,7 @@
                 "abmag": "18.207",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -311,7 +340,7 @@
                 "abmag": "19.535",
                 "instrument": "CSP",
                 "aberr": "0.037",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -320,7 +349,7 @@
                 "abmag": "18.487",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -329,7 +358,7 @@
                 "abmag": "17.738",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -338,7 +367,7 @@
                 "abmag": "18.096",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -347,7 +376,7 @@
                 "abmag": "17.629",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -356,7 +385,7 @@
                 "abmag": "18.161",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -365,7 +394,7 @@
                 "abmag": "19.750",
                 "instrument": "CSP",
                 "aberr": "0.042",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -374,7 +403,7 @@
                 "abmag": "18.628",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -383,7 +412,7 @@
                 "abmag": "17.846",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -392,7 +421,7 @@
                 "abmag": "18.248",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -401,7 +430,7 @@
                 "abmag": "17.639",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -410,7 +439,7 @@
                 "abmag": "18.121",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -419,7 +448,7 @@
                 "abmag": "19.961",
                 "instrument": "CSP",
                 "aberr": "0.043",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -428,7 +457,7 @@
                 "abmag": "18.791",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -437,7 +466,7 @@
                 "abmag": "17.918",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -446,7 +475,7 @@
                 "abmag": "18.368",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -455,7 +484,7 @@
                 "abmag": "17.669",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -464,7 +493,7 @@
                 "abmag": "18.083",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -473,7 +502,7 @@
                 "abmag": "20.162",
                 "instrument": "CSP",
                 "aberr": "0.096",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -482,7 +511,7 @@
                 "abmag": "19.224",
                 "instrument": "CSP",
                 "aberr": "0.021",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -491,7 +520,7 @@
                 "abmag": "18.235",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -500,7 +529,7 @@
                 "abmag": "18.852",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -509,7 +538,7 @@
                 "abmag": "17.833",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -518,7 +547,7 @@
                 "abmag": "17.998",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -527,7 +556,7 @@
                 "abmag": "20.456",
                 "instrument": "CSP",
                 "aberr": "0.214",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -536,7 +565,7 @@
                 "abmag": "19.480",
                 "instrument": "CSP",
                 "aberr": "0.049",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -545,7 +574,7 @@
                 "abmag": "18.462",
                 "instrument": "CSP",
                 "aberr": "0.026",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -554,7 +583,7 @@
                 "abmag": "19.036",
                 "instrument": "CSP",
                 "aberr": "0.031",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -563,7 +592,7 @@
                 "abmag": "17.993",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -572,7 +601,7 @@
                 "abmag": "18.031",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -581,7 +610,7 @@
                 "abmag": "19.503",
                 "instrument": "CSP",
                 "aberr": "0.140",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -590,7 +619,7 @@
                 "abmag": "18.478",
                 "instrument": "CSP",
                 "aberr": "0.048",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -599,7 +628,7 @@
                 "abmag": "19.855",
                 "instrument": "CSP",
                 "aberr": "0.073",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -608,7 +637,7 @@
                 "abmag": "18.895",
                 "instrument": "CSP",
                 "aberr": "0.034",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -617,7 +646,7 @@
                 "abmag": "19.482",
                 "instrument": "CSP",
                 "aberr": "0.030",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -626,7 +655,7 @@
                 "abmag": "18.490",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -635,7 +664,7 @@
                 "abmag": "18.555",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -644,7 +673,7 @@
                 "abmag": "19.987",
                 "instrument": "CSP",
                 "aberr": "0.035",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -653,7 +682,7 @@
                 "abmag": "18.983",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -662,7 +691,7 @@
                 "abmag": "19.584",
                 "instrument": "CSP",
                 "aberr": "0.018",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -671,7 +700,7 @@
                 "abmag": "18.534",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -680,7 +709,7 @@
                 "abmag": "18.632",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -689,7 +718,7 @@
                 "abmag": "20.030",
                 "instrument": "CSP",
                 "aberr": "0.032",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -698,7 +727,7 @@
                 "abmag": "19.028",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -707,7 +736,7 @@
                 "abmag": "19.594",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -716,7 +745,7 @@
                 "abmag": "18.580",
                 "instrument": "CSP",
                 "aberr": "0.017",
-                "source": "1"
+                "source": "2"
             },
             {
                 "timeunit": "MJD",
@@ -725,7 +754,7 @@
                 "abmag": "18.703",
                 "instrument": "CSP",
                 "aberr": "0.019",
-                "source": "1"
+                "source": "2"
             }
         ],
         "spectra": [
@@ -7891,7 +7920,7 @@
                         "5.26535e-17"
                     ]
                 ],
-                "source": "7"
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -21244,7 +21273,7 @@
                         "1.0531977e-17"
                     ]
                 ],
-                "source": "6"
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -35443,7 +35472,7 @@
                         "0.0570678"
                     ]
                 ],
-                "source": "8"
+                "source": "1"
             },
             {
                 "deredshifted": true,
@@ -42607,7 +42636,7 @@
                         "1.05406e-16"
                     ]
                 ],
-                "source": "7"
+                "source": "8"
             },
             {
                 "deredshifted": true,
@@ -49771,7 +49800,7 @@
                         "1.49363e-16"
                     ]
                 ],
-                "source": "7"
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -63970,7 +63999,7 @@
                         "0.0488363"
                     ]
                 ],
-                "source": "8"
+                "source": "1"
             },
             {
                 "deredshifted": true,
@@ -71134,7 +71163,7 @@
                         "6.23856e-17"
                     ]
                 ],
-                "source": "7"
+                "source": "8"
             }
         ]
     }

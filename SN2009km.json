@@ -13,14 +13,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001900/CBET001996.txt'>CBET 1996</a>",
+                "alias": "2"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001900/CBET001996.txt'>CBET 1996</a>",
-                "alias": "3"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "3",
+                "secondary": true
             },
             {
                 "name": "Stan Howerton",
@@ -35,8 +35,8 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "1,2"
+                "value": "Ia",
+                "source": "1,2,3"
             }
         ],
         "discoverday": "22",
@@ -45,15 +45,30 @@
         "discoveryear": "2009",
         "galdec": "-144901",
         "galra": "030259",
-        "host": "A030259-1449",
-        "hvel": "5500",
-        "lumdist": "85.3",
-        "maxabsmag": "-18.8",
+        "host": [
+            {
+                "value": "A030259-1449",
+                "source": "1"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "5500",
+                "source": "1"
+            }
+        ],
+        "lumdist": "82.1",
+        "maxabsmag": "-18.7",
         "maxappmag": "15.9",
         "maxday": "31",
         "maxmonth": "10",
         "maxyear": "2009",
-        "redshift": "0.019",
+        "redshift": [
+            {
+                "value": "0.018300",
+                "source": "2,3"
+            }
+        ],
         "sndec": "-14:49:01.9",
         "snra": "03:02:59.01",
         "photometry": [
@@ -62,28 +77,28 @@
                 "time": "55126.5",
                 "band": "",
                 "abmag": "16.0",
-                "source": "3,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "55130.652",
                 "band": "C",
                 "abmag": "16.0",
-                "source": "4,2"
+                "source": "4,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "55135.37",
                 "band": "C",
                 "abmag": "15.9",
-                "source": "4,2"
+                "source": "4,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "55154.159",
                 "band": "C",
                 "abmag": "16.5",
-                "source": "4,2"
+                "source": "4,3"
             }
         ]
     }

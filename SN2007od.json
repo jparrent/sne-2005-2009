@@ -24,14 +24,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "4",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001100/CBET001116.txt'>CBET 1116</a>",
+                "alias": "4"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001100/CBET001116.txt'>CBET 1116</a>",
-                "alias": "5"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "5",
+                "secondary": true
             },
             {
                 "name": "LLA",
@@ -58,12 +58,12 @@
         ],
         "claimedtype": [
             {
-                "type": "II P",
+                "value": "II P",
                 "source": "3"
             },
             {
-                "type": "II",
-                "source": "4"
+                "value": "II",
+                "source": "4,5"
             }
         ],
         "discoverday": "2",
@@ -72,15 +72,30 @@
         "discoveryear": "2007",
         "galdec": "+182530",
         "galra": "235546",
-        "host": "UGC 12846",
-        "hvel": "1739",
-        "lumdist": "25.8632",
-        "maxabsmag": "-18.4534",
+        "host": [
+            {
+                "value": "UGC 12846",
+                "source": "3,4,5"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "1739",
+                "source": "3"
+            }
+        ],
+        "lumdist": "26",
+        "maxabsmag": "-18",
         "maxappmag": "13.61",
         "maxday": "17",
         "maxmonth": "11",
         "maxyear": "2007",
-        "redshift": "0.005818",
+        "redshift": [
+            {
+                "value": "0.005800",
+                "source": "4,5"
+            }
+        ],
         "sndec": "+18:24:54.8",
         "snra": "23:55:48.68",
         "photometry": [
@@ -96,7 +111,7 @@
                 "time": "54407.5",
                 "band": "",
                 "abmag": "14.1",
-                "source": "5,4"
+                "source": "4,5"
             },
             {
                 "timeunit": "MJD",
@@ -117,14 +132,14 @@
                 "time": "54408.761",
                 "band": "CR",
                 "abmag": "14.1",
-                "source": "6,4"
+                "source": "6,5"
             },
             {
                 "timeunit": "MJD",
                 "time": "54409.754",
                 "band": "CR",
                 "abmag": "14.1",
-                "source": "6,4"
+                "source": "6,5"
             },
             {
                 "timeunit": "MJD",
@@ -211,21 +226,21 @@
                 "time": "54413.894",
                 "band": "CR",
                 "abmag": "14.2",
-                "source": "7,4"
+                "source": "7,5"
             },
             {
                 "timeunit": "MJD",
                 "time": "54415.752",
                 "band": "CR",
                 "abmag": "14.2",
-                "source": "6,4"
+                "source": "6,5"
             },
             {
                 "timeunit": "MJD",
                 "time": "54415.767",
                 "band": "CR",
                 "abmag": "14.2",
-                "source": "7,4"
+                "source": "7,5"
             },
             {
                 "timeunit": "MJD",
@@ -288,7 +303,7 @@
                 "time": "54417.847",
                 "band": "CR",
                 "abmag": "14.07",
-                "source": "8,4"
+                "source": "8,5"
             },
             {
                 "timeunit": "MJD",
@@ -359,7 +374,7 @@
                 "time": "54421.726",
                 "band": "CR",
                 "abmag": "14.3",
-                "source": "7,4"
+                "source": "7,5"
             },
             {
                 "timeunit": "MJD",
@@ -414,21 +429,21 @@
                 "time": "54430.726",
                 "band": "CR",
                 "abmag": "14.5",
-                "source": "7,4"
+                "source": "7,5"
             },
             {
                 "timeunit": "MJD",
                 "time": "54430.798",
                 "band": "CR",
                 "abmag": "14.1",
-                "source": "9,4"
+                "source": "9,5"
             },
             {
                 "timeunit": "MJD",
                 "time": "54430.825",
                 "band": "CR",
                 "abmag": "14.6",
-                "source": "9,4"
+                "source": "9,5"
             },
             {
                 "timeunit": "MJD",
@@ -515,7 +530,7 @@
                 "time": "54439.746",
                 "band": "CR",
                 "abmag": "14.5",
-                "source": "7,4"
+                "source": "7,5"
             },
             {
                 "timeunit": "MJD",
@@ -594,7 +609,7 @@
                 "time": "54446.758",
                 "band": "CR",
                 "abmag": "14.6",
-                "source": "6,4"
+                "source": "6,5"
             },
             {
                 "timeunit": "MJD",
@@ -665,7 +680,7 @@
                 "time": "54453.743",
                 "band": "CR",
                 "abmag": "14.7",
-                "source": "7,4"
+                "source": "7,5"
             },
             {
                 "timeunit": "MJD",
@@ -800,7 +815,7 @@
                 "time": "54465.758",
                 "band": "CR",
                 "abmag": "14.9",
-                "source": "7,4"
+                "source": "7,5"
             },
             {
                 "timeunit": "MJD",
@@ -847,7 +862,7 @@
                 "time": "54488.736",
                 "band": "CR",
                 "abmag": "15.3",
-                "source": "7,4"
+                "source": "7,5"
             },
             {
                 "timeunit": "MJD",

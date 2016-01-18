@@ -6,14 +6,14 @@
         ],
         "sources": [
             {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "name": "Asiago Supernova Catalogue",
+                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
@@ -22,15 +22,15 @@
                 "alias": "3"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            },
-            {
-                "name": "2012MNRAS.425.1789S",
-                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
-                "bibcode": "2012MNRAS.425.1789S",
                 "alias": "5"
             },
             {
@@ -42,17 +42,32 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "1,2,5,6"
+                "value": "Ia",
+                "source": "2,3,4,1,6"
             }
         ],
         "discoverday": "21",
         "discoverer": "CRTS",
         "discovermonth": "9",
         "discoveryear": "2008",
+        "ebv": [
+            {
+                "value": "0.023",
+                "source": "1"
+            }
+        ],
         "galdec": "+031305",
         "galra": "012705",
-        "host": "A012705+0313",
+        "host": [
+            {
+                "value": "CRTS J012705.78+031305.7",
+                "source": "1"
+            },
+            {
+                "value": "A012705+0313",
+                "source": "2"
+            }
+        ],
         "maxappmag": "17.8",
         "maxday": "21",
         "maxmonth": "9",
@@ -65,7 +80,7 @@
                 "time": "54730.5",
                 "band": "",
                 "abmag": "17.8",
-                "source": "3,2"
+                "source": "3,4"
             }
         ]
     }

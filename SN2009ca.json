@@ -12,14 +12,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001700/CBET001750.txt'>CBET 1750</a>",
+                "alias": "2"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001700/CBET001750.txt'>CBET 1750</a>",
-                "alias": "3"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "3",
+                "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
@@ -30,8 +30,8 @@
         ],
         "claimedtype": [
             {
-                "type": "Ic",
-                "source": "1,2"
+                "value": "Ic",
+                "source": "1,2,3"
             }
         ],
         "discoverday": "2",
@@ -40,15 +40,30 @@
         "discoveryear": "2009",
         "galdec": "-405148",
         "galra": "212622",
-        "host": "A212622-4051",
-        "hvel": "26980",
-        "lumdist": "447.25",
-        "maxabsmag": "-20.753",
+        "host": [
+            {
+                "value": "A212622-4051",
+                "source": "1"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "26981",
+                "source": "1"
+            }
+        ],
+        "lumdist": "424",
+        "maxabsmag": "-20.6",
         "maxappmag": "17.5",
         "maxday": "2",
         "maxmonth": "4",
         "maxyear": "2009",
-        "redshift": "0.09444",
+        "redshift": [
+            {
+                "value": "0.089900",
+                "source": "2,3"
+            }
+        ],
         "sndec": "-40:51:48.6",
         "snra": "21:26:22.20",
         "photometry": [
@@ -57,7 +72,7 @@
                 "time": "54923.5",
                 "band": "",
                 "abmag": "17.5",
-                "source": "3,2"
+                "source": "2,3"
             }
         ]
     }

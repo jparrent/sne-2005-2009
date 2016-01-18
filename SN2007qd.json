@@ -6,14 +6,14 @@
         ],
         "sources": [
             {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "name": "Asiago Supernova Catalogue",
+                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
@@ -22,15 +22,15 @@
                 "alias": "3"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            },
-            {
-                "name": "2012MNRAS.425.1789S",
-                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
-                "bibcode": "2012MNRAS.425.1789S",
                 "alias": "5"
             },
             {
@@ -42,25 +42,54 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia P",
-                "source": "1,2,5,6"
+                "value": "Ia P",
+                "source": "2,3,4,1,6"
             }
         ],
         "discoverday": "30",
         "discoverer": "SDSS Collaboration",
         "discovermonth": "10",
         "discoveryear": "2007",
+        "ebv": [
+            {
+                "value": "0.035",
+                "source": "1"
+            }
+        ],
         "galdec": "-010000",
         "galra": "020933",
-        "host": "A020933-0100",
-        "hvel": "12940",
-        "lumdist": "201.833",
-        "maxabsmag": "-15.725",
+        "host": [
+            {
+                "value": "SDSS J020932.74-005959.6",
+                "source": "1"
+            },
+            {
+                "value": "A020933-0100",
+                "source": "2"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "12935",
+                "source": "1"
+            },
+            {
+                "value": "12939",
+                "source": "2"
+            }
+        ],
+        "lumdist": "197",
+        "maxabsmag": "-15.7",
         "maxappmag": "20.8",
         "maxday": "30",
         "maxmonth": "10",
         "maxyear": "2007",
-        "redshift": "0.04413",
+        "redshift": [
+            {
+                "value": "0.043100",
+                "source": "3,4"
+            }
+        ],
         "sndec": "-01:00:02.2",
         "snra": "02:09:33.56",
         "photometry": [
@@ -69,7 +98,7 @@
                 "time": "54403.5",
                 "band": "",
                 "abmag": "20.8",
-                "source": "3,2"
+                "source": "3,4"
             }
         ],
         "spectra": [
@@ -12114,7 +12143,7 @@
                         "0.00423526"
                     ]
                 ],
-                "source": "5"
+                "source": "1"
             }
         ]
     }

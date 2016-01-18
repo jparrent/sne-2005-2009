@@ -6,27 +6,32 @@
         ],
         "sources": [
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "1",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001900/CBET001931.txt'>CBET 1931</a>",
+                "alias": "1"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001900/CBET001931.txt'>CBET 1931</a>",
-                "alias": "2"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "2",
+                "secondary": true
             }
         ],
         "claimedtype": [
             {
-                "type": "II/LBV",
-                "source": "1"
+                "value": "II/LBV",
+                "source": "1,2"
             }
         ],
         "discoverday": "17",
         "discoverer": "Tom Boles",
         "discovermonth": "8",
         "discoveryear": "2009",
-        "host": "UGC 2773",
+        "host": [
+            {
+                "value": "UGC 2773",
+                "source": "1,2"
+            }
+        ],
         "maxappmag": "17.6",
         "maxday": "17",
         "maxmonth": "8",
@@ -39,7 +44,7 @@
                 "time": "55060.5",
                 "band": "",
                 "abmag": "17.6",
-                "source": "2,1"
+                "source": "1,2"
             }
         ]
     }

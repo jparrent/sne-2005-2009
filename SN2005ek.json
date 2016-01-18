@@ -18,14 +18,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08600/08604.html#Item1'>IAUC 8604</a>",
+                "alias": "3"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08600/08604.html#Item1'>IAUC 8604</a>",
-                "alias": "4"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "4",
+                "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
@@ -36,8 +36,8 @@
         ],
         "claimedtype": [
             {
-                "type": "Ic",
-                "source": "2,3"
+                "value": "Ic",
+                "source": "2,3,4"
             }
         ],
         "discoverday": "23",
@@ -46,15 +46,30 @@
         "discoveryear": "2005",
         "galdec": "+364710",
         "galra": "030543",
-        "host": "UGC 2526",
-        "hvel": "4996",
+        "host": [
+            {
+                "value": "UGC 2526",
+                "source": "2,3,4"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "4996",
+                "source": "2"
+            }
+        ],
         "lumdist": "75.35",
-        "maxabsmag": "-18.135",
+        "maxabsmag": "-18.14",
         "maxappmag": "16.25",
         "maxday": "28",
         "maxmonth": "9",
         "maxyear": "2005",
-        "redshift": "0.01681",
+        "redshift": [
+            {
+                "value": "0.01681",
+                "source": "D"
+            }
+        ],
         "sndec": "+36:46:10.6",
         "snra": "03:05:48.96",
         "photometry": [
@@ -63,7 +78,7 @@
                 "time": "53636.5",
                 "band": "",
                 "abmag": "19.5",
-                "source": "4,3"
+                "source": "3,4"
             },
             {
                 "timeunit": "MJD",

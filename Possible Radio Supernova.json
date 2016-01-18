@@ -6,27 +6,32 @@
         ],
         "sources": [
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "1",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/000800/CBET000842.txt'>CBET 842</a>",
+                "alias": "1"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/000800/CBET000842.txt'>CBET 842</a>",
-                "alias": "2"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "2",
+                "secondary": true
             }
         ],
         "claimedtype": [
             {
-                "type": "Radio",
-                "source": "1"
+                "value": "Radio",
+                "source": "1,2"
             }
         ],
         "discoverday": "14",
         "discoverer": "Jodrell Bank Observatory",
         "discovermonth": "12",
         "discoveryear": "2007",
-        "host": "NGC 3628",
+        "host": [
+            {
+                "value": "NGC 3628",
+                "source": "1,2"
+            }
+        ],
         "maxappmag": "19.1",
         "maxday": "14",
         "maxmonth": "12",
@@ -39,7 +44,7 @@
                 "time": "54448.5",
                 "band": "",
                 "abmag": "19.1",
-                "source": "2,1"
+                "source": "1,2"
             }
         ]
     }

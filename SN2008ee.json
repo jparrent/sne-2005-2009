@@ -6,14 +6,14 @@
         ],
         "sources": [
             {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "name": "Asiago Supernova Catalogue",
+                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
@@ -22,19 +22,19 @@
                 "alias": "3"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "Stan Howerton",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "5"
-            },
-            {
-                "name": "2012MNRAS.425.1789S",
-                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
-                "bibcode": "2012MNRAS.425.1789S",
                 "alias": "6"
             },
             {
@@ -46,25 +46,46 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "1,2,6,7,6,7,6,7"
+                "value": "Ia",
+                "source": "2,3,4,1,7,1,7,1,7"
             }
         ],
         "discoverday": "27",
         "discoverer": "LOSS",
         "discovermonth": "7",
         "discoveryear": "2008",
+        "ebv": [
+            {
+                "value": "0.043",
+                "source": "1"
+            }
+        ],
         "galdec": "-014616",
         "galra": "005633",
-        "host": "NGC 307",
-        "hvel": "4002",
-        "lumdist": "60.092",
-        "maxabsmag": "-19.294",
+        "host": [
+            {
+                "value": "NGC 307",
+                "source": "1,2,3,4"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "4002",
+                "source": "2"
+            }
+        ],
+        "lumdist": "59.9",
+        "maxabsmag": "-19.3",
         "maxappmag": "14.6",
         "maxday": "29",
         "maxmonth": "6",
         "maxyear": "2009",
-        "redshift": "0.01344",
+        "redshift": [
+            {
+                "value": "0.013400",
+                "source": "3,4"
+            }
+        ],
         "sndec": "-01:46:16.0",
         "snra": "00:56:32.96",
         "photometry": [
@@ -73,14 +94,14 @@
                 "time": "54674.841",
                 "band": "C",
                 "abmag": "15.8",
-                "source": "4,2"
+                "source": "5,4"
             },
             {
                 "timeunit": "MJD",
                 "time": "55011.5",
                 "band": "",
                 "abmag": "14.6",
-                "source": "3,2"
+                "source": "3,4"
             }
         ]
     }

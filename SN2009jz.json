@@ -12,14 +12,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001900/CBET001984.txt'>CBET 1984</a>",
+                "alias": "2"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001900/CBET001984.txt'>CBET 1984</a>",
-                "alias": "3"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "3",
+                "secondary": true
             },
             {
                 "name": "Stan Howerton",
@@ -34,12 +34,12 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia P",
+                "value": "Ia P",
                 "source": "1"
             },
             {
-                "type": "Ia",
-                "source": "2"
+                "value": "Ia",
+                "source": "2,3"
             }
         ],
         "discoverday": "17",
@@ -48,15 +48,34 @@
         "discoveryear": "2009",
         "galdec": "-553223",
         "galra": "054010",
-        "host": "ESO 159-G23",
-        "hvel": "7183",
-        "lumdist": "109.3",
-        "maxabsmag": "-18.193",
+        "host": [
+            {
+                "value": "E159-G23",
+                "source": "1"
+            },
+            {
+                "value": "ESO 159-G23",
+                "source": "2,3"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "7183",
+                "source": "1"
+            }
+        ],
+        "lumdist": "110",
+        "maxabsmag": "-18",
         "maxappmag": "17",
         "maxday": "17",
         "maxmonth": "10",
         "maxyear": "2009",
-        "redshift": "0.02425",
+        "redshift": [
+            {
+                "value": "0.024000",
+                "source": "2,3"
+            }
+        ],
         "sndec": "-55:32:03.9",
         "snra": "05:40:05.30",
         "photometry": [
@@ -65,14 +84,14 @@
                 "time": "55121.5",
                 "band": "",
                 "abmag": "17.0",
-                "source": "3,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "55130.76",
                 "band": "C",
                 "abmag": "18.4",
-                "source": "4,2"
+                "source": "4,3"
             }
         ]
     }

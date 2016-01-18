@@ -12,14 +12,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iau/cbet/001600/CBET001662.txt'>CBET 1662</a>",
+                "alias": "2"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iau/cbet/001600/CBET001662.txt'>CBET 1662</a>",
-                "alias": "3"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "3",
+                "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
@@ -30,8 +30,8 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "1,2"
+                "value": "Ia",
+                "source": "1,2,3"
             }
         ],
         "discoverday": "26",
@@ -40,15 +40,30 @@
         "discoveryear": "2008",
         "galdec": "-072132",
         "galra": "081612",
-        "host": "A081612-0721",
-        "hvel": "19800",
-        "lumdist": "318.2",
-        "maxabsmag": "-18.81",
+        "host": [
+            {
+                "value": "A081612-0721",
+                "source": "1"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "19800",
+                "source": "1"
+            }
+        ],
+        "lumdist": "310",
+        "maxabsmag": "-19",
         "maxappmag": "18.7",
         "maxday": "26",
         "maxmonth": "11",
         "maxyear": "2008",
-        "redshift": "0.0684",
+        "redshift": [
+            {
+                "value": "0.066000",
+                "source": "2,3"
+            }
+        ],
         "sndec": "-07:21:32.3",
         "snra": "08:16:12.44",
         "photometry": [
@@ -57,7 +72,7 @@
                 "time": "54796.5",
                 "band": "",
                 "abmag": "18.7",
-                "source": "3,2"
+                "source": "2,3"
             }
         ]
     }

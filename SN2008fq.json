@@ -24,14 +24,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "4",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001500/CBET001507.txt'>CBET 1507</a>",
+                "alias": "4"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001500/CBET001507.txt'>CBET 1507</a>",
-                "alias": "5"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "5",
+                "secondary": true
             },
             {
                 "name": "Stan Howerton",
@@ -62,8 +62,8 @@
         ],
         "claimedtype": [
             {
-                "type": "II",
-                "source": "3,4,9,10,9,10,9,10,9,10,9,10,9,10,9,10,9,10"
+                "value": "II",
+                "source": "3,4,5,9,10,9,10,9,10,9,10,9,10,9,10,9,10,9,10"
             }
         ],
         "discoverday": "14",
@@ -72,15 +72,30 @@
         "discoveryear": "2008",
         "galdec": "-244830",
         "galra": "202507",
-        "host": "NGC 6907",
-        "hvel": "3162",
-        "lumdist": "47.29",
-        "maxabsmag": "-18.37",
+        "host": [
+            {
+                "value": "NGC 6907",
+                "source": "3,4,5"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "3162",
+                "source": "3"
+            }
+        ],
+        "lumdist": "47.3",
+        "maxabsmag": "-18.4",
         "maxappmag": "15",
         "maxday": "19",
         "maxmonth": "9",
         "maxyear": "2008",
-        "redshift": "0.0106",
+        "redshift": [
+            {
+                "value": "0.010600",
+                "source": "4,5"
+            }
+        ],
         "sndec": "-24:48:27.6",
         "snra": "20:25:06.19",
         "photometry": [
@@ -89,7 +104,7 @@
                 "time": "54723.5",
                 "band": "",
                 "abmag": "15.5",
-                "source": "5,4"
+                "source": "4,5"
             },
             {
                 "timeunit": "MJD",
@@ -158,7 +173,7 @@
                 "time": "54727.635",
                 "band": "C",
                 "abmag": "15.6",
-                "source": "6,4"
+                "source": "6,5"
             },
             {
                 "timeunit": "MJD",
@@ -213,7 +228,7 @@
                 "time": "54728.8776",
                 "band": "C",
                 "abmag": "15.0",
-                "source": "7,4"
+                "source": "7,5"
             },
             {
                 "timeunit": "MJD",
@@ -412,7 +427,7 @@
                 "time": "54740.819",
                 "band": "CR",
                 "abmag": "15.55",
-                "source": "4"
+                "source": "5"
             },
             {
                 "timeunit": "MJD",

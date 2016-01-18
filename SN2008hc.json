@@ -12,14 +12,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iau/cbet/001500/CBET001570.txt'>CBET 1570</a>",
+                "alias": "2"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iau/cbet/001500/CBET001570.txt'>CBET 1570</a>",
-                "alias": "3"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "3",
+                "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
@@ -30,8 +30,8 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "1,2"
+                "value": "Ia",
+                "source": "1,2,3"
             }
         ],
         "discoverday": "20",
@@ -40,15 +40,34 @@
         "discoveryear": "2008",
         "galdec": "+233344",
         "galra": "233827",
-        "host": "A233827+2333",
-        "hvel": "66000",
+        "host": [
+            {
+                "value": "A233827+2333",
+                "source": "1"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "66000",
+                "source": "D"
+            }
+        ],
         "lumdist": "1300",
         "maxabsmag": "-19",
         "maxappmag": "21.6",
         "maxday": "20",
         "maxmonth": "9",
         "maxyear": "2008",
-        "redshift": "0.25",
+        "redshift": [
+            {
+                "value": "0.25",
+                "source": "1"
+            },
+            {
+                "value": "0.250000",
+                "source": "2,3"
+            }
+        ],
         "sndec": "+23:33:44.3",
         "snra": "03:38:07.52",
         "photometry": [
@@ -57,7 +76,7 @@
                 "time": "54729.5",
                 "band": "",
                 "abmag": "21.6",
-                "source": "3,2"
+                "source": "2,3"
             }
         ]
     }

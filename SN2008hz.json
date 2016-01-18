@@ -6,14 +6,14 @@
         ],
         "sources": [
             {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "name": "Asiago Supernova Catalogue",
+                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
@@ -22,19 +22,19 @@
                 "alias": "3"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "Nic",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "5"
-            },
-            {
-                "name": "2012MNRAS.425.1789S",
-                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
-                "bibcode": "2012MNRAS.425.1789S",
                 "alias": "6"
             },
             {
@@ -46,25 +46,54 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "1,2,6,7"
+                "value": "Ia",
+                "source": "2,3,4,1,7"
             }
         ],
         "discoverday": "25",
         "discoverer": "Koichi Itagaki",
         "discovermonth": "11",
         "discoveryear": "2008",
+        "ebv": [
+            {
+                "value": "0.078",
+                "source": "1"
+            }
+        ],
         "galdec": "+421014",
         "galra": "004318",
-        "host": "Bol 469",
-        "hvel": "21900",
-        "lumdist": "355",
-        "maxabsmag": "-20.05",
+        "host": [
+            {
+                "value": "SKHV 220",
+                "source": "1"
+            },
+            {
+                "value": "A004318+4210",
+                "source": "2"
+            },
+            {
+                "value": "Bol 469",
+                "source": "3,4"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "21900",
+                "source": "1,2"
+            }
+        ],
+        "lumdist": "300",
+        "maxabsmag": "-20",
         "maxappmag": "17.7",
         "maxday": "8",
         "maxmonth": "12",
         "maxyear": "2008",
-        "redshift": "0.0759",
+        "redshift": [
+            {
+                "value": "0.070000",
+                "source": "3,4"
+            }
+        ],
         "sndec": "+42:10:14.3",
         "snra": "00:43:18.65",
         "photometry": [
@@ -73,14 +102,14 @@
                 "time": "54795.5",
                 "band": "",
                 "abmag": "18.2",
-                "source": "3,2"
+                "source": "3,4"
             },
             {
                 "timeunit": "MJD",
                 "time": "54808.754",
                 "band": "CR",
                 "abmag": "17.7",
-                "source": "4,2"
+                "source": "5,4"
             }
         ],
         "spectra": [
@@ -14601,7 +14630,7 @@
                         "0.0292090"
                     ]
                 ],
-                "source": "6"
+                "source": "1"
             }
         ]
     }

@@ -12,14 +12,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08600/08647.html#Item1'>IAUC 8647</a>",
+                "alias": "2"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08600/08647.html#Item1'>IAUC 8647</a>",
-                "alias": "3"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "3",
+                "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
@@ -30,12 +30,12 @@
         ],
         "claimedtype": [
             {
-                "type": "IIn ?",
+                "value": "IIn ?",
                 "source": "1"
             },
             {
-                "type": "IIn",
-                "source": "2"
+                "value": "IIn",
+                "source": "2,3"
             }
         ],
         "discoverday": "23",
@@ -44,15 +44,34 @@
         "discoveryear": "2005",
         "galdec": "-104518",
         "galra": "044954",
-        "host": "MCG -2-13-13",
-        "hvel": "4472",
-        "lumdist": "67.281",
-        "maxabsmag": "-16.839",
+        "host": [
+            {
+                "value": "M-02-13-13",
+                "source": "1"
+            },
+            {
+                "value": "MCG -2-13-13",
+                "source": "2,3"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "4472",
+                "source": "1"
+            }
+        ],
+        "lumdist": "67.28",
+        "maxabsmag": "-16.84",
         "maxappmag": "17.3",
         "maxday": "23",
         "maxmonth": "12",
         "maxyear": "2005",
-        "redshift": "0.01503",
+        "redshift": [
+            {
+                "value": "0.01503",
+                "source": "D"
+            }
+        ],
         "sndec": "-10:45:23.4",
         "snra": "04:49:53.91",
         "photometry": [
@@ -61,7 +80,7 @@
                 "time": "53727.5",
                 "band": "",
                 "abmag": "17.3",
-                "source": "3,2"
+                "source": "2,3"
             }
         ]
     }

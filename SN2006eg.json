@@ -12,14 +12,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08700/08741.html#Item1'>IAUC 8741</a>",
+                "alias": "2"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08700/08741.html#Item1'>IAUC 8741</a>",
-                "alias": "3"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "3",
+                "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
@@ -30,8 +30,8 @@
         ],
         "claimedtype": [
             {
-                "type": "Ib/c",
-                "source": "1,2"
+                "value": "Ib/c",
+                "source": "1,2,3"
             }
         ],
         "discoverday": "19",
@@ -40,7 +40,16 @@
         "discoveryear": "2006",
         "galdec": "+191533",
         "galra": "023253",
-        "host": "CGCG 462-23",
+        "host": [
+            {
+                "value": "A023253+1915",
+                "source": "1"
+            },
+            {
+                "value": "CGCG 462-23",
+                "source": "2,3"
+            }
+        ],
         "maxappmag": "17.2",
         "maxday": "19",
         "maxmonth": "8",
@@ -53,7 +62,7 @@
                 "time": "53966.5",
                 "band": "",
                 "abmag": "17.2",
-                "source": "3,2"
+                "source": "2,3"
             }
         ]
     }

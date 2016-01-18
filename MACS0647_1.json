@@ -6,28 +6,38 @@
         ],
         "sources": [
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "1",
-                "secondary": true
+                "name": "<a href='http://www.astronomerstelegram.org/?read=723'>ATEL 723</a>",
+                "alias": "1"
             },
             {
-                "name": "<a href='http://www.astronomerstelegram.org/?read=723'>ATEL 723</a>",
-                "alias": "2"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "2",
+                "secondary": true
             }
         ],
         "discoverday": "24",
         "discoverer": "HST cluster SN project",
         "discovermonth": "2",
         "discoveryear": "2006",
-        "hvel": "129000",
+        "hvel": [
+            {
+                "value": "129000",
+                "source": "D"
+            }
+        ],
         "lumdist": "3520",
         "maxabsmag": "-20.2",
         "maxappmag": "22.5",
         "maxday": "24",
         "maxmonth": "2",
         "maxyear": "2006",
-        "redshift": "0.584",
+        "redshift": [
+            {
+                "value": "0.584000",
+                "source": "1,2"
+            }
+        ],
         "sndec": "+70:14:54.71",
         "snra": "06:47:30.025",
         "photometry": [
@@ -36,7 +46,7 @@
                 "time": "53790.5",
                 "band": "",
                 "abmag": "22.5",
-                "source": "2,1"
+                "source": "1,2"
             }
         ]
     }

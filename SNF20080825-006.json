@@ -2,34 +2,73 @@
     "SNF20080825-006": {
         "name": "SNF20080825-006",
         "aliases": [
-            "SNF20080825-006"
+            "SNF20080825-006",
+            "SN2008s3"
         ],
         "sources": [
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "1",
-                "secondary": true
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
             },
             {
                 "name": "<a href='http://snfactory.lbl.gov/'>SN Factory</a>",
                 "alias": "2"
+            },
+            {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "3",
+                "secondary": true
+            },
+            {
+                "name": "UCB Filippenko Group's Supernova Database (SNDB)",
+                "url": "http://heracles.astro.berkeley.edu/sndb/info",
+                "alias": "4",
+                "secondary": true
             }
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "1"
+                "value": "Ia",
+                "source": "2,3,1,4"
             }
         ],
         "discoverday": "24",
         "discoverer": "Nearby Supernova Factory",
         "discovermonth": "8",
         "discoveryear": "2008",
+        "ebv": [
+            {
+                "value": "0.056",
+                "source": "1"
+            }
+        ],
+        "host": [
+            {
+                "value": "2MASX J23004648+0734590",
+                "source": "1"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "12291",
+                "source": "1"
+            }
+        ],
+        "lumdist": "191.19",
+        "maxabsmag": "-18.307",
         "maxappmag": "18.1",
         "maxday": "24",
         "maxmonth": "8",
         "maxyear": "2008",
+        "redshift": [
+            {
+                "value": "0.041874",
+                "source": "D"
+            }
+        ],
         "sndec": "+07:34:42.0",
         "snra": "23:00:47.49",
         "photometry": [
@@ -38,7 +77,7 @@
                 "time": "54702.5",
                 "band": "",
                 "abmag": "18.1",
-                "source": "2,1"
+                "source": "2,3"
             }
         ]
     }

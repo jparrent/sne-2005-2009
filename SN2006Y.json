@@ -12,14 +12,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08600/08668.html#Item2'>IAUC 8668</a>",
+                "alias": "2"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08600/08668.html#Item2'>IAUC 8668</a>",
-                "alias": "3"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "3",
+                "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
@@ -30,8 +30,8 @@
         ],
         "claimedtype": [
             {
-                "type": "II",
-                "source": "1,2"
+                "value": "II",
+                "source": "1,2,3"
             }
         ],
         "discoverday": "2",
@@ -40,15 +40,30 @@
         "discoveryear": "2006",
         "galdec": "-514118",
         "galra": "071317",
-        "host": "A071317-5141",
-        "hvel": "10070",
-        "lumdist": "155.224",
-        "maxabsmag": "-18.6548",
+        "host": [
+            {
+                "value": "A071317-5141",
+                "source": "1"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "10074",
+                "source": "1"
+            }
+        ],
+        "lumdist": "152",
+        "maxabsmag": "-18.6",
         "maxappmag": "17.3",
         "maxday": "2",
         "maxmonth": "2",
         "maxyear": "2006",
-        "redshift": "0.03419",
+        "redshift": [
+            {
+                "value": "0.033600",
+                "source": "2,3"
+            }
+        ],
         "sndec": "-51:41:18.8",
         "snra": "07:13:17.19",
         "photometry": [
@@ -57,7 +72,7 @@
                 "time": "53768.5",
                 "band": "",
                 "abmag": "17.3",
-                "source": "3,2"
+                "source": "2,3"
             }
         ]
     }

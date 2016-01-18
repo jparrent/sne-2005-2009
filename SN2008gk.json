@@ -12,14 +12,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001500/CBET001544.txt'>CBET 1544</a>",
+                "alias": "2"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001500/CBET001544.txt'>CBET 1544</a>",
-                "alias": "3"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "3",
+                "secondary": true
             },
             {
                 "name": "Diego Rodriguez",
@@ -34,8 +34,8 @@
         ],
         "claimedtype": [
             {
-                "type": "Ib/c",
-                "source": "1,2"
+                "value": "Ib/c",
+                "source": "1,2,3"
             }
         ],
         "discoverday": "19",
@@ -44,7 +44,12 @@
         "discoveryear": "2008",
         "galdec": "+384544",
         "galra": "185304",
-        "host": "A185304+3845",
+        "host": [
+            {
+                "value": "A185304+3845",
+                "source": "1"
+            }
+        ],
         "maxappmag": "17",
         "maxday": "24",
         "maxmonth": "10",
@@ -57,14 +62,14 @@
                 "time": "54758.5",
                 "band": "",
                 "abmag": "17.7",
-                "source": "3,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "54763.773",
                 "band": "CR",
                 "abmag": "17.00",
-                "source": "4,2"
+                "source": "4,3"
             }
         ]
     }

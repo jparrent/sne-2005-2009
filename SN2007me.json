@@ -12,14 +12,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001100/CBET001102.txt'>CBET 1102</a>",
+                "alias": "2"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001100/CBET001102.txt'>CBET 1102</a>",
-                "alias": "3"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "3",
+                "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
@@ -30,12 +30,12 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia/c",
+                "value": "Ia/c",
                 "source": "1"
             },
             {
-                "type": "Ia/Ic?",
-                "source": "2"
+                "value": "Ia/Ic?",
+                "source": "2,3"
             }
         ],
         "discoverday": "7",
@@ -44,7 +44,12 @@
         "discoveryear": "2007",
         "galdec": "-002654",
         "galra": "014103",
-        "host": "A014103-0026",
+        "host": [
+            {
+                "value": "A014103-0026",
+                "source": "1"
+            }
+        ],
         "maxappmag": "21.1",
         "maxday": "7",
         "maxmonth": "10",
@@ -57,7 +62,7 @@
                 "time": "54380.5",
                 "band": "",
                 "abmag": "21.1",
-                "source": "3,2"
+                "source": "2,3"
             }
         ]
     }

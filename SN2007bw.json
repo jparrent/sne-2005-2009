@@ -12,14 +12,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/000900/CBET000941.txt'>CBET 941</a>",
+                "alias": "2"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/000900/CBET000941.txt'>CBET 941</a>",
-                "alias": "3"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "3",
+                "secondary": true
             },
             {
                 "name": "Nic",
@@ -34,8 +34,8 @@
         ],
         "claimedtype": [
             {
-                "type": "IIn",
-                "source": "1,2"
+                "value": "IIn",
+                "source": "1,2,3"
             }
         ],
         "discoverday": "21",
@@ -44,15 +44,34 @@
         "discoveryear": "2007",
         "galdec": "+243036",
         "galra": "171101",
-        "host": "A171101+2430",
-        "hvel": "39000",
+        "host": [
+            {
+                "value": "A171101+2430",
+                "source": "1"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "39000",
+                "source": "D"
+            }
+        ],
         "lumdist": "680",
         "maxabsmag": "-22",
         "maxappmag": "16.9",
         "maxday": "21",
         "maxmonth": "4",
         "maxyear": "2007",
-        "redshift": "0.14",
+        "redshift": [
+            {
+                "value": "0.14",
+                "source": "1"
+            },
+            {
+                "value": "0.140000",
+                "source": "2,3"
+            }
+        ],
         "sndec": "+24:30:36.4",
         "snra": "17:11:01.99",
         "photometry": [
@@ -61,14 +80,14 @@
                 "time": "54211.5",
                 "band": "",
                 "abmag": "16.9",
-                "source": "3,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "54217.942",
                 "band": "CR",
                 "abmag": "16.9",
-                "source": "4,2"
+                "source": "4,3"
             }
         ]
     }

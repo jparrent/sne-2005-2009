@@ -6,14 +6,14 @@
         ],
         "sources": [
             {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "name": "Asiago Supernova Catalogue",
+                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
@@ -22,22 +22,22 @@
                 "alias": "3"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "5",
+                "alias": "6",
                 "secondary": true
-            },
-            {
-                "name": "2012MNRAS.425.1789S",
-                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
-                "bibcode": "2012MNRAS.425.1789S",
-                "alias": "6"
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
@@ -48,25 +48,46 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "1,2,6,7"
+                "value": "Ia",
+                "source": "2,3,4,1,7"
             }
         ],
         "discoverday": "17",
         "discoverer": "Grzegorz Duszanowicz",
         "discovermonth": "12",
         "discoveryear": "2006",
+        "ebv": [
+            {
+                "value": "0.015",
+                "source": "1"
+            }
+        ],
         "galdec": "+363151",
         "galra": "124656",
-        "host": "IC 3772",
-        "hvel": "14040",
-        "lumdist": "219.976",
-        "maxabsmag": "-19.3119",
+        "host": [
+            {
+                "value": "IC 3772",
+                "source": "1,2,3,4"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "14036",
+                "source": "2"
+            }
+        ],
+        "lumdist": "220",
+        "maxabsmag": "-19",
         "maxappmag": "17.4",
         "maxday": "17",
         "maxmonth": "12",
         "maxyear": "2006",
-        "redshift": "0.04797",
+        "redshift": [
+            {
+                "value": "0.047000",
+                "source": "3,4"
+            }
+        ],
         "sndec": "+36:32:01.8",
         "snra": "12:46:56.88",
         "photometry": [
@@ -75,7 +96,7 @@
                 "time": "54086.5",
                 "band": "",
                 "abmag": "17.4",
-                "source": "3,2"
+                "source": "3,4"
             }
         ],
         "spectra": [
@@ -31488,7 +31509,7 @@
                         "0.939194"
                     ]
                 ],
-                "source": "6"
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -44896,7 +44917,7 @@
                         "6.7549697e-18"
                     ]
                 ],
-                "source": "5"
+                "source": "6"
             }
         ]
     }

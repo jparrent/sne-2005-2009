@@ -30,14 +30,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "5",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08500/08500.html#Item2'>IAUC 8500</a>",
+                "alias": "5"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08500/08500.html#Item2'>IAUC 8500</a>",
-                "alias": "6"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "6",
+                "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
@@ -54,30 +54,50 @@
         ],
         "claimedtype": [
             {
-                "type": "II P",
+                "value": "II P",
                 "source": "4"
             },
             {
-                "type": "II",
-                "source": "5,1,8,1,8,1,8,1,8"
+                "value": "II",
+                "source": "5,6,1,8,1,8,1,8,1,8"
             }
         ],
         "discoverday": "28",
         "discoverer": "Doug Rich",
         "discovermonth": "3",
         "discoveryear": "2005",
-        "ebv": "0.0214",
+        "ebv": [
+            {
+                "value": "0.0214",
+                "source": "1"
+            }
+        ],
         "galdec": "+440715",
         "galra": "115249",
-        "host": "NGC 3938",
-        "hvel": "809",
-        "lumdist": "11.97",
-        "maxabsmag": "-15.76",
+        "host": [
+            {
+                "value": "NGC 3938",
+                "source": "4,5,6"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "809",
+                "source": "4"
+            }
+        ],
+        "lumdist": "12",
+        "maxabsmag": "-16",
         "maxappmag": "14.63",
         "maxday": "2",
         "maxmonth": "5",
         "maxyear": "2005",
-        "redshift": "0.0027",
+        "redshift": [
+            {
+                "value": "0.0027",
+                "source": "1"
+            }
+        ],
         "sndec": "+44:06:18.4",
         "snra": "11:52:48.07",
         "photometry": [
@@ -270,7 +290,7 @@
                 "time": "53466.5",
                 "band": "",
                 "abmag": "14.8",
-                "source": "6,5"
+                "source": "5,6"
             },
             {
                 "timeunit": "MJD",
