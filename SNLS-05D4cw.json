@@ -6,10 +6,46 @@
         ],
         "sources": [
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "1",
+                "secondary": true
+            },
+            {
+                "name": "2010A&A...523A...7G",
+                "url": "http://adsabs.harvard.edu/abs/2010A&A...523A...7G",
+                "bibcode": "2010A&A...523A...7G",
+                "alias": "2"
+            },
+            {
+                "name": "2011ApJS..192....1C",
+                "url": "http://adsabs.harvard.edu/abs/2011ApJS..192....1C",
+                "bibcode": "2011ApJS..192....1C",
+                "alias": "3"
+            },
+            {
+                "name": "2009ApJ...704.1036F",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...704.1036F",
+                "bibcode": "2009ApJ...704.1036F",
+                "alias": "4"
+            },
+            {
+                "name": "2013MNRAS.433.2240G",
+                "url": "http://adsabs.harvard.edu/abs/2013MNRAS.433.2240G",
+                "bibcode": "2013MNRAS.433.2240G",
+                "alias": "5"
+            },
+            {
+                "name": "2012ApJ...748..127F",
+                "url": "http://adsabs.harvard.edu/abs/2012ApJ...748..127F",
+                "bibcode": "2012ApJ...748..127F",
+                "alias": "6"
+            },
+            {
                 "name": "2009A&A...507...85B",
                 "url": "http://adsabs.harvard.edu/abs/2009A&A...507...85B",
                 "bibcode": "2009A&A...507...85B",
-                "alias": "1"
+                "alias": "7"
             }
         ],
         "discoveryear": "2005",
@@ -19,11 +55,17 @@
                 "source": "D"
             }
         ],
-        "lumdist": "2080",
+        "lumdist": [
+            {
+                "value": "1210",
+                "error": "20",
+                "source": "3,1,3,1"
+            }
+        ],
         "redshift": [
             {
                 "value": "0.375",
-                "source": "1"
+                "source": "7"
             }
         ],
         "spectra": [
@@ -1269,7 +1311,7 @@
                         "2.22e-18"
                     ]
                 ],
-                "source": "1"
+                "source": "7"
             }
         ]
     }

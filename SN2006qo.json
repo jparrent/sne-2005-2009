@@ -47,16 +47,58 @@
                 "alias": "7"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "8",
+                "secondary": true
+            },
+            {
+                "name": "2010ApJ...716..712A",
+                "url": "http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+                "bibcode": "2010ApJ...716..712A",
+                "alias": "9"
+            },
+            {
+                "name": "2011ApJ...731..120M",
+                "url": "http://adsabs.harvard.edu/abs/2011ApJ...731..120M",
+                "bibcode": "2011ApJ...731..120M",
+                "alias": "10"
+            },
+            {
+                "name": "2014ApJ...795...44R",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...795...44R",
+                "bibcode": "2014ApJ...795...44R",
+                "alias": "11"
+            },
+            {
+                "name": "2013MNRAS.433.2240G",
+                "url": "http://adsabs.harvard.edu/abs/2013MNRAS.433.2240G",
+                "bibcode": "2013MNRAS.433.2240G",
+                "alias": "12"
+            },
+            {
+                "name": "2009ApJ...700.1097H",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...700.1097H",
+                "bibcode": "2009ApJ...700.1097H",
+                "alias": "13"
+            },
+            {
+                "name": "2011ApJS..192....1C",
+                "url": "http://adsabs.harvard.edu/abs/2011ApJS..192....1C",
+                "bibcode": "2011ApJS..192....1C",
+                "alias": "14"
+            },
+            {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "8",
+                "alias": "15",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
                 "value": "Ia",
-                "source": "4,5,6,1,8"
+                "source": "4,5,6,1,15"
             }
         ],
         "discoverday": "28",
@@ -87,8 +129,14 @@
                 "source": "4"
             }
         ],
-        "lumdist": "100",
-        "maxabsmag": "-20",
+        "lumdist": [
+            {
+                "value": "116",
+                "error": "2",
+                "source": "10,8"
+            }
+        ],
+        "maxabsmag": "-18.5",
         "maxappmag": "16.8",
         "maxday": "16",
         "maxmonth": "12",

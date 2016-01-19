@@ -6,10 +6,22 @@
         ],
         "sources": [
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "1",
+                "secondary": true
+            },
+            {
+                "name": "2010A&A...523A...7G",
+                "url": "http://adsabs.harvard.edu/abs/2010A&A...523A...7G",
+                "bibcode": "2010A&A...523A...7G",
+                "alias": "2"
+            },
+            {
                 "name": "2009A&A...507...85B",
                 "url": "http://adsabs.harvard.edu/abs/2009A&A...507...85B",
                 "bibcode": "2009A&A...507...85B",
-                "alias": "1"
+                "alias": "3"
             }
         ],
         "discoveryear": "2006",
@@ -19,11 +31,17 @@
                 "source": "D"
             }
         ],
-        "lumdist": "911",
+        "lumdist": [
+            {
+                "value": "269",
+                "error": "26",
+                "source": "2,1"
+            }
+        ],
         "redshift": [
             {
                 "value": "0.182",
-                "source": "1"
+                "source": "3"
             }
         ],
         "spectra": [
@@ -1265,7 +1283,7 @@
                         "5.478e-18"
                     ]
                 ],
-                "source": "1"
+                "source": "3"
             }
         ]
     }

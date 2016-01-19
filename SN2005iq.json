@@ -52,28 +52,112 @@
                 "alias": "8"
             },
             {
-                "name": "CfA Supernova Archive",
-                "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
                 "alias": "9",
                 "secondary": true
+            },
+            {
+                "name": "2010ApJ...716..712A",
+                "url": "http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+                "bibcode": "2010ApJ...716..712A",
+                "alias": "10"
+            },
+            {
+                "name": "2008ApJ...689..377W",
+                "url": "http://adsabs.harvard.edu/abs/2008ApJ...689..377W",
+                "bibcode": "2008ApJ...689..377W",
+                "alias": "11"
             },
             {
                 "name": "2013ApJ...773...53F",
                 "url": "http://adsabs.harvard.edu/abs/2013ApJ...773...53F",
                 "bibcode": "2013ApJ...773...53F",
-                "alias": "10"
+                "alias": "12"
+            },
+            {
+                "name": "2010AJ....139..120F",
+                "url": "http://adsabs.harvard.edu/abs/2010AJ....139..120F",
+                "bibcode": "2010AJ....139..120F",
+                "alias": "13"
+            },
+            {
+                "name": "2009ApJ...704..629M",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...704..629M",
+                "bibcode": "2009ApJ...704..629M",
+                "alias": "14"
+            },
+            {
+                "name": "2011AJ....141...19B",
+                "url": "http://adsabs.harvard.edu/abs/2011AJ....141...19B",
+                "bibcode": "2011AJ....141...19B",
+                "alias": "15"
+            },
+            {
+                "name": "2011ApJS..192....1C",
+                "url": "http://adsabs.harvard.edu/abs/2011ApJS..192....1C",
+                "bibcode": "2011ApJS..192....1C",
+                "alias": "16"
+            },
+            {
+                "name": "2009ApJ...704.1036F",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...704.1036F",
+                "bibcode": "2009ApJ...704.1036F",
+                "alias": "17"
+            },
+            {
+                "name": "2011ApJ...731..120M",
+                "url": "http://adsabs.harvard.edu/abs/2011ApJ...731..120M",
+                "bibcode": "2011ApJ...731..120M",
+                "alias": "18"
+            },
+            {
+                "name": "2014ApJ...784..105W",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...784..105W",
+                "bibcode": "2014ApJ...784..105W",
+                "alias": "19"
+            },
+            {
+                "name": "2013MNRAS.433.2240G",
+                "url": "http://adsabs.harvard.edu/abs/2013MNRAS.433.2240G",
+                "bibcode": "2013MNRAS.433.2240G",
+                "alias": "20"
+            },
+            {
+                "name": "2014ApJ...795...44R",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...795...44R",
+                "bibcode": "2014ApJ...795...44R",
+                "alias": "21"
+            },
+            {
+                "name": "2015Sci...347.1459K",
+                "url": "http://adsabs.harvard.edu/abs/2015Sci...347.1459K",
+                "bibcode": "2015Sci...347.1459K",
+                "alias": "22"
+            },
+            {
+                "name": "2009ApJ...700.1097H",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...700.1097H",
+                "bibcode": "2009ApJ...700.1097H",
+                "alias": "23"
+            },
+            {
+                "name": "CfA Supernova Archive",
+                "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
+                "alias": "24",
+                "secondary": true
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "11",
+                "alias": "25",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
                 "value": "Ia",
-                "source": "5,6,7,1,11"
+                "source": "5,6,7,1,25"
             }
         ],
         "discoverday": "4",
@@ -116,8 +200,14 @@
                 "source": "5"
             }
         ],
-        "lumdist": "149.37",
-        "maxabsmag": "-19.221",
+        "lumdist": [
+            {
+                "value": "145",
+                "error": "1",
+                "source": "15,9,16,9"
+            }
+        ],
+        "maxabsmag": "-19.2",
         "maxappmag": "16.65",
         "maxday": "13",
         "maxmonth": "11",
@@ -46909,7 +46999,7 @@
                         "8.2105788e-18"
                     ]
                 ],
-                "source": "9"
+                "source": "24"
             },
             {
                 "deredshifted": true,
@@ -52628,7 +52718,7 @@
                         "2.82253e-16"
                     ]
                 ],
-                "source": "10"
+                "source": "12"
             },
             {
                 "deredshifted": true,
@@ -59791,7 +59881,7 @@
                         "5.97045e-17"
                     ]
                 ],
-                "source": "10"
+                "source": "12"
             }
         ]
     }

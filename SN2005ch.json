@@ -29,9 +29,39 @@
                 "alias": "4"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "5",
+                "secondary": true
+            },
+            {
+                "name": "2009ApJ...704..629M",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...704..629M",
+                "bibcode": "2009ApJ...704..629M",
+                "alias": "6"
+            },
+            {
+                "name": "2008ApJ...689..377W",
+                "url": "http://adsabs.harvard.edu/abs/2008ApJ...689..377W",
+                "bibcode": "2008ApJ...689..377W",
+                "alias": "7"
+            },
+            {
+                "name": "2011ApJ...731..120M",
+                "url": "http://adsabs.harvard.edu/abs/2011ApJ...731..120M",
+                "bibcode": "2011ApJ...731..120M",
+                "alias": "8"
+            },
+            {
+                "name": "2014ApJ...784..105W",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...784..105W",
+                "bibcode": "2014ApJ...784..105W",
+                "alias": "9"
+            },
+            {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "5",
+                "alias": "10",
                 "secondary": true
             }
         ],
@@ -53,6 +83,14 @@
                 "source": "1"
             }
         ],
+        "lumdist": [
+            {
+                "value": "110",
+                "error": "1",
+                "source": "6,5,7,5,8,5"
+            }
+        ],
+        "maxabsmag": "-20",
         "maxappmag": "15.5",
         "maxday": "15",
         "maxmonth": "6",
@@ -13455,7 +13493,7 @@
                         "1.7682986e-17"
                     ]
                 ],
-                "source": "5"
+                "source": "10"
             }
         ]
     }

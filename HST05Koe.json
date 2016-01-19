@@ -15,6 +15,42 @@
                 "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
                 "alias": "2",
                 "secondary": true
+            },
+            {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "3",
+                "secondary": true
+            },
+            {
+                "name": "2010ApJ...716..712A",
+                "url": "http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+                "bibcode": "2010ApJ...716..712A",
+                "alias": "4"
+            },
+            {
+                "name": "2008ApJ...686..749K",
+                "url": "http://adsabs.harvard.edu/abs/2008ApJ...686..749K",
+                "bibcode": "2008ApJ...686..749K",
+                "alias": "5"
+            },
+            {
+                "name": "2009ApJ...700.1097H",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...700.1097H",
+                "bibcode": "2009ApJ...700.1097H",
+                "alias": "6"
+            },
+            {
+                "name": "2009ApJS..185...32K",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJS..185...32K",
+                "bibcode": "2009ApJS..185...32K",
+                "alias": "7"
+            },
+            {
+                "name": "2007ApJ...659...98R",
+                "url": "http://adsabs.harvard.edu/abs/2007ApJ...659...98R",
+                "bibcode": "2007ApJ...659...98R",
+                "alias": "8"
             }
         ],
         "claimedtype": [
@@ -33,8 +69,14 @@
                 "source": "D"
             }
         ],
-        "lumdist": "8770",
-        "maxabsmag": "-18.8",
+        "lumdist": [
+            {
+                "value": "2820",
+                "error": "800",
+                "source": "4,3"
+            }
+        ],
+        "maxabsmag": "-16.4",
         "maxappmag": "25.9",
         "maxday": "11",
         "maxmonth": "4",

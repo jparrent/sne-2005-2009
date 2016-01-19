@@ -35,9 +35,21 @@
                 "alias": "5"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "6",
+                "secondary": true
+            },
+            {
+                "name": "2014arXiv1401.3317S",
+                "url": "http://adsabs.harvard.edu/abs/2014arXiv1401.3317S",
+                "bibcode": "2014arXiv1401.3317S",
+                "alias": "7"
+            },
+            {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "6",
+                "alias": "8",
                 "secondary": true
             }
         ],
@@ -73,8 +85,14 @@
                 "source": "2"
             }
         ],
-        "lumdist": "90",
-        "maxabsmag": "-20",
+        "lumdist": [
+            {
+                "value": "131",
+                "error": "3",
+                "source": "7,6"
+            }
+        ],
+        "maxabsmag": "-19.6",
         "maxappmag": "16",
         "maxday": "21",
         "maxmonth": "9",
@@ -12505,7 +12523,7 @@
                         "0.40448600"
                     ]
                 ],
-                "source": "6"
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -23236,7 +23254,7 @@
                         "0.50685328"
                     ]
                 ],
-                "source": "6"
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -33963,7 +33981,7 @@
                         "0.41144323"
                     ]
                 ],
-                "source": "6"
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -47059,7 +47077,7 @@
                         "0.020966541"
                     ]
                 ],
-                "source": "6"
+                "source": "8"
             }
         ]
     }

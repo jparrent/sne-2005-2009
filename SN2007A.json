@@ -58,8 +58,8 @@
                 "alias": "10"
             },
             {
-                "name": "CfA Supernova Archive",
-                "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
                 "alias": "11",
                 "secondary": true
             },
@@ -70,16 +70,34 @@
                 "alias": "12"
             },
             {
+                "name": "2014ApJ...784..105W",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...784..105W",
+                "bibcode": "2014ApJ...784..105W",
+                "alias": "13"
+            },
+            {
+                "name": "2014ApJ...795...44R",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...795...44R",
+                "bibcode": "2014ApJ...795...44R",
+                "alias": "14"
+            },
+            {
+                "name": "CfA Supernova Archive",
+                "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
+                "alias": "15",
+                "secondary": true
+            },
+            {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "13",
+                "alias": "16",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
                 "value": "Ia",
-                "source": "4,5,6,1,13,1,13,1,13"
+                "source": "4,5,6,1,16,1,16,1,16"
             }
         ],
         "discoverday": "7",
@@ -106,8 +124,14 @@
                 "source": "1,4"
             }
         ],
-        "lumdist": "73.775",
-        "maxabsmag": "-19.44",
+        "lumdist": [
+            {
+                "value": "71.6",
+                "error": "2",
+                "source": "13,11"
+            }
+        ],
+        "maxabsmag": "-19.4",
         "maxappmag": "14.9",
         "maxday": "29",
         "maxmonth": "1",
@@ -30933,7 +30957,7 @@
                         "2.7592854e-17"
                     ]
                 ],
-                "source": "11"
+                "source": "15"
             },
             {
                 "deredshifted": false,
@@ -44341,7 +44365,7 @@
                         "2.4123031e-17"
                     ]
                 ],
-                "source": "11"
+                "source": "15"
             },
             {
                 "deredshifted": true,
@@ -77910,7 +77934,7 @@
                         "2.0056616e-17"
                     ]
                 ],
-                "source": "11"
+                "source": "15"
             },
             {
                 "deredshifted": true,

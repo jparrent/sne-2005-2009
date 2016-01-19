@@ -35,10 +35,28 @@
                 "alias": "5"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "6",
+                "secondary": true
+            },
+            {
                 "name": "2013ApJ...773...53F",
                 "url": "http://adsabs.harvard.edu/abs/2013ApJ...773...53F",
                 "bibcode": "2013ApJ...773...53F",
-                "alias": "6"
+                "alias": "7"
+            },
+            {
+                "name": "2014ApJ...795...44R",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...795...44R",
+                "bibcode": "2014ApJ...795...44R",
+                "alias": "8"
+            },
+            {
+                "name": "2015Sci...347.1459K",
+                "url": "http://adsabs.harvard.edu/abs/2015Sci...347.1459K",
+                "bibcode": "2015Sci...347.1459K",
+                "alias": "9"
             }
         ],
         "claimedtype": [
@@ -73,8 +91,14 @@
                 "source": "2"
             }
         ],
-        "lumdist": "112.8",
-        "maxabsmag": "-19.44",
+        "lumdist": [
+            {
+                "value": "101",
+                "error": "3",
+                "source": "9,6"
+            }
+        ],
+        "maxabsmag": "-19.2",
         "maxappmag": "15.82",
         "maxday": "12",
         "maxmonth": "1",
@@ -82,7 +106,7 @@
         "redshift": [
             {
                 "value": "0.02501",
-                "source": "6"
+                "source": "7"
             }
         ],
         "sndec": "-19:10:54.2",
@@ -12310,7 +12334,7 @@
                         "1.28903e-16"
                     ]
                 ],
-                "source": "6"
+                "source": "7"
             },
             {
                 "deredshifted": true,
@@ -16361,7 +16385,7 @@
                         "2.33628e-16"
                     ]
                 ],
-                "source": "6"
+                "source": "7"
             },
             {
                 "deredshifted": true,
@@ -20388,7 +20412,7 @@
                         "1.22839e-15"
                     ]
                 ],
-                "source": "6"
+                "source": "7"
             },
             {
                 "deredshifted": true,
@@ -32831,7 +32855,7 @@
                         "6.479889E-16"
                     ]
                 ],
-                "source": "6"
+                "source": "7"
             },
             {
                 "deredshifted": true,
@@ -45274,7 +45298,7 @@
                         "6.523142E-16"
                     ]
                 ],
-                "source": "6"
+                "source": "7"
             },
             {
                 "deredshifted": true,
@@ -56945,7 +56969,7 @@
                         "7.97352e-17"
                     ]
                 ],
-                "source": "6"
+                "source": "7"
             },
             {
                 "deredshifted": true,
@@ -68416,7 +68440,7 @@
                         "9.76755e-17"
                     ]
                 ],
-                "source": "6"
+                "source": "7"
             },
             {
                 "deredshifted": true,
@@ -75579,7 +75603,7 @@
                         "2.80401e-17"
                     ]
                 ],
-                "source": "6"
+                "source": "7"
             }
         ]
     }

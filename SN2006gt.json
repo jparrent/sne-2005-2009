@@ -52,8 +52,8 @@
                 "alias": "8"
             },
             {
-                "name": "CfA Supernova Archive",
-                "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
                 "alias": "9",
                 "secondary": true
             },
@@ -64,16 +64,52 @@
                 "alias": "10"
             },
             {
+                "name": "2009ApJ...704.1036F",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...704.1036F",
+                "bibcode": "2009ApJ...704.1036F",
+                "alias": "11"
+            },
+            {
+                "name": "2010AJ....139..120F",
+                "url": "http://adsabs.harvard.edu/abs/2010AJ....139..120F",
+                "bibcode": "2010AJ....139..120F",
+                "alias": "12"
+            },
+            {
+                "name": "2011AJ....141...19B",
+                "url": "http://adsabs.harvard.edu/abs/2011AJ....141...19B",
+                "bibcode": "2011AJ....141...19B",
+                "alias": "13"
+            },
+            {
+                "name": "2014ApJ...784..105W",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...784..105W",
+                "bibcode": "2014ApJ...784..105W",
+                "alias": "14"
+            },
+            {
+                "name": "2009ApJ...700.1097H",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...700.1097H",
+                "bibcode": "2009ApJ...700.1097H",
+                "alias": "15"
+            },
+            {
+                "name": "CfA Supernova Archive",
+                "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
+                "alias": "16",
+                "secondary": true
+            },
+            {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "11",
+                "alias": "17",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
                 "value": "Ia",
-                "source": "5,6,7,1,11"
+                "source": "5,6,7,1,17"
             }
         ],
         "discoverday": "17",
@@ -108,8 +144,14 @@
                 "source": "1,5"
             }
         ],
-        "lumdist": "199.51",
-        "maxabsmag": "-18.7",
+        "lumdist": [
+            {
+                "value": "190",
+                "error": "2",
+                "source": "12,9"
+            }
+        ],
+        "maxabsmag": "-19",
         "maxappmag": "17.8",
         "maxday": "17",
         "maxmonth": "9",
@@ -35855,7 +35897,7 @@
                         "9.4584488e-18"
                     ]
                 ],
-                "source": "9"
+                "source": "16"
             },
             {
                 "deredshifted": false,
@@ -49263,7 +49305,7 @@
                         "7.2028724e-18"
                     ]
                 ],
-                "source": "9"
+                "source": "16"
             },
             {
                 "deredshifted": true,
@@ -69839,7 +69881,7 @@
                         "7.4424172e-18"
                     ]
                 ],
-                "source": "9"
+                "source": "16"
             },
             {
                 "deredshifted": true,

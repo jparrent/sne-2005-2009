@@ -35,9 +35,21 @@
                 "alias": "5"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "6",
+                "secondary": true
+            },
+            {
+                "name": "2014ApJ...795...44R",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...795...44R",
+                "bibcode": "2014ApJ...795...44R",
+                "alias": "7"
+            },
+            {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "6",
+                "alias": "8",
                 "secondary": true
             }
         ],
@@ -65,7 +77,13 @@
                 "source": "2"
             }
         ],
-        "lumdist": "110",
+        "lumdist": [
+            {
+                "value": "102",
+                "error": "10",
+                "source": "7,6"
+            }
+        ],
         "maxabsmag": "-19",
         "maxappmag": "16",
         "maxday": "28",
@@ -14318,7 +14336,7 @@
                         "2.7501203e-17"
                     ]
                 ],
-                "source": "6"
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -27746,7 +27764,7 @@
                         "1.9647299e-17"
                     ]
                 ],
-                "source": "6"
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -41169,7 +41187,7 @@
                         "1.8457244e-17"
                     ]
                 ],
-                "source": "6"
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -54592,7 +54610,7 @@
                         "2.4643494e-17"
                     ]
                 ],
-                "source": "6"
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -68015,7 +68033,7 @@
                         "3.4196378e-17"
                     ]
                 ],
-                "source": "6"
+                "source": "8"
             }
         ]
     }

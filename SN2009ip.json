@@ -44,6 +44,18 @@
             {
                 "name": "Stan Howerton",
                 "alias": "7"
+            },
+            {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "8",
+                "secondary": true
+            },
+            {
+                "name": "2013MNRAS.431L..98P",
+                "url": "http://adsabs.harvard.edu/abs/2013MNRAS.431L..98P",
+                "bibcode": "2013MNRAS.431L..98P",
+                "alias": "9"
             }
         ],
         "claimedtype": [
@@ -74,8 +86,14 @@
                 "source": "4"
             }
         ],
-        "lumdist": "26.43",
-        "maxabsmag": "-19.29",
+        "lumdist": [
+            {
+                "value": "20.1",
+                "error": "0.8",
+                "source": "9,8"
+            }
+        ],
+        "maxabsmag": "-18.7",
         "maxappmag": "12.82",
         "maxday": "6",
         "maxmonth": "10",

@@ -34,8 +34,8 @@
                 "alias": "5"
             },
             {
-                "name": "CfA Supernova Archive",
-                "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
                 "alias": "6",
                 "secondary": true
             },
@@ -44,6 +44,36 @@
                 "url": "http://adsabs.harvard.edu/abs/2013ApJ...773...53F",
                 "bibcode": "2013ApJ...773...53F",
                 "alias": "7"
+            },
+            {
+                "name": "2010AJ....139..120F",
+                "url": "http://adsabs.harvard.edu/abs/2010AJ....139..120F",
+                "bibcode": "2010AJ....139..120F",
+                "alias": "8"
+            },
+            {
+                "name": "2013MNRAS.433.2240G",
+                "url": "http://adsabs.harvard.edu/abs/2013MNRAS.433.2240G",
+                "bibcode": "2013MNRAS.433.2240G",
+                "alias": "9"
+            },
+            {
+                "name": "2011AJ....141...19B",
+                "url": "http://adsabs.harvard.edu/abs/2011AJ....141...19B",
+                "bibcode": "2011AJ....141...19B",
+                "alias": "10"
+            },
+            {
+                "name": "2014ApJ...784..105W",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...784..105W",
+                "bibcode": "2014ApJ...784..105W",
+                "alias": "11"
+            },
+            {
+                "name": "CfA Supernova Archive",
+                "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
+                "alias": "12",
+                "secondary": true
             }
         ],
         "claimedtype": [
@@ -74,8 +104,14 @@
                 "source": "2"
             }
         ],
-        "lumdist": "221.83",
-        "maxabsmag": "-18.45",
+        "lumdist": [
+            {
+                "value": "194",
+                "error": "2",
+                "source": "8,6"
+            }
+        ],
+        "maxabsmag": "-18.2",
         "maxappmag": "18.28",
         "maxday": "3",
         "maxmonth": "9",
@@ -14526,7 +14562,7 @@
                         "1.3167693e-17"
                     ]
                 ],
-                "source": "6"
+                "source": "12"
             },
             {
                 "deredshifted": true,

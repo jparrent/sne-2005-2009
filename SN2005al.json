@@ -34,10 +34,58 @@
                 "alias": "5"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "6",
+                "secondary": true
+            },
+            {
+                "name": "2011AJ....141...19B",
+                "url": "http://adsabs.harvard.edu/abs/2011AJ....141...19B",
+                "bibcode": "2011AJ....141...19B",
+                "alias": "7"
+            },
+            {
                 "name": "2013ApJ...773...53F",
                 "url": "http://adsabs.harvard.edu/abs/2013ApJ...773...53F",
                 "bibcode": "2013ApJ...773...53F",
-                "alias": "6"
+                "alias": "8"
+            },
+            {
+                "name": "2011ApJS..192....1C",
+                "url": "http://adsabs.harvard.edu/abs/2011ApJS..192....1C",
+                "bibcode": "2011ApJS..192....1C",
+                "alias": "9"
+            },
+            {
+                "name": "2010AJ....139..120F",
+                "url": "http://adsabs.harvard.edu/abs/2010AJ....139..120F",
+                "bibcode": "2010AJ....139..120F",
+                "alias": "10"
+            },
+            {
+                "name": "2013MNRAS.433.2240G",
+                "url": "http://adsabs.harvard.edu/abs/2013MNRAS.433.2240G",
+                "bibcode": "2013MNRAS.433.2240G",
+                "alias": "11"
+            },
+            {
+                "name": "2014ApJ...795...44R",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...795...44R",
+                "bibcode": "2014ApJ...795...44R",
+                "alias": "12"
+            },
+            {
+                "name": "2009ApJ...704.1036F",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...704.1036F",
+                "bibcode": "2009ApJ...704.1036F",
+                "alias": "13"
+            },
+            {
+                "name": "2014ApJ...784..105W",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...784..105W",
+                "bibcode": "2014ApJ...784..105W",
+                "alias": "14"
             }
         ],
         "claimedtype": [
@@ -64,8 +112,14 @@
                 "source": "2"
             }
         ],
-        "lumdist": "59.396",
-        "maxabsmag": "-18.859",
+        "lumdist": [
+            {
+                "value": "61.7",
+                "error": "0.3",
+                "source": "7,6"
+            }
+        ],
+        "maxabsmag": "-18.9",
         "maxappmag": "15.01",
         "maxday": "1",
         "maxmonth": "3",
@@ -9400,7 +9454,7 @@
                         "3.54884e-16"
                     ]
                 ],
-                "source": "6"
+                "source": "8"
             },
             {
                 "deredshifted": true,
@@ -16563,7 +16617,7 @@
                         "4.99091e-16"
                     ]
                 ],
-                "source": "6"
+                "source": "8"
             },
             {
                 "deredshifted": true,
@@ -22282,7 +22336,7 @@
                         "2.19547e-16"
                     ]
                 ],
-                "source": "6"
+                "source": "8"
             },
             {
                 "deredshifted": true,
@@ -29445,7 +29499,7 @@
                         "1.45172e-16"
                     ]
                 ],
-                "source": "6"
+                "source": "8"
             },
             {
                 "deredshifted": true,
@@ -36608,7 +36662,7 @@
                         "1.81156e-16"
                     ]
                 ],
-                "source": "6"
+                "source": "8"
             },
             {
                 "deredshifted": true,
@@ -43771,7 +43825,7 @@
                         "3.06189e-16"
                     ]
                 ],
-                "source": "6"
+                "source": "8"
             },
             {
                 "deredshifted": true,
@@ -50934,7 +50988,7 @@
                         "8.03022e-17"
                     ]
                 ],
-                "source": "6"
+                "source": "8"
             }
         ]
     }

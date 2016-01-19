@@ -41,22 +41,34 @@
                 "alias": "6"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "7",
+                "secondary": true
+            },
+            {
+                "name": "2014ApJ...795...44R",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...795...44R",
+                "bibcode": "2014ApJ...795...44R",
+                "alias": "8"
+            },
+            {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "7",
+                "alias": "9",
                 "secondary": true
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "8",
+                "alias": "10",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
                 "value": "Ia",
-                "source": "3,4,5,1,8"
+                "source": "3,4,5,1,10"
             }
         ],
         "discoverday": "18",
@@ -91,8 +103,14 @@
                 "source": "1"
             }
         ],
-        "lumdist": "130",
-        "maxabsmag": "-19",
+        "lumdist": [
+            {
+                "value": "122",
+                "error": "13",
+                "source": "8,7"
+            }
+        ],
+        "maxabsmag": "-18.5",
         "maxappmag": "16.89",
         "maxday": "31",
         "maxmonth": "12",
@@ -13683,7 +13701,7 @@
                         "1.3339549e-17"
                     ]
                 ],
-                "source": "7"
+                "source": "9"
             },
             {
                 "deredshifted": false,
@@ -27106,7 +27124,7 @@
                         "1.3247643e-17"
                     ]
                 ],
-                "source": "7"
+                "source": "9"
             },
             {
                 "deredshifted": true,
@@ -53343,7 +53361,7 @@
                         "1.5521306e-17"
                     ]
                 ],
-                "source": "7"
+                "source": "9"
             },
             {
                 "deredshifted": false,
@@ -66766,7 +66784,7 @@
                         "1.2936749e-17"
                     ]
                 ],
-                "source": "7"
+                "source": "9"
             }
         ]
     }

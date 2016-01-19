@@ -57,9 +57,21 @@
                 "alias": "9"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "10",
+                "secondary": true
+            },
+            {
+                "name": "2010ApJ...716..712A",
+                "url": "http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+                "bibcode": "2010ApJ...716..712A",
+                "alias": "11"
+            },
+            {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "10",
+                "alias": "12",
                 "secondary": true
             }
         ],
@@ -109,8 +121,14 @@
                 "source": "5"
             }
         ],
-        "lumdist": "110",
-        "maxabsmag": "-18",
+        "lumdist": [
+            {
+                "value": "59.5",
+                "error": "5.6",
+                "source": "11,10"
+            }
+        ],
+        "maxabsmag": "-17",
         "maxappmag": "16.9",
         "maxday": "8",
         "maxmonth": "9",
@@ -14328,7 +14346,7 @@
                         "1.0751923e-17"
                     ]
                 ],
-                "source": "10"
+                "source": "12"
             },
             {
                 "deredshifted": true,

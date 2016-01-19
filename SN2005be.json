@@ -40,8 +40,8 @@
                 "alias": "6"
             },
             {
-                "name": "CfA Supernova Archive",
-                "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
                 "alias": "7",
                 "secondary": true
             },
@@ -52,16 +52,40 @@
                 "alias": "8"
             },
             {
+                "name": "2010AJ....139..120F",
+                "url": "http://adsabs.harvard.edu/abs/2010AJ....139..120F",
+                "bibcode": "2010AJ....139..120F",
+                "alias": "9"
+            },
+            {
+                "name": "2011AJ....141...19B",
+                "url": "http://adsabs.harvard.edu/abs/2011AJ....141...19B",
+                "bibcode": "2011AJ....141...19B",
+                "alias": "10"
+            },
+            {
+                "name": "2013MNRAS.433.2240G",
+                "url": "http://adsabs.harvard.edu/abs/2013MNRAS.433.2240G",
+                "bibcode": "2013MNRAS.433.2240G",
+                "alias": "11"
+            },
+            {
+                "name": "CfA Supernova Archive",
+                "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
+                "alias": "12",
+                "secondary": true
+            },
+            {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "9",
+                "alias": "13",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
                 "value": "Ia",
-                "source": "3,4,5,1,9,1,9"
+                "source": "3,4,5,1,13,1,13"
             }
         ],
         "discoverday": "5",
@@ -100,8 +124,14 @@
                 "source": "1"
             }
         ],
-        "lumdist": "159.1",
-        "maxabsmag": "-20.01",
+        "lumdist": [
+            {
+                "value": "146",
+                "error": "1",
+                "source": "10,7"
+            }
+        ],
+        "maxabsmag": "-19.8",
         "maxappmag": "16",
         "maxday": "5",
         "maxmonth": "4",
@@ -21277,7 +21307,7 @@
                         "1.0531977e-17"
                     ]
                 ],
-                "source": "7"
+                "source": "12"
             },
             {
                 "deredshifted": true,

@@ -41,9 +41,39 @@
                 "alias": "6"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "7",
+                "secondary": true
+            },
+            {
+                "name": "2010ApJ...716..712A",
+                "url": "http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+                "bibcode": "2010ApJ...716..712A",
+                "alias": "8"
+            },
+            {
+                "name": "2013MNRAS.433.2240G",
+                "url": "http://adsabs.harvard.edu/abs/2013MNRAS.433.2240G",
+                "bibcode": "2013MNRAS.433.2240G",
+                "alias": "9"
+            },
+            {
+                "name": "2009ApJ...700.1097H",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...700.1097H",
+                "bibcode": "2009ApJ...700.1097H",
+                "alias": "10"
+            },
+            {
+                "name": "2011ApJS..192....1C",
+                "url": "http://adsabs.harvard.edu/abs/2011ApJS..192....1C",
+                "bibcode": "2011ApJS..192....1C",
+                "alias": "11"
+            },
+            {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "7",
+                "alias": "12",
                 "secondary": true
             }
         ],
@@ -75,8 +105,14 @@
                 "source": "3"
             }
         ],
-        "lumdist": "320",
-        "maxabsmag": "-21",
+        "lumdist": [
+            {
+                "value": "334",
+                "error": "10",
+                "source": "11,7"
+            }
+        ],
+        "maxabsmag": "-20.7",
         "maxappmag": "16.9",
         "maxday": "20",
         "maxmonth": "2",
@@ -13103,7 +13139,7 @@
                         "7.6784799e-18"
                     ]
                 ],
-                "source": "7"
+                "source": "12"
             },
             {
                 "deredshifted": false,
@@ -26461,7 +26497,7 @@
                         "1.1067072e-17"
                     ]
                 ],
-                "source": "7"
+                "source": "12"
             },
             {
                 "deredshifted": false,
@@ -39819,7 +39855,7 @@
                         "1.9830582e-17"
                     ]
                 ],
-                "source": "7"
+                "source": "12"
             },
             {
                 "deredshifted": false,
@@ -53177,7 +53213,7 @@
                         "8.1261402e-18"
                     ]
                 ],
-                "source": "7"
+                "source": "12"
             },
             {
                 "deredshifted": false,
@@ -65605,7 +65641,7 @@
                         "1.5633540e-17"
                     ]
                 ],
-                "source": "7"
+                "source": "12"
             },
             {
                 "deredshifted": false,
@@ -77723,7 +77759,7 @@
                         "1.2495756e-17"
                     ]
                 ],
-                "source": "7"
+                "source": "12"
             }
         ]
     }

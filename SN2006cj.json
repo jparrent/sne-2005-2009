@@ -47,22 +47,52 @@
                 "alias": "7"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "8",
+                "secondary": true
+            },
+            {
+                "name": "2010ApJ...716..712A",
+                "url": "http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+                "bibcode": "2010ApJ...716..712A",
+                "alias": "9"
+            },
+            {
+                "name": "2015Sci...347.1459K",
+                "url": "http://adsabs.harvard.edu/abs/2015Sci...347.1459K",
+                "bibcode": "2015Sci...347.1459K",
+                "alias": "10"
+            },
+            {
+                "name": "2009ApJ...700.1097H",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...700.1097H",
+                "bibcode": "2009ApJ...700.1097H",
+                "alias": "11"
+            },
+            {
+                "name": "2014ApJ...795...44R",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...795...44R",
+                "bibcode": "2014ApJ...795...44R",
+                "alias": "12"
+            },
+            {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "8",
+                "alias": "13",
                 "secondary": true
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "9",
+                "alias": "14",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
                 "value": "Ia",
-                "source": "4,5,6,1,9"
+                "source": "4,5,6,1,14"
             }
         ],
         "discoverday": "16",
@@ -97,8 +127,14 @@
                 "source": "1,4"
             }
         ],
-        "lumdist": "320",
-        "maxabsmag": "-20",
+        "lumdist": [
+            {
+                "value": "299",
+                "error": "10",
+                "source": "10,8"
+            }
+        ],
+        "maxabsmag": "-19.7",
         "maxappmag": "17.7",
         "maxday": "16",
         "maxmonth": "5",
@@ -8927,7 +8963,7 @@
                         "1.8140893e-17"
                     ]
                 ],
-                "source": "8"
+                "source": "13"
             },
             {
                 "deredshifted": false,
@@ -22285,7 +22321,7 @@
                         "1.4388883e-17"
                     ]
                 ],
-                "source": "8"
+                "source": "13"
             },
             {
                 "deredshifted": false,
@@ -35643,7 +35679,7 @@
                         "1.0190880e-17"
                     ]
                 ],
-                "source": "8"
+                "source": "13"
             },
             {
                 "deredshifted": false,
@@ -49001,7 +49037,7 @@
                         "1.0332717e-17"
                     ]
                 ],
-                "source": "8"
+                "source": "13"
             },
             {
                 "deredshifted": true,
@@ -76557,7 +76593,7 @@
                         "1.2943365e-17"
                     ]
                 ],
-                "source": "8"
+                "source": "13"
             },
             {
                 "deredshifted": false,
@@ -89915,7 +89951,7 @@
                         "6.2978855e-18"
                     ]
                 ],
-                "source": "8"
+                "source": "13"
             },
             {
                 "deredshifted": false,
@@ -103273,7 +103309,7 @@
                         "1.3039171e-17"
                     ]
                 ],
-                "source": "8"
+                "source": "13"
             },
             {
                 "deredshifted": false,
@@ -116631,7 +116667,7 @@
                         "1.4438460e-17"
                     ]
                 ],
-                "source": "8"
+                "source": "13"
             }
         ]
     }

@@ -44,10 +44,28 @@
                 "alias": "7"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "8",
+                "secondary": true
+            },
+            {
                 "name": "2013ApJ...773...53F",
                 "url": "http://adsabs.harvard.edu/abs/2013ApJ...773...53F",
                 "bibcode": "2013ApJ...773...53F",
-                "alias": "8"
+                "alias": "9"
+            },
+            {
+                "name": "2014ApJ...795...44R",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...795...44R",
+                "bibcode": "2014ApJ...795...44R",
+                "alias": "10"
+            },
+            {
+                "name": "2014ApJ...784..105W",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...784..105W",
+                "bibcode": "2014ApJ...784..105W",
+                "alias": "11"
             }
         ],
         "claimedtype": [
@@ -74,8 +92,14 @@
                 "source": "3"
             }
         ],
-        "lumdist": "60.729",
-        "maxabsmag": "-19.127",
+        "lumdist": [
+            {
+                "value": "59.1",
+                "error": "1",
+                "source": "11,8"
+            }
+        ],
+        "maxabsmag": "-19.1",
         "maxappmag": "14.79",
         "maxday": "17",
         "maxmonth": "12",
@@ -7073,7 +7097,7 @@
                         "1.92889e-15"
                     ]
                 ],
-                "source": "8"
+                "source": "9"
             },
             {
                 "deredshifted": true,
@@ -11124,7 +11148,7 @@
                         "4.72429e-16"
                     ]
                 ],
-                "source": "8"
+                "source": "9"
             },
             {
                 "deredshifted": true,
@@ -22795,7 +22819,7 @@
                         "4.48841e-16"
                     ]
                 ],
-                "source": "8"
+                "source": "9"
             },
             {
                 "deredshifted": true,
@@ -34466,7 +34490,7 @@
                         "1.57759e-15"
                     ]
                 ],
-                "source": "8"
+                "source": "9"
             },
             {
                 "deredshifted": true,
@@ -46137,7 +46161,7 @@
                         "1.32434e-14"
                     ]
                 ],
-                "source": "8"
+                "source": "9"
             },
             {
                 "deredshifted": true,
@@ -53300,7 +53324,7 @@
                         "2.04065e-16"
                     ]
                 ],
-                "source": "8"
+                "source": "9"
             },
             {
                 "deredshifted": true,
@@ -60463,7 +60487,7 @@
                         "3.81807e-16"
                     ]
                 ],
-                "source": "8"
+                "source": "9"
             },
             {
                 "deredshifted": true,
@@ -67626,7 +67650,7 @@
                         "1.21862e-16"
                     ]
                 ],
-                "source": "8"
+                "source": "9"
             },
             {
                 "deredshifted": true,
@@ -74789,7 +74813,7 @@
                         "7.70915e-17"
                     ]
                 ],
-                "source": "8"
+                "source": "9"
             },
             {
                 "deredshifted": true,
@@ -78840,7 +78864,7 @@
                         "3.81635e-16"
                     ]
                 ],
-                "source": "8"
+                "source": "9"
             },
             {
                 "deredshifted": true,
@@ -82867,7 +82891,7 @@
                         "8.86884e-16"
                     ]
                 ],
-                "source": "8"
+                "source": "9"
             },
             {
                 "deredshifted": true,
@@ -88066,7 +88090,7 @@
                         "1.37121e-16"
                     ]
                 ],
-                "source": "8"
+                "source": "9"
             },
             {
                 "deredshifted": true,
@@ -95265,7 +95289,7 @@
                         "5.62988e-17"
                     ]
                 ],
-                "source": "8"
+                "source": "9"
             },
             {
                 "deredshifted": true,
@@ -102428,7 +102452,7 @@
                         "4.28870e-17"
                     ]
                 ],
-                "source": "8"
+                "source": "9"
             }
         ]
     }

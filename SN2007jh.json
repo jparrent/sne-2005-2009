@@ -34,10 +34,22 @@
                 "alias": "5"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "6",
+                "secondary": true
+            },
+            {
                 "name": "2013ApJ...773...53F",
                 "url": "http://adsabs.harvard.edu/abs/2013ApJ...773...53F",
                 "bibcode": "2013ApJ...773...53F",
-                "alias": "6"
+                "alias": "7"
+            },
+            {
+                "name": "2014ApJ...795...44R",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...795...44R",
+                "bibcode": "2014ApJ...795...44R",
+                "alias": "8"
             }
         ],
         "claimedtype": [
@@ -72,8 +84,14 @@
                 "source": "2"
             }
         ],
-        "lumdist": "183.63",
-        "maxabsmag": "-18.13",
+        "lumdist": [
+            {
+                "value": "151",
+                "error": "5",
+                "source": "7,6"
+            }
+        ],
+        "maxabsmag": "-17.7",
         "maxappmag": "18.19",
         "maxday": "25",
         "maxmonth": "9",
@@ -7752,7 +7770,7 @@
                         "6.310600E-17"
                     ]
                 ],
-                "source": "6"
+                "source": "7"
             }
         ]
     }

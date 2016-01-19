@@ -47,22 +47,34 @@
                 "alias": "7"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "8",
+                "secondary": true
+            },
+            {
+                "name": "2009ApJ...700.1097H",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...700.1097H",
+                "bibcode": "2009ApJ...700.1097H",
+                "alias": "9"
+            },
+            {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "8",
+                "alias": "10",
                 "secondary": true
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "9",
+                "alias": "11",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
                 "value": "Ia",
-                "source": "4,5,6,1,9,1,9"
+                "source": "4,5,6,1,11,1,11"
             }
         ],
         "discoverday": "18",
@@ -89,8 +101,14 @@
                 "source": "4"
             }
         ],
-        "lumdist": "76",
-        "maxabsmag": "-16",
+        "lumdist": [
+            {
+                "value": "97.5",
+                "error": "11",
+                "source": "9,8"
+            }
+        ],
+        "maxabsmag": "-16.6",
         "maxappmag": "18.3",
         "maxday": "18",
         "maxmonth": "10",
@@ -13591,7 +13609,7 @@
                         "1.1080141e-17"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,
@@ -41393,7 +41411,7 @@
                         "1.2615550e-17"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,

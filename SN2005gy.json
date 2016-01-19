@@ -32,6 +32,42 @@
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
                 "alias": "5"
+            },
+            {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "6",
+                "secondary": true
+            },
+            {
+                "name": "2010ApJ...716..712A",
+                "url": "http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+                "bibcode": "2010ApJ...716..712A",
+                "alias": "7"
+            },
+            {
+                "name": "2011ApJ...740...92G",
+                "url": "http://adsabs.harvard.edu/abs/2011ApJ...740...92G",
+                "bibcode": "2011ApJ...740...92G",
+                "alias": "8"
+            },
+            {
+                "name": "2009ApJS..185...32K",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJS..185...32K",
+                "bibcode": "2009ApJS..185...32K",
+                "alias": "9"
+            },
+            {
+                "name": "2013MNRAS.433.2240G",
+                "url": "http://adsabs.harvard.edu/abs/2013MNRAS.433.2240G",
+                "bibcode": "2013MNRAS.433.2240G",
+                "alias": "10"
+            },
+            {
+                "name": "2009ApJ...704.1036F",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...704.1036F",
+                "bibcode": "2009ApJ...704.1036F",
+                "alias": "11"
             }
         ],
         "claimedtype": [
@@ -58,8 +94,14 @@
                 "source": "D"
             }
         ],
-        "lumdist": "1803",
-        "maxabsmag": "-20.22",
+        "lumdist": [
+            {
+                "value": "875",
+                "error": "83",
+                "source": "7,6"
+            }
+        ],
+        "maxabsmag": "-18.7",
         "maxappmag": "21.06",
         "maxday": "14",
         "maxmonth": "10",

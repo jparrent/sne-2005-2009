@@ -40,22 +40,76 @@
                 "alias": "6"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "7",
+                "secondary": true
+            },
+            {
+                "name": "2014ApJ...784..105W",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...784..105W",
+                "bibcode": "2014ApJ...784..105W",
+                "alias": "8"
+            },
+            {
+                "name": "2011ApJS..192....1C",
+                "url": "http://adsabs.harvard.edu/abs/2011ApJS..192....1C",
+                "bibcode": "2011ApJS..192....1C",
+                "alias": "9"
+            },
+            {
+                "name": "2015Sci...347.1459K",
+                "url": "http://adsabs.harvard.edu/abs/2015Sci...347.1459K",
+                "bibcode": "2015Sci...347.1459K",
+                "alias": "10"
+            },
+            {
+                "name": "2010AJ....139..120F",
+                "url": "http://adsabs.harvard.edu/abs/2010AJ....139..120F",
+                "bibcode": "2010AJ....139..120F",
+                "alias": "11"
+            },
+            {
                 "name": "2013ApJ...773...53F",
                 "url": "http://adsabs.harvard.edu/abs/2013ApJ...773...53F",
                 "bibcode": "2013ApJ...773...53F",
-                "alias": "7"
+                "alias": "12"
+            },
+            {
+                "name": "2009ApJ...704.1036F",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...704.1036F",
+                "bibcode": "2009ApJ...704.1036F",
+                "alias": "13"
+            },
+            {
+                "name": "2013MNRAS.433.2240G",
+                "url": "http://adsabs.harvard.edu/abs/2013MNRAS.433.2240G",
+                "bibcode": "2013MNRAS.433.2240G",
+                "alias": "14"
+            },
+            {
+                "name": "2011AJ....141...19B",
+                "url": "http://adsabs.harvard.edu/abs/2011AJ....141...19B",
+                "bibcode": "2011AJ....141...19B",
+                "alias": "15"
+            },
+            {
+                "name": "2014ApJ...795...44R",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...795...44R",
+                "bibcode": "2014ApJ...795...44R",
+                "alias": "16"
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "8",
+                "alias": "17",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
                 "value": "Ia",
-                "source": "3,4,5,1,8"
+                "source": "3,4,5,1,17"
             }
         ],
         "discoverday": "9",
@@ -90,8 +144,14 @@
                 "source": "1"
             }
         ],
-        "lumdist": "375.3",
-        "maxabsmag": "-19.67",
+        "lumdist": [
+            {
+                "value": "322",
+                "error": "1",
+                "source": "15,7"
+            }
+        ],
+        "maxabsmag": "-19.3",
         "maxappmag": "18.2",
         "maxday": "9",
         "maxmonth": "2",
@@ -103,7 +163,7 @@
             },
             {
                 "value": "0.07976",
-                "source": "7"
+                "source": "12"
             }
         ],
         "sndec": "+09:19:42.5",
@@ -9520,7 +9580,7 @@
                         "1.92922e-17"
                     ]
                 ],
-                "source": "7"
+                "source": "12"
             },
             {
                 "deredshifted": true,
@@ -27641,7 +27701,7 @@
                         "1.23431e-17"
                     ]
                 ],
-                "source": "7"
+                "source": "12"
             },
             {
                 "deredshifted": true,
@@ -34804,7 +34864,7 @@
                         "7.67849e-18"
                     ]
                 ],
-                "source": "7"
+                "source": "12"
             },
             {
                 "deredshifted": true,
@@ -41967,7 +42027,7 @@
                         "2.08292e-17"
                     ]
                 ],
-                "source": "7"
+                "source": "12"
             }
         ]
     }

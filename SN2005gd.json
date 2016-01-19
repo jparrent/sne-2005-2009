@@ -32,6 +32,24 @@
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
                 "alias": "5"
+            },
+            {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "6",
+                "secondary": true
+            },
+            {
+                "name": "2010ApJ...716..712A",
+                "url": "http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+                "bibcode": "2010ApJ...716..712A",
+                "alias": "7"
+            },
+            {
+                "name": "2009ApJS..185...32K",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJS..185...32K",
+                "bibcode": "2009ApJS..185...32K",
+                "alias": "8"
             }
         ],
         "claimedtype": [
@@ -58,8 +76,14 @@
                 "source": "D"
             }
         ],
-        "lumdist": "793.9",
-        "maxabsmag": "-19.24",
+        "lumdist": [
+            {
+                "value": "636",
+                "error": "30",
+                "source": "8,6"
+            }
+        ],
+        "maxabsmag": "-18.8",
         "maxappmag": "20.26",
         "maxday": "1",
         "maxmonth": "10",

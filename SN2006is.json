@@ -46,10 +46,40 @@
                 "alias": "7"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "8",
+                "secondary": true
+            },
+            {
+                "name": "2010ApJ...716..712A",
+                "url": "http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+                "bibcode": "2010ApJ...716..712A",
+                "alias": "9"
+            },
+            {
                 "name": "2013ApJ...773...53F",
                 "url": "http://adsabs.harvard.edu/abs/2013ApJ...773...53F",
                 "bibcode": "2013ApJ...773...53F",
-                "alias": "8"
+                "alias": "10"
+            },
+            {
+                "name": "2014ApJ...784..105W",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...784..105W",
+                "bibcode": "2014ApJ...784..105W",
+                "alias": "11"
+            },
+            {
+                "name": "2011ApJ...731..120M",
+                "url": "http://adsabs.harvard.edu/abs/2011ApJ...731..120M",
+                "bibcode": "2011ApJ...731..120M",
+                "alias": "12"
+            },
+            {
+                "name": "2009ApJ...700.1097H",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...700.1097H",
+                "bibcode": "2009ApJ...700.1097H",
+                "alias": "13"
             }
         ],
         "claimedtype": [
@@ -80,8 +110,14 @@
                 "source": "D"
             }
         ],
-        "lumdist": "142.38",
-        "maxabsmag": "-19.487",
+        "lumdist": [
+            {
+                "value": "132",
+                "error": "3",
+                "source": "12,8"
+            }
+        ],
+        "maxabsmag": "-19.3",
         "maxappmag": "16.28",
         "maxday": "5",
         "maxmonth": "10",
@@ -15545,7 +15581,7 @@
                         "1.66463e-17"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,
@@ -19556,7 +19592,7 @@
                         "5.85831e-16"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,
@@ -27039,7 +27075,7 @@
                         "1.23210e-16"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,
@@ -32250,7 +32286,7 @@
                         "-5.90576e-17"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,
@@ -36777,7 +36813,7 @@
                         "1.817983E-16"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,
@@ -43940,7 +43976,7 @@
                         "5.16457e-17"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,
@@ -51103,7 +51139,7 @@
                         "1.11982e-16"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,
@@ -58266,7 +58302,7 @@
                         "7.29001e-17"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,
@@ -62785,7 +62821,7 @@
                         "1.427618E-16"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,
@@ -67304,7 +67340,7 @@
                         "1.614541E-16"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,
@@ -71823,7 +71859,7 @@
                         "1.005170E-16"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,
@@ -75834,7 +75870,7 @@
                         "1.88831e-16"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,
@@ -83317,7 +83353,7 @@
                         "-4.25172e-17"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,
@@ -88528,7 +88564,7 @@
                         "2.64395e-17"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,
@@ -93047,7 +93083,7 @@
                         "1.043338E-16"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,
@@ -97566,7 +97602,7 @@
                         "1.123899E-16"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,
@@ -102085,7 +102121,7 @@
                         "8.665716E-17"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,
@@ -106604,7 +106640,7 @@
                         "7.697037E-17"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             },
             {
                 "deredshifted": true,
@@ -113767,7 +113803,7 @@
                         "3.99077e-17"
                     ]
                 ],
-                "source": "8"
+                "source": "10"
             }
         ]
     }
