@@ -78,8 +78,18 @@
 		"discoverer":"CHASE",
 		"discovermonth":"12",
 		"discoveryear":"2008",
-		"galdec":"+032339",
-		"galra":"090736",
+		"galdec":[
+			{
+				"value":"+03:23:39",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"09:07:36",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 2765",
@@ -110,8 +120,26 @@
 				"source":"2"
 			}
 		],
-		"sndec":"+03:23:32.1",
-		"snra":"09:07:34.06",
+		"sndec":[
+			{
+				"value":"+03:23:32.10",
+				"source":"2"
+			},
+			{
+				"value":"+03:23:32.1",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"09:07:34.08",
+				"source":"2"
+			},
+			{
+				"value":"09:07:34.06",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

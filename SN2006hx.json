@@ -68,8 +68,18 @@
 		"discoverer":"SDSS Collaboration",
 		"discovermonth":"9",
 		"discoveryear":"2006",
-		"galdec":"+002218",
-		"galra":"011357",
+		"galdec":[
+			{
+				"value":"+00:22:18",
+				"source":"2"
+			}
+		],
+		"galra":[
+			{
+				"value":"01:13:57",
+				"source":"2"
+			}
+		],
 		"host":[
 			{
 				"value":"A011357+0022",
@@ -104,8 +114,22 @@
 				"source":"1"
 			}
 		],
-		"sndec":"+00:22:18.0",
-		"snra":"01:13:57.31",
+		"sndec":[
+			{
+				"value":"+00:22:18.00",
+				"source":"1"
+			},
+			{
+				"value":"+00:22:18.0",
+				"source":"2,3,4"
+			}
+		],
+		"snra":[
+			{
+				"value":"01:13:57.31",
+				"source":"1,2,3,4"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

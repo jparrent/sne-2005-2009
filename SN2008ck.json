@@ -40,8 +40,18 @@
 		"discoverer":"CRTS",
 		"discovermonth":"4",
 		"discoveryear":"2008",
-		"galdec":"+302208",
-		"galra":"152242",
+		"galdec":[
+			{
+				"value":"+30:22:08",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"15:22:42",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A152242+3022",
@@ -75,8 +85,22 @@
 				"source":"2,3,4"
 			}
 		],
-		"sndec":"+30:22:08.01",
-		"snra":"15:22:42.30",
+		"sndec":[
+			{
+				"value":"+30:22:08.0",
+				"source":"1"
+			},
+			{
+				"value":"+30:22:08.01",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"15:22:42.30",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

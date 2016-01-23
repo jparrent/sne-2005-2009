@@ -6,8 +6,9 @@
 		],
 		"sources":[
 			{
-				"name":"SDSS Supernova Survey",
-				"url":"http://classic.sdss.org/supernova/lightcurves.html",
+				"name":"2008AJ....136.2306H",
+				"url":"http://adsabs.harvard.edu/abs/2008AJ....136.2306H",
+				"bibcode":"2008AJ....136.2306H",
 				"alias":"1"
 			},
 			{
@@ -56,8 +57,18 @@
 		"discoverer":"SDSS Collaboration",
 		"discovermonth":"9",
 		"discoveryear":"2005",
-		"galdec":"-002204",
-		"galra":"223603",
+		"galdec":[
+			{
+				"value":"-00:22:04",
+				"source":"2"
+			}
+		],
+		"galra":[
+			{
+				"value":"22:36:03",
+				"source":"2"
+			}
+		],
 		"host":[
 			{
 				"value":"A223603-0022",
@@ -89,8 +100,34 @@
 				"source":"1"
 			}
 		],
-		"sndec":"-00:22:04.5",
-		"snra":"22:36:03.21",
+		"sndec":[
+			{
+				"value":"-00:22:30.983",
+				"source":"1"
+			},
+			{
+				"value":"-00:22:4.7244",
+				"source":"1"
+			},
+			{
+				"value":"-00:22:04.5",
+				"source":"2,3,4"
+			}
+		],
+		"snra":[
+			{
+				"value":"22:36:4.32",
+				"source":"1"
+			},
+			{
+				"value":"22:36:3.12",
+				"source":"1"
+			},
+			{
+				"value":"22:36:03.21",
+				"source":"2,3,4"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

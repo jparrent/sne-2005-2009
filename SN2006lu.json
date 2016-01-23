@@ -68,8 +68,18 @@
 		"discoverer":"LOSS",
 		"discovermonth":"10",
 		"discoveryear":"2006",
-		"galdec":"-253600",
-		"galra":"091517",
+		"galdec":[
+			{
+				"value":"-25:36:00",
+				"source":"2"
+			}
+		],
+		"galra":[
+			{
+				"value":"09:15:17",
+				"source":"2"
+			}
+		],
 		"host":[
 			{
 				"value":"A091517-2536",
@@ -104,8 +114,26 @@
 				"source":"1"
 			}
 		],
-		"sndec":"-25:36:00.3",
-		"snra":"09:15:17.63",
+		"sndec":[
+			{
+				"value":"-25:36:0.36",
+				"source":"1"
+			},
+			{
+				"value":"-25:36:00.3",
+				"source":"2,3,4"
+			}
+		],
+		"snra":[
+			{
+				"value":"09:15:17.52",
+				"source":"1"
+			},
+			{
+				"value":"09:15:17.63",
+				"source":"2,3,4"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

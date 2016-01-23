@@ -39,8 +39,18 @@
 		"discoverer":"ESSENCE project",
 		"discovermonth":"10",
 		"discoveryear":"2007",
-		"galdec":"-000106",
-		"galra":"010959",
+		"galdec":[
+			{
+				"value":"-00:01:06",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"01:09:59",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A010959-0001",
@@ -74,8 +84,26 @@
 				"source":"1,2,3,4"
 			}
 		],
-		"sndec":"-00:01:06.95",
-		"snra":"01:09:59.350",
+		"sndec":[
+			{
+				"value":"-00:01:06.9",
+				"source":"1"
+			},
+			{
+				"value":"-00:01:06.95",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"01:09:59.35",
+				"source":"1"
+			},
+			{
+				"value":"01:09:59.350",
+				"source":"2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

@@ -80,8 +80,18 @@
 		"discoverer":"ROTSE",
 		"discovermonth":"10",
 		"discoveryear":"2007",
-		"galdec":"-012328",
-		"galra":"005735",
+		"galdec":[
+			{
+				"value":"-01:23:28",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"00:57:35",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"UGC 595",
@@ -112,8 +122,26 @@
 				"source":"2"
 			}
 		],
-		"sndec":"-01:23:19.0",
-		"snra":"00:57:33.57",
+		"sndec":[
+			{
+				"value":"-01:23:19.00",
+				"source":"2"
+			},
+			{
+				"value":"-01:23:19.0",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"00:57:33.58",
+				"source":"2"
+			},
+			{
+				"value":"00:57:33.57",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

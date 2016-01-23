@@ -39,8 +39,18 @@
 		"discoverer":"SNLS",
 		"discovermonth":"9",
 		"discoveryear":"2008",
-		"galdec":"-101543",
-		"galra":"235407",
+		"galdec":[
+			{
+				"value":"-10:15:43",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"23:54:07",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A235407-1015",
@@ -74,8 +84,26 @@
 				"source":"2,3,4"
 			}
 		],
-		"sndec":"+10:15:43.4",
-		"snra":"03:54:07.84",
+		"sndec":[
+			{
+				"value":"-10:15:43.4",
+				"source":"1"
+			},
+			{
+				"value":"+10:15:43.4",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"23:54:07.84",
+				"source":"1"
+			},
+			{
+				"value":"03:54:07.84",
+				"source":"2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",
