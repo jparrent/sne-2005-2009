@@ -1,48 +1,112 @@
 {
-    "HST05Koe": {
-        "name": "HST05Koe",
-        "aliases": [
-            "HST05Koe"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://arxiv.org/pdf/astro-ph/0611572.pdf'>Paper</a>",
-                "alias": "2"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "1"
-            }
-        ],
-        "discoverday": "11",
-        "discoverer": "HST",
-        "discovermonth": "4",
-        "discoveryear": "2005",
-        "hvel": "199400",
-        "lumdist": "8768",
-        "maxabsmag": "-18.81",
-        "maxappmag": "25.9",
-        "maxday": "11",
-        "maxmonth": "4",
-        "maxyear": "2005",
-        "redshift": "1.23",
-        "sndec": "+62:18:23.2",
-        "snra": "12:36:22.92",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "53471.5",
-                "band": "",
-                "abmag": "25.9",
-                "source": "2,1"
-            }
-        ]
-    }
+	"HST05Koe":{
+		"name":"HST05Koe",
+		"aliases":[
+			"HST05Koe"
+		],
+		"sources":[
+			{
+				"name":"Paper",
+				"url":"http://arxiv.org/pdf/astro-ph/0611572.pdf",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			},
+			{
+				"name":"NED-D",
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2010ApJ...716..712A",
+				"url":"http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+				"bibcode":"2010ApJ...716..712A",
+				"alias":"4"
+			},
+			{
+				"name":"2008ApJ...686..749K",
+				"url":"http://adsabs.harvard.edu/abs/2008ApJ...686..749K",
+				"bibcode":"2008ApJ...686..749K",
+				"alias":"5"
+			},
+			{
+				"name":"2009ApJ...700.1097H",
+				"url":"http://adsabs.harvard.edu/abs/2009ApJ...700.1097H",
+				"bibcode":"2009ApJ...700.1097H",
+				"alias":"6"
+			},
+			{
+				"name":"2009ApJS..185...32K",
+				"url":"http://adsabs.harvard.edu/abs/2009ApJS..185...32K",
+				"bibcode":"2009ApJS..185...32K",
+				"alias":"7"
+			},
+			{
+				"name":"2007ApJ...659...98R",
+				"url":"http://adsabs.harvard.edu/abs/2007ApJ...659...98R",
+				"bibcode":"2007ApJ...659...98R",
+				"alias":"8"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2"
+			}
+		],
+		"discoverday":"11",
+		"discoverer":"HST",
+		"discovermonth":"4",
+		"discoveryear":"2005",
+		"hvel":[
+			{
+				"value":"199000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"2820",
+				"error":"800",
+				"source":"4,3"
+			}
+		],
+		"maxabsmag":"-16.4",
+		"maxappmag":"25.9",
+		"maxday":"11",
+		"maxmonth":"4",
+		"maxyear":"2005",
+		"redshift":[
+			{
+				"value":"1.23",
+				"source":"1,2"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+62:18:23.2",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"12:36:22.92",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"53471.5",
+				"band":"",
+				"abmag":"25.9",
+				"source":"1,2"
+			}
+		]
+	}
 }

@@ -1,71 +1,116 @@
 {
-    "SN2008fb": {
-        "name": "SN2008fb",
-        "aliases": [
-            "SN2008fb"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001400/CBET001479.txt'>CBET 1479</a>",
-                "alias": "3"
-            },
-            {
-                "name": "Nic",
-                "alias": "4"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "1"
-            }
-        ],
-        "discoverday": "23",
-        "discoverer": "Taurus Hill Observatory",
-        "discovermonth": "8",
-        "discoveryear": "2008",
-        "galdec": "+711828",
-        "galra": "034234",
-        "host": "UGC 2813",
-        "hvel": "1392",
-        "lumdist": "20.6704",
-        "maxabsmag": "-14.6767",
-        "maxappmag": "16.9",
-        "maxday": "23",
-        "maxmonth": "8",
-        "maxyear": "2008",
-        "redshift": "0.004654",
-        "sndec": "+71:18:36.5",
-        "snra": "03:42:36.69",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54701.5",
-                "band": "",
-                "abmag": "16.9",
-                "source": "3,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54705.049",
-                "band": "CR",
-                "abmag": "17.4",
-                "source": "4,2"
-            }
-        ]
-    }
+	"SN2008fb":{
+		"name":"SN2008fb",
+		"aliases":[
+			"SN2008fb"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 1479",
+				"url":"http://www.cbat.eps.harvard.edu/cbet/001400/CBET001479.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"Nic",
+				"alias":"4"
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"5"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1"
+			}
+		],
+		"discoverday":"23",
+		"discoverer":"Taurus Hill Observatory",
+		"discovermonth":"8",
+		"discoveryear":"2008",
+		"galdec":[
+			{
+				"value":"+71:18:28",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"03:42:34",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"UGC 2813",
+				"source":"1,2,3,5"
+			}
+		],
+		"hvel":[
+			{
+				"value":"1392",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"16",
+				"source":"5"
+			}
+		],
+		"maxabsmag":"-14",
+		"maxappmag":"16.9",
+		"maxday":"23",
+		"maxmonth":"8",
+		"maxyear":"2008",
+		"redshift":[
+			{
+				"value":"0.0046",
+				"source":"2,3,5"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+71:18:36.5",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"03:42:36.69",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54701.5",
+				"band":"",
+				"abmag":"16.9",
+				"source":"2,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54705.049",
+				"band":"CR",
+				"abmag":"17.4",
+				"source":"4,3"
+			}
+		]
+	}
 }

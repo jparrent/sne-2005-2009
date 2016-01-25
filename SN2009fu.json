@@ -1,60 +1,133 @@
 {
-    "SN2009fu": {
-        "name": "SN2009fu",
-        "aliases": [
-            "SN2009fu"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001800/CBET001832.txt'>CBET 1832</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "31",
-        "discoverer": "Koichi Itagaki",
-        "discovermonth": "5",
-        "discoveryear": "2009",
-        "galdec": "+443405",
-        "galra": "021212",
-        "host": "NGC 846",
-        "hvel": "4894",
-        "lumdist": "73.762",
-        "maxabsmag": "-18.639",
-        "maxappmag": "15.7",
-        "maxday": "31",
-        "maxmonth": "5",
-        "maxyear": "2009",
-        "redshift": "0.01646",
-        "sndec": "+44:33:55.0",
-        "snra": "02:12:09.00",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54982.5",
-                "band": "",
-                "abmag": "15.7",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN2009fu":{
+		"name":"SN2009fu",
+		"aliases":[
+			"SN2009fu"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 1832",
+				"url":"http://www.cbat.eps.harvard.edu/cbet/001800/CBET001832.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"J47",
+				"alias":"4"
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"5"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"31",
+		"discoverer":"Koichi Itagaki",
+		"discovermonth":"5",
+		"discoveryear":"2009",
+		"galdec":[
+			{
+				"value":"+44:34:05",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"02:12:12",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"NGC 846",
+				"source":"1,2,3,5"
+			}
+		],
+		"hvel":[
+			{
+				"value":"4894",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"76.7",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-18.7",
+		"maxappmag":"15.7",
+		"maxday":"31",
+		"maxmonth":"5",
+		"maxyear":"2009",
+		"redshift":[
+			{
+				"value":"0.0171",
+				"source":"2,3"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+44:33:55.0",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"02:12:09.00",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54982.5",
+				"band":"",
+				"abmag":"15.7",
+				"source":"2,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"55107.039",
+				"band":"CR",
+				"abmag":"17.96",
+				"aberr":"1",
+				"source":"4,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"55109.017",
+				"band":"CR",
+				"abmag":"19.77",
+				"aberr":"1",
+				"source":"4,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"55109.017",
+				"band":"CR",
+				"abmag":"25.98",
+				"aberr":"1",
+				"source":"4,3"
+			}
+		]
+	}
 }

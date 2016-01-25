@@ -1,50 +1,107 @@
 {
-    "SN2009lc": {
-        "name": "SN2009lc",
-        "aliases": [
-            "SN2009lc"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/002000/CBET002018.txt'>CBET 2018</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "13",
-        "discoverer": "Berto Monard",
-        "discovermonth": "11",
-        "discoveryear": "2009",
-        "galdec": "-465733",
-        "galra": "213650",
-        "host": "PGC 130670",
-        "maxappmag": "15.7",
-        "maxday": "13",
-        "maxmonth": "11",
-        "maxyear": "2009",
-        "sndec": "-46:57:33.7",
-        "snra": "21:36:50.46",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "55148.5",
-                "band": "",
-                "abmag": "15.7",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN2009lc":{
+		"name":"SN2009lc",
+		"aliases":[
+			"SN2009lc"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 2018",
+				"url":"http://www.cbat.eps.harvard.edu/cbet/002000/CBET002018.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"13",
+		"discoverer":"Berto Monard",
+		"discovermonth":"11",
+		"discoveryear":"2009",
+		"galdec":[
+			{
+				"value":"-46:57:33",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"21:36:50",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A213650-4657",
+				"source":"1"
+			},
+			{
+				"value":"PGC 130670",
+				"source":"2,3"
+			},
+			{
+				"value":"(PGC130670)",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"9400",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"150",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"15.7",
+		"maxday":"13",
+		"maxmonth":"11",
+		"maxyear":"2009",
+		"redshift":[
+			{
+				"value":"0.032",
+				"source":"4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-46:57:33.7",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"21:36:50.46",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"55148.5",
+				"band":"",
+				"abmag":"15.7",
+				"source":"2,3"
+			}
+		]
+	}
 }

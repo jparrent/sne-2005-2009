@@ -1,38 +1,50 @@
 {
-    "CSS080219:151457+234110": {
-        "name": "CSS080219:151457+234110",
-        "aliases": [
-            "CSS080219:151457+234110"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://nesssi.cacr.caltech.edu/catalina/AllSN.html'>CRTS SN page</a>",
-                "alias": "2"
-            }
-        ],
-        "discoverday": "18",
-        "discoverer": "CRTS",
-        "discovermonth": "2",
-        "discoveryear": "2008",
-        "maxappmag": "18.1",
-        "maxday": "18",
-        "maxmonth": "2",
-        "maxyear": "2008",
-        "sndec": "+23:41:10.1",
-        "snra": "15:14:56.75",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54514.5",
-                "band": "",
-                "abmag": "18.1",
-                "source": "2,1"
-            }
-        ]
-    }
+	"CSS080219:151457+234110":{
+		"name":"CSS080219:151457+234110",
+		"aliases":[
+			"CSS080219:151457+234110"
+		],
+		"sources":[
+			{
+				"name":"CRTS SN page",
+				"url":"http://nesssi.cacr.caltech.edu/catalina/AllSN.html",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"discoverday":"18",
+		"discoverer":"CRTS",
+		"discovermonth":"2",
+		"discoveryear":"2008",
+		"maxappmag":"18.1",
+		"maxday":"18",
+		"maxmonth":"2",
+		"maxyear":"2008",
+		"sndec":[
+			{
+				"value":"+23:41:10.1",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"15:14:56.75",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54514.5",
+				"band":"",
+				"abmag":"18.1",
+				"source":"1,2"
+			}
+		]
+	}
 }

@@ -1,60 +1,144 @@
 {
-    "SN2005fg": {
-        "name": "SN2005fg",
-        "aliases": [
-            "SN2005fg"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08600/08616.html#Item1'>IAUC 8616</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "9",
-        "discoverer": "SDSS Collaboration",
-        "discovermonth": "9",
-        "discoveryear": "2005",
-        "galdec": "-002230",
-        "galra": "223604",
-        "host": "A223604-0022",
-        "hvel": "68000",
-        "lumdist": "1400",
-        "maxabsmag": "-19",
-        "maxappmag": "21.8",
-        "maxday": "9",
-        "maxmonth": "9",
-        "maxyear": "2005",
-        "redshift": "0.26",
-        "sndec": "-00:22:30.83",
-        "snra": "22:36:04.20",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "53622.5",
-                "band": "",
-                "abmag": "21.8",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN2005fg":{
+		"name":"SN2005fg",
+		"aliases":[
+			"SN2005fg"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 8616",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/08600/08616.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			},
+			{
+				"name":"NED-D",
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2009ApJS..185...32K",
+				"url":"http://adsabs.harvard.edu/abs/2009ApJS..185...32K",
+				"bibcode":"2009ApJS..185...32K",
+				"alias":"6"
+			},
+			{
+				"name":"2013MNRAS.433.2240G",
+				"url":"http://adsabs.harvard.edu/abs/2013MNRAS.433.2240G",
+				"bibcode":"2013MNRAS.433.2240G",
+				"alias":"7"
+			},
+			{
+				"name":"2011ApJS..192....1C",
+				"url":"http://adsabs.harvard.edu/abs/2011ApJS..192....1C",
+				"bibcode":"2011ApJS..192....1C",
+				"alias":"8"
+			},
+			{
+				"name":"2013ApJ...763...88C",
+				"url":"http://adsabs.harvard.edu/abs/2013ApJ...763...88C",
+				"bibcode":"2013ApJ...763...88C",
+				"alias":"9"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"9",
+		"discoverer":"SDSS Collaboration",
+		"discovermonth":"9",
+		"discoveryear":"2005",
+		"galdec":[
+			{
+				"value":"-00:22:30",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"22:36:04",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A223604-0022",
+				"source":"1"
+			},
+			{
+				"value":"(APMUKS(BJ)B223330.09-3803.2)",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"68000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"1230",
+				"error":"40",
+				"source":"8,5"
+			}
+		],
+		"maxabsmag":"-18.6",
+		"maxappmag":"21.8",
+		"maxday":"9",
+		"maxmonth":"9",
+		"maxyear":"2005",
+		"redshift":[
+			{
+				"value":"0.26",
+				"source":"1,2,3,4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-00:22:30.8",
+				"source":"1"
+			},
+			{
+				"value":"-00:22:30.83",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"22:36:04.20",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"53622.5",
+				"band":"",
+				"abmag":"21.8",
+				"source":"2,3"
+			}
+		]
+	}
 }

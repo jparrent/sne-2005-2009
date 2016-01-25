@@ -1,39 +1,51 @@
 {
-    "CSS090518:124735+383245": {
-        "name": "CSS090518:124735+383245",
-        "aliases": [
-            "CSS090518:124735+383245",
-            "CSS090529:124735+383246"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://nesssi.cacr.caltech.edu/catalina/AllSN.html'>CRTS SN page</a>",
-                "alias": "2"
-            }
-        ],
-        "discoverday": "28",
-        "discoverer": "CRTS",
-        "discovermonth": "5",
-        "discoveryear": "2009",
-        "maxappmag": "19.4",
-        "maxday": "28",
-        "maxmonth": "5",
-        "maxyear": "2009",
-        "sndec": "+38:32:45.3",
-        "snra": "12:47:34.82",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54979.5",
-                "band": "",
-                "abmag": "19.4",
-                "source": "2,1"
-            }
-        ]
-    }
+	"CSS090518:124735+383245":{
+		"name":"CSS090518:124735+383245",
+		"aliases":[
+			"CSS090518:124735+383245",
+			"CSS090529:124735+383246"
+		],
+		"sources":[
+			{
+				"name":"CRTS SN page",
+				"url":"http://nesssi.cacr.caltech.edu/catalina/AllSN.html",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"discoverday":"28",
+		"discoverer":"CRTS",
+		"discovermonth":"5",
+		"discoveryear":"2009",
+		"maxappmag":"19.4",
+		"maxday":"28",
+		"maxmonth":"5",
+		"maxyear":"2009",
+		"sndec":[
+			{
+				"value":"+38:32:45.3",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"12:47:34.82",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54979.5",
+				"band":"",
+				"abmag":"19.4",
+				"source":"1,2"
+			}
+		]
+	}
 }

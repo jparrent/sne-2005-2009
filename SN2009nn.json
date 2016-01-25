@@ -1,60 +1,113 @@
 {
-    "SN2009nn": {
-        "name": "SN2009nn",
-        "aliases": [
-            "SN2009nn"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/002100/CBET002107.txt'>CBET 2107</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "IIn",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "4",
-        "discoverer": "ROTSE",
-        "discovermonth": "12",
-        "discoveryear": "2009",
-        "galdec": "+135508",
-        "galra": "123356",
-        "host": "PGC 169532",
-        "hvel": "13800",
-        "lumdist": "215.9",
-        "maxabsmag": "-19.37",
-        "maxappmag": "17.3",
-        "maxday": "4",
-        "maxmonth": "12",
-        "maxyear": "2009",
-        "redshift": "0.0471",
-        "sndec": "+13:55:09.0",
-        "snra": "12:33:56.42",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "55169.5",
-                "band": "",
-                "abmag": "17.3",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN2009nn":{
+		"name":"SN2009nn",
+		"aliases":[
+			"SN2009nn"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 2107",
+				"url":"http://www.cbat.eps.harvard.edu/cbet/002100/CBET002107.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"IIn",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"4",
+		"discoverer":"ROTSE",
+		"discovermonth":"12",
+		"discoveryear":"2009",
+		"galdec":[
+			{
+				"value":"+13:55:08",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"12:33:56",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A123356+1355",
+				"source":"1"
+			},
+			{
+				"value":"PGC 169532",
+				"source":"2,3"
+			},
+			{
+				"value":"(PGC169532)",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"13800",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"210",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-19",
+		"maxappmag":"17.3",
+		"maxday":"4",
+		"maxmonth":"12",
+		"maxyear":"2009",
+		"redshift":[
+			{
+				"value":"0.046",
+				"source":"2,3,4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+13:55:09.0",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"12:33:56.42",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"55169.5",
+				"band":"",
+				"abmag":"17.3",
+				"source":"2,3"
+			}
+		]
+	}
 }

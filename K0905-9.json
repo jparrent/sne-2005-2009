@@ -1,39 +1,51 @@
 {
-    "K0905-9": {
-        "name": "K0905-9",
-        "aliases": [
-            "K0905-9",
-            "CSS090518:121730+411329"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iau/cbet/001800/CBET001828.txt'>CBET 1828</a>",
-                "alias": "2"
-            }
-        ],
-        "discoverday": "17",
-        "discoverer": "CRTS",
-        "discovermonth": "5",
-        "discoveryear": "2009",
-        "maxappmag": "19.7",
-        "maxday": "17",
-        "maxmonth": "5",
-        "maxyear": "2009",
-        "sndec": "+41:13:29.1",
-        "snra": "12:17:30.34",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54968.5",
-                "band": "",
-                "abmag": "19.7",
-                "source": "2,1"
-            }
-        ]
-    }
+	"K0905-9":{
+		"name":"K0905-9",
+		"aliases":[
+			"K0905-9",
+			"CSS090518:121730+411329"
+		],
+		"sources":[
+			{
+				"name":"CBET 1828",
+				"url":"http://www.cbat.eps.harvard.edu/iau/cbet/001800/CBET001828.txt",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"discoverday":"17",
+		"discoverer":"CRTS",
+		"discovermonth":"5",
+		"discoveryear":"2009",
+		"maxappmag":"19.7",
+		"maxday":"17",
+		"maxmonth":"5",
+		"maxyear":"2009",
+		"sndec":[
+			{
+				"value":"+41:13:29.1",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"12:17:30.34",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54968.5",
+				"band":"",
+				"abmag":"19.7",
+				"source":"1,2"
+			}
+		]
+	}
 }

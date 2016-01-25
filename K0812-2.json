@@ -1,39 +1,51 @@
 {
-    "K0812-2": {
-        "name": "K0812-2",
-        "aliases": [
-            "K0812-2",
-            "CSS081201:103354-032125"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001600/CBET001682.txt'>CBET 1682</a>",
-                "alias": "2"
-            }
-        ],
-        "discoverday": "30",
-        "discoverer": "CRTS",
-        "discovermonth": "11",
-        "discoveryear": "2008",
-        "maxappmag": "18",
-        "maxday": "30",
-        "maxmonth": "11",
-        "maxyear": "2008",
-        "sndec": "-03:21:25.4",
-        "snra": "10:33:53.80",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54800.5",
-                "band": "",
-                "abmag": "18.0",
-                "source": "2,1"
-            }
-        ]
-    }
+	"K0812-2":{
+		"name":"K0812-2",
+		"aliases":[
+			"K0812-2",
+			"CSS081201:103354-032125"
+		],
+		"sources":[
+			{
+				"name":"CBET 1682",
+				"url":"http://www.cbat.eps.harvard.edu/cbet/001600/CBET001682.txt",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"discoverday":"30",
+		"discoverer":"CRTS",
+		"discovermonth":"11",
+		"discoveryear":"2008",
+		"maxappmag":"18",
+		"maxday":"30",
+		"maxmonth":"11",
+		"maxyear":"2008",
+		"sndec":[
+			{
+				"value":"-03:21:25.4",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"10:33:53.80",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54800.5",
+				"band":"",
+				"abmag":"18.0",
+				"source":"1,2"
+			}
+		]
+	}
 }

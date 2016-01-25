@@ -1,51 +1,81 @@
 {
-    "SN2009fp": {
-        "name": "SN2009fp",
-        "aliases": [
-            "SN2009fp",
-            "CSS090516:104522+105717"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iau/cbet/001800/CBET001825.txt'>CBET 1825</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "15",
-        "discoverer": "CRTS",
-        "discovermonth": "5",
-        "discoveryear": "2009",
-        "galdec": "+105717",
-        "galra": "104522",
-        "host": "A104522+1057",
-        "maxappmag": "18.5",
-        "maxday": "15",
-        "maxmonth": "5",
-        "maxyear": "2009",
-        "sndec": "+10:57:17.0",
-        "snra": "10:45:22.18",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54966.5",
-                "band": "",
-                "abmag": "18.5",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN2009fp":{
+		"name":"SN2009fp",
+		"aliases":[
+			"SN2009fp",
+			"CSS090516:104522+105717"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 1825",
+				"url":"http://www.cbat.eps.harvard.edu/iau/cbet/001800/CBET001825.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"15",
+		"discoverer":"CRTS",
+		"discovermonth":"5",
+		"discoveryear":"2009",
+		"galdec":[
+			{
+				"value":"+10:57:17",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"10:45:22",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A104522+1057",
+				"source":"1"
+			}
+		],
+		"maxappmag":"18.5",
+		"maxday":"15",
+		"maxmonth":"5",
+		"maxyear":"2009",
+		"sndec":[
+			{
+				"value":"+10:57:17.0",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"10:45:22.18",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54966.5",
+				"band":"",
+				"abmag":"18.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

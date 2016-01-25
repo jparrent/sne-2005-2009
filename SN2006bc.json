@@ -1,64 +1,109 @@
 {
-    "SN2006bc": {
-        "name": "SN2006bc",
-        "aliases": [
-            "SN2006bc"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08600/08693.html#Item1'>IAUC 8693</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II P",
-                "source": "1"
-            },
-            {
-                "type": "II",
-                "source": "2"
-            }
-        ],
-        "discoverday": "23",
-        "discoverer": "Perth Observatory",
-        "discovermonth": "3",
-        "discoveryear": "2006",
-        "galdec": "-690007",
-        "galra": "072121",
-        "host": "NGC 2397",
-        "hvel": "1311",
-        "lumdist": "19.4628",
-        "maxabsmag": "-15.446",
-        "maxappmag": "16",
-        "maxday": "23",
-        "maxmonth": "3",
-        "maxyear": "2006",
-        "redshift": "0.004383",
-        "sndec": "-68:59:57.3",
-        "snra": "07:21:16.50",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "53817.5",
-                "band": "",
-                "abmag": "16.0",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN2006bc":{
+		"name":"SN2006bc",
+		"aliases":[
+			"SN2006bc"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 8693",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/08600/08693.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II P",
+				"source":"1"
+			},
+			{
+				"value":"II",
+				"source":"2,3"
+			}
+		],
+		"discoverday":"23",
+		"discoverer":"Perth Observatory",
+		"discovermonth":"3",
+		"discoveryear":"2006",
+		"galdec":[
+			{
+				"value":"-69:00:07",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"07:21:21",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"NGC 2397",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"1311",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"20",
+				"source":"4"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"16",
+		"maxday":"23",
+		"maxmonth":"3",
+		"maxyear":"2006",
+		"redshift":[
+			{
+				"value":"0.0045",
+				"source":"4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-68:59:57.3",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"07:21:16.50",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"53817.5",
+				"band":"",
+				"abmag":"16.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

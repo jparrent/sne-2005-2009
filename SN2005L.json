@@ -1,60 +1,113 @@
 {
-    "SN2005L": {
-        "name": "SN2005L",
-        "aliases": [
-            "SN2005L"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08400/08469.html#Item1'>IAUC 8469</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia P",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "14",
-        "discoverer": "Tom Boles",
-        "discovermonth": "1",
-        "discoveryear": "2005",
-        "galdec": "+392311",
-        "galra": "155325",
-        "host": "MCG +7-33-5",
-        "hvel": "21000",
-        "lumdist": "341",
-        "maxabsmag": "-19.5",
-        "maxappmag": "18.2",
-        "maxday": "14",
-        "maxmonth": "1",
-        "maxyear": "2005",
-        "redshift": "0.073",
-        "sndec": "+39:23:08.1",
-        "snra": "15:53:25.92",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "53384.5",
-                "band": "",
-                "abmag": "18.2",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN2005L":{
+		"name":"SN2005L",
+		"aliases":[
+			"SN2005L"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 8469",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/08400/08469.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia P",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"14",
+		"discoverer":"Tom Boles",
+		"discovermonth":"1",
+		"discoveryear":"2005",
+		"galdec":[
+			{
+				"value":"+39:23:11",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"15:53:25",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"M+07-33-05",
+				"source":"1"
+			},
+			{
+				"value":"MCG +7-33-5",
+				"source":"2,3"
+			},
+			{
+				"value":"PGC56310",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"21000",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"330",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-19",
+		"maxappmag":"18.2",
+		"maxday":"14",
+		"maxmonth":"1",
+		"maxyear":"2005",
+		"redshift":[
+			{
+				"value":"0.071",
+				"source":"4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+39:23:08.1",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"15:53:25.92",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"53384.5",
+				"band":"",
+				"abmag":"18.2",
+				"source":"2,3"
+			}
+		]
+	}
 }

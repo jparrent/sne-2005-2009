@@ -1,60 +1,109 @@
 {
-    "SN2005Z": {
-        "name": "SN2005Z",
-        "aliases": [
-            "SN2005Z"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08400/08476.html#Item1'>IAUC 8476</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "1",
-        "discoverer": "LOSS",
-        "discovermonth": "2",
-        "discoveryear": "2005",
-        "galdec": "+220443",
-        "galra": "104509",
-        "host": "NGC 3363",
-        "hvel": "5766",
-        "lumdist": "87.219",
-        "maxabsmag": "-18.603",
-        "maxappmag": "16.1",
-        "maxday": "1",
-        "maxmonth": "2",
-        "maxyear": "2005",
-        "redshift": "0.01942",
-        "sndec": "+22:04:38.3",
-        "snra": "10:45:09.07",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "53402.5",
-                "band": "",
-                "abmag": "16.1",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN2005Z":{
+		"name":"SN2005Z",
+		"aliases":[
+			"SN2005Z"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 8476",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/08400/08476.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"1",
+		"discoverer":"LOSS",
+		"discovermonth":"2",
+		"discoveryear":"2005",
+		"galdec":[
+			{
+				"value":"+22:04:43",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"10:45:09",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"NGC 3363",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"5766",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"85",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-19",
+		"maxappmag":"16.1",
+		"maxday":"1",
+		"maxmonth":"2",
+		"maxyear":"2005",
+		"redshift":[
+			{
+				"value":"0.019",
+				"source":"4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+22:04:38.3",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"10:45:09.18",
+				"source":"1"
+			},
+			{
+				"value":"10:45:09.07",
+				"source":"2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"53402.5",
+				"band":"",
+				"abmag":"16.1",
+				"source":"2,3"
+			}
+		]
+	}
 }

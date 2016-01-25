@@ -1,64 +1,126 @@
 {
-    "SN2007pn": {
-        "name": "SN2007pn",
-        "aliases": [
-            "SN2007pn"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001100/CBET001135.txt'>CBET 1135</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia ?",
-                "source": "1"
-            },
-            {
-                "type": "Ia?",
-                "source": "2"
-            }
-        ],
-        "discoverday": "11",
-        "discoverer": "SDSS Collaboration",
-        "discovermonth": "10",
-        "discoveryear": "2007",
-        "galdec": "-004320",
-        "galra": "021633",
-        "host": "A021633-0043",
-        "hvel": "79000",
-        "lumdist": "1700",
-        "maxabsmag": "-19",
-        "maxappmag": "22.5",
-        "maxday": "11",
-        "maxmonth": "10",
-        "maxyear": "2007",
-        "redshift": "0.31",
-        "sndec": "-00:43:20.5",
-        "snra": "02:16:33.90",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54384.5",
-                "band": "",
-                "abmag": "22.5",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN2007pn":{
+		"name":"SN2007pn",
+		"aliases":[
+			"SN2007pn"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 1135",
+				"url":"http://www.cbat.eps.harvard.edu/cbet/001100/CBET001135.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			},
+			{
+				"name":"NED-D",
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2014arXiv1401.3317S",
+				"url":"http://adsabs.harvard.edu/abs/2014arXiv1401.3317S",
+				"bibcode":"2014arXiv1401.3317S",
+				"alias":"6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia ?",
+				"source":"1"
+			},
+			{
+				"value":"Ia?",
+				"source":"2,3"
+			}
+		],
+		"discoverday":"11",
+		"discoverer":"SDSS Collaboration",
+		"discovermonth":"10",
+		"discoveryear":"2007",
+		"galdec":[
+			{
+				"value":"-00:43:20",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"02:16:33",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A021633-0043",
+				"source":"1"
+			},
+			{
+				"value":"(SDSSJ021633.95-4319.7)",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"79000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"1410",
+				"error":"210",
+				"source":"6,5"
+			}
+		],
+		"maxabsmag":"-18.2",
+		"maxappmag":"22.5",
+		"maxday":"11",
+		"maxmonth":"10",
+		"maxyear":"2007",
+		"redshift":[
+			{
+				"value":"0.31",
+				"source":"1,2,3,4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-00:43:20.5",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"02:16:33.90",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54384.5",
+				"band":"",
+				"abmag":"22.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

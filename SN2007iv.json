@@ -1,60 +1,113 @@
 {
-    "SN2007iv": {
-        "name": "SN2007iv",
-        "aliases": [
-            "SN2007iv"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001000/CBET001070.txt'>CBET 1070</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "12",
-        "discoverer": "Tom Boles",
-        "discovermonth": "9",
-        "discoveryear": "2007",
-        "galdec": "+402011",
-        "galra": "000152",
-        "host": "UGC 12917",
-        "hvel": "13500",
-        "lumdist": "211.1",
-        "maxabsmag": "-17.02",
-        "maxappmag": "19.6",
-        "maxday": "12",
-        "maxmonth": "9",
-        "maxyear": "2007",
-        "redshift": "0.0461",
-        "sndec": "+40:20:19.2",
-        "snra": "00:01:53.22",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54355.5",
-                "band": "",
-                "abmag": "19.6",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN2007iv":{
+		"name":"SN2007iv",
+		"aliases":[
+			"SN2007iv"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 1070",
+				"url":"http://www.cbat.eps.harvard.edu/cbet/001000/CBET001070.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"12",
+		"discoverer":"Tom Boles",
+		"discovermonth":"9",
+		"discoveryear":"2007",
+		"galdec":[
+			{
+				"value":"+40:20:11",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"00:01:52",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"UGC 12917",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"13500",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"210",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-17",
+		"maxappmag":"19.6",
+		"maxday":"12",
+		"maxmonth":"9",
+		"maxyear":"2007",
+		"redshift":[
+			{
+				"value":"0.045",
+				"source":"2,3,4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+40:20:19.4",
+				"source":"1"
+			},
+			{
+				"value":"+40:20:19.2",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"00:01:53.25",
+				"source":"1"
+			},
+			{
+				"value":"00:01:53.22",
+				"source":"2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54355.5",
+				"band":"",
+				"abmag":"19.6",
+				"source":"2,3"
+			}
+		]
+	}
 }

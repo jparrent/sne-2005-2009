@@ -1,75 +1,105 @@
 {
-    "SN2009mt": {
-        "name": "SN2009mt",
-        "aliases": [
-            "SN2009mt",
-            "CSS091125:040258+175627"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/002000/CBET002090.txt'>CBET 2090</a>",
-                "alias": "3"
-            },
-            {
-                "name": "Stan Howerton",
-                "alias": "4"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "24",
-        "discoverer": "CRTS",
-        "discovermonth": "11",
-        "discoveryear": "2009",
-        "galdec": "+175626",
-        "galra": "040257",
-        "host": "A040257+1756",
-        "maxappmag": "17.1",
-        "maxday": "24",
-        "maxmonth": "11",
-        "maxyear": "2009",
-        "sndec": "+17:56:26.7",
-        "snra": "04:02:57.68",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "55159.5",
-                "band": "",
-                "abmag": "17.1",
-                "source": "3,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "55163.153",
-                "band": "C",
-                "abmag": "17.1",
-                "source": "4,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "55163.153",
-                "band": "C",
-                "abmag": "17.1",
-                "source": "4,2"
-            }
-        ]
-    }
+	"SN2009mt":{
+		"name":"SN2009mt",
+		"aliases":[
+			"SN2009mt",
+			"CSS091125:040258+175627"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 2090",
+				"url":"http://www.cbat.eps.harvard.edu/cbet/002000/CBET002090.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"Stan Howerton",
+				"alias":"4"
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"5"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"24",
+		"discoverer":"CRTS",
+		"discovermonth":"11",
+		"discoveryear":"2009",
+		"galdec":[
+			{
+				"value":"+17:56:26",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"04:02:57",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A040257+1756",
+				"source":"1"
+			}
+		],
+		"maxappmag":"17.1",
+		"maxday":"24",
+		"maxmonth":"11",
+		"maxyear":"2009",
+		"sndec":[
+			{
+				"value":"+17:56:26.7",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"04:02:57.68",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"55159.5",
+				"band":"",
+				"abmag":"17.1",
+				"source":"2,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"55163.153",
+				"band":"C",
+				"abmag":"17.1",
+				"source":"4,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"55163.153",
+				"band":"C",
+				"abmag":"17.1",
+				"source":"4,3"
+			}
+		]
+	}
 }

@@ -1,51 +1,100 @@
 {
-    "SN2005V": {
-        "name": "SN2005V",
-        "aliases": [
-            "SN2005V"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ib/c",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "30",
-        "discoverer": "Nuclear Supernova Search",
-        "discovermonth": "1",
-        "discoveryear": "2005",
-        "galdec": "+782125",
-        "galra": "061838",
-        "host": "NGC 2146",
-        "hvel": "873",
-        "lumdist": "12.952",
-        "redshift": "0.00292",
-        "sndec": "+78:21:28.8",
-        "snra": "06:18:38.28",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "53400.0",
-                "band": "K",
-                "abmag": "13.8",
-                "source": "3"
-            }
-        ]
-    }
+	"SN2005V":{
+		"name":"SN2005V",
+		"aliases":[
+			"SN2005V"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 8474",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/08400/08474.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ib/c",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"30",
+		"discoverer":"Nuclear Supernova Search",
+		"discovermonth":"1",
+		"discoveryear":"2005",
+		"galdec":[
+			{
+				"value":"+78:21:25",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"06:18:38",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"NGC 2146",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"873",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"17",
+				"source":"4"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.003",
+				"source":"4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+78:21:28.8",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"06:18:38.28",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"53400.0",
+				"band":"K",
+				"abmag":"13.8",
+				"source":"4"
+			}
+		]
+	}
 }

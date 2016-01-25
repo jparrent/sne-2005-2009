@@ -1,37 +1,69 @@
 {
-    "SN2008df": {
-        "name": "SN2008df",
-        "aliases": [
-            "SN2008df"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "2"
-            }
-        ],
-        "discoverday": "5",
-        "discoverer": "Drake et al.",
-        "discovermonth": 5,
-        "discoveryear": "2008",
-        "galdec": "+100521",
-        "galra": "160625",
-        "host": "A160625+1005",
-        "sndec": "+100521.4",
-        "snra": "160625.06",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54591.0",
-                "band": "",
-                "abmag": "19.2",
-                "source": "2"
-            }
-        ]
-    }
+	"SN2008df":{
+		"name":"SN2008df",
+		"aliases":[
+			"SN2008df"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			}
+		],
+		"discoverday":"5",
+		"discoverer":"Drake et al.",
+		"discovermonth":5,
+		"discoveryear":"2008",
+		"galdec":[
+			{
+				"value":"+10:05:21",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"16:06:25",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A160625+1005",
+				"source":"1"
+			},
+			{
+				"value":"(SDSSJ160625.09+100521.0)",
+				"source":"2"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+10:05:21.4",
+				"source":"1"
+			}
+		],
+		"snra":[
+			{
+				"value":"16:06:25.06",
+				"source":"1"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54591.0",
+				"band":"",
+				"abmag":"19.2",
+				"source":"2"
+			}
+		]
+	}
 }

@@ -1,78 +1,123 @@
 {
-    "SN2008B": {
-        "name": "SN2008B",
-        "aliases": [
-            "SN2008B"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001100/CBET001194.txt'>CBET 1194</a>",
-                "alias": "3"
-            },
-            {
-                "name": "LLA",
-                "alias": "4"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "IIn",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "1",
-        "discoverer": "Koichi Itagaki",
-        "discovermonth": "1",
-        "discoveryear": "2008",
-        "galdec": "+231956",
-        "galra": "150242",
-        "host": "NGC 5829",
-        "hvel": "5715",
-        "lumdist": "86.445",
-        "maxabsmag": "-18.884",
-        "maxappmag": "15.8",
-        "maxday": "12",
-        "maxmonth": "1",
-        "maxyear": "2008",
-        "redshift": "0.01925",
-        "sndec": "+23:20:07.8",
-        "snra": "15:02:43.65",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54466.5",
-                "band": "",
-                "abmag": "16.4",
-                "source": "3,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54477.243",
-                "band": "CR",
-                "abmag": "15.8",
-                "source": "4,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54501.184",
-                "band": "CR",
-                "abmag": "17.2",
-                "source": "4,2"
-            }
-        ]
-    }
+	"SN2008B":{
+		"name":"SN2008B",
+		"aliases":[
+			"SN2008B"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 1194",
+				"url":"http://www.cbat.eps.harvard.edu/cbet/001100/CBET001194.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"LLA",
+				"alias":"4"
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"5"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"IIn",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"1",
+		"discoverer":"Koichi Itagaki",
+		"discovermonth":"1",
+		"discoveryear":"2008",
+		"galdec":[
+			{
+				"value":"+23:19:56",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"15:02:42",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"NGC 5829",
+				"source":"1,2,3,5"
+			}
+		],
+		"hvel":[
+			{
+				"value":"5715",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"44",
+				"source":"5"
+			}
+		],
+		"maxabsmag":"-17",
+		"maxappmag":"15.8",
+		"maxday":"12",
+		"maxmonth":"1",
+		"maxyear":"2008",
+		"redshift":[
+			{
+				"value":"0.0188",
+				"source":"2,3"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+23:20:07.8",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"15:02:43.65",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54466.5",
+				"band":"",
+				"abmag":"16.4",
+				"source":"2,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54477.243",
+				"band":"CR",
+				"abmag":"15.8",
+				"source":"4,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54501.184",
+				"band":"CR",
+				"abmag":"17.2",
+				"source":"4,3"
+			}
+		]
+	}
 }

@@ -1,60 +1,105 @@
 {
-    "SN2005ba": {
-        "name": "SN2005ba",
-        "aliases": [
-            "SN2005ba"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08500/08503.html#Item2'>IAUC 8503</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "2",
-        "discoverer": "Arne Danielsen",
-        "discovermonth": "4",
-        "discoveryear": "2005",
-        "galdec": "+220034",
-        "galra": "113744",
-        "host": "NGC 3746",
-        "hvel": "9074",
-        "lumdist": "139.22",
-        "maxabsmag": "-18.519",
-        "maxappmag": "17.2",
-        "maxday": "2",
-        "maxmonth": "4",
-        "maxyear": "2005",
-        "redshift": "0.03074",
-        "sndec": "+22:00:38.9",
-        "snra": "11:37:42.58",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "53462.5",
-                "band": "",
-                "abmag": "17.2",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN2005ba":{
+		"name":"SN2005ba",
+		"aliases":[
+			"SN2005ba"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 8503",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/08500/08503.html#Item2",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"2",
+		"discoverer":"Arne Danielsen",
+		"discovermonth":"4",
+		"discoveryear":"2005",
+		"galdec":[
+			{
+				"value":"+22:00:34",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"11:37:44",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"NGC 3746",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"9074",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"100",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"17.2",
+		"maxday":"2",
+		"maxmonth":"4",
+		"maxyear":"2005",
+		"redshift":[
+			{
+				"value":"0.03",
+				"source":"2,3,4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+22:00:38.9",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"11:37:42.58",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"53462.5",
+				"band":"",
+				"abmag":"17.2",
+				"source":"2,3"
+			}
+		]
+	}
 }

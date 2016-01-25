@@ -1,85 +1,134 @@
 {
-    "SN2007ct": {
-        "name": "SN2007ct",
-        "aliases": [
-            "SN2007ct"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/000900/CBET000988.txt'>CBET 988</a>",
-                "alias": "3"
-            },
-            {
-                "name": "Pro",
-                "alias": "4"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "27",
-        "discoverer": "LOSS",
-        "discovermonth": "6",
-        "discoveryear": "2007",
-        "galdec": "+065409",
-        "galra": "203811",
-        "host": "NGC 6944A",
-        "hvel": "4195",
-        "lumdist": "63.029",
-        "maxabsmag": "-17.698",
-        "maxappmag": "16.3",
-        "maxday": "11",
-        "maxmonth": "7",
-        "maxyear": "2007",
-        "redshift": "0.01409",
-        "sndec": "+06:53:52.4",
-        "snra": "20:38:11.15",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54278.5",
-                "band": "",
-                "abmag": "18.1",
-                "source": "3,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54287.954",
-                "band": "CR",
-                "abmag": "17.0",
-                "source": "4,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54292.958",
-                "band": "CR",
-                "abmag": "16.30",
-                "source": "2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54306.966",
-                "band": "C",
-                "abmag": "18.1",
-                "source": "4,2"
-            }
-        ]
-    }
+	"SN2007ct":{
+		"name":"SN2007ct",
+		"aliases":[
+			"SN2007ct"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 988",
+				"url":"http://www.cbat.eps.harvard.edu/cbet/000900/CBET000988.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"Pro",
+				"alias":"4"
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"5"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"27",
+		"discoverer":"LOSS",
+		"discovermonth":"6",
+		"discoveryear":"2007",
+		"galdec":[
+			{
+				"value":"+06:54:09",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"20:38:11",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"NGC 6944A",
+				"source":"1,2,3,5"
+			}
+		],
+		"hvel":[
+			{
+				"value":"4195",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"63",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-18",
+		"maxappmag":"16.3",
+		"maxday":"11",
+		"maxmonth":"7",
+		"maxyear":"2007",
+		"redshift":[
+			{
+				"value":"0.014",
+				"source":"2,3,5"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+06:53:52.4",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"20:38:11.25",
+				"source":"1"
+			},
+			{
+				"value":"20:38:11.15",
+				"source":"2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54278.5",
+				"band":"",
+				"abmag":"18.1",
+				"source":"2,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54287.954",
+				"band":"CR",
+				"abmag":"17.0",
+				"source":"4,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54292.958",
+				"band":"CR",
+				"abmag":"16.30",
+				"source":"3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54306.966",
+				"band":"C",
+				"abmag":"18.1",
+				"source":"4,3"
+			}
+		]
+	}
 }

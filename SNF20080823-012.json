@@ -1,44 +1,56 @@
 {
-    "SNF20080823-012": {
-        "name": "SNF20080823-012",
-        "aliases": [
-            "SNF20080823-012"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://snfactory.lbl.gov/'>SN Factory</a>",
-                "alias": "2"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "1"
-            }
-        ],
-        "discoverday": "22",
-        "discoverer": "Nearby Supernova Factory",
-        "discovermonth": "8",
-        "discoveryear": "2008",
-        "maxappmag": "18.3",
-        "maxday": "22",
-        "maxmonth": "8",
-        "maxyear": "2008",
-        "sndec": "+06:02:02.7",
-        "snra": "22:02:22.27",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54700.5",
-                "band": "",
-                "abmag": "18.3",
-                "source": "2,1"
-            }
-        ]
-    }
+	"SNF20080823-012":{
+		"name":"SNF20080823-012",
+		"aliases":[
+			"SNF20080823-012"
+		],
+		"sources":[
+			{
+				"name":"SN Factory",
+				"url":"http://snfactory.lbl.gov/",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2"
+			}
+		],
+		"discoverday":"22",
+		"discoverer":"Nearby Supernova Factory",
+		"discovermonth":"8",
+		"discoveryear":"2008",
+		"maxappmag":"18.3",
+		"maxday":"22",
+		"maxmonth":"8",
+		"maxyear":"2008",
+		"sndec":[
+			{
+				"value":"+06:02:02.7",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"22:02:22.27",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54700.5",
+				"band":"",
+				"abmag":"18.3",
+				"source":"1,2"
+			}
+		]
+	}
 }

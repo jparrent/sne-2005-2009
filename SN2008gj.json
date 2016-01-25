@@ -1,78 +1,123 @@
 {
-    "SN2008gj": {
-        "name": "SN2008gj",
-        "aliases": [
-            "SN2008gj"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001500/CBET001541.txt'>CBET 1541</a>",
-                "alias": "3"
-            },
-            {
-                "name": "Nic",
-                "alias": "4"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ic",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "18",
-        "discoverer": "LOSS",
-        "discovermonth": "10",
-        "discoveryear": "2008",
-        "galdec": "+213717",
-        "galra": "223628",
-        "host": "NGC 7321",
-        "hvel": "7145",
-        "lumdist": "108.71",
-        "maxabsmag": "-17.781",
-        "maxappmag": "17.4",
-        "maxday": "15",
-        "maxmonth": "11",
-        "maxyear": "2008",
-        "redshift": "0.02412",
-        "sndec": "+21:37:55.3",
-        "snra": "22:36:28.57",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54757.5",
-                "band": "",
-                "abmag": "17.8",
-                "source": "3,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54764.807",
-                "band": "CR",
-                "abmag": "17.5",
-                "source": "4,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54785.73",
-                "band": "CR",
-                "abmag": "17.4",
-                "source": "4,2"
-            }
-        ]
-    }
+	"SN2008gj":{
+		"name":"SN2008gj",
+		"aliases":[
+			"SN2008gj"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 1541",
+				"url":"http://www.cbat.eps.harvard.edu/cbet/001500/CBET001541.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"Nic",
+				"alias":"4"
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"5"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ic",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"18",
+		"discoverer":"LOSS",
+		"discovermonth":"10",
+		"discoveryear":"2008",
+		"galdec":[
+			{
+				"value":"+21:37:17",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"22:36:28",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"NGC 7321",
+				"source":"1,2,3,5"
+			}
+		],
+		"hvel":[
+			{
+				"value":"7145",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"91",
+				"source":"5"
+			}
+		],
+		"maxabsmag":"-17",
+		"maxappmag":"17.4",
+		"maxday":"15",
+		"maxmonth":"11",
+		"maxyear":"2008",
+		"redshift":[
+			{
+				"value":"0.0238",
+				"source":"2,3"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+21:37:55.3",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"22:36:28.57",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54757.5",
+				"band":"",
+				"abmag":"17.8",
+				"source":"2,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54764.807",
+				"band":"CR",
+				"abmag":"17.5",
+				"source":"4,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54785.73",
+				"band":"CR",
+				"abmag":"17.4",
+				"source":"4,3"
+			}
+		]
+	}
 }

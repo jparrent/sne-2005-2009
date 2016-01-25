@@ -1,71 +1,116 @@
 {
-    "SN2007gw": {
-        "name": "SN2007gw",
-        "aliases": [
-            "SN2007gw"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001000/CBET001042.txt'>CBET 1042</a>",
-                "alias": "3"
-            },
-            {
-                "name": "LLA",
-                "alias": "4"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "19",
-        "discoverer": "Koichi Itagaki",
-        "discovermonth": "8",
-        "discoveryear": "2007",
-        "galdec": "+574415",
-        "galra": "121133",
-        "host": "NGC 4161",
-        "hvel": "4941",
-        "lumdist": "74.488",
-        "maxabsmag": "-18.86",
-        "maxappmag": "15.5",
-        "maxday": "19",
-        "maxmonth": "8",
-        "maxyear": "2007",
-        "redshift": "0.01662",
-        "sndec": "+57:44:15.9",
-        "snra": "12:11:34.60",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54331.5",
-                "band": "",
-                "abmag": "15.5",
-                "source": "3,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54339.813",
-                "band": "CR",
-                "abmag": "16.7",
-                "source": "4,2"
-            }
-        ]
-    }
+	"SN2007gw":{
+		"name":"SN2007gw",
+		"aliases":[
+			"SN2007gw"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 1042",
+				"url":"http://www.cbat.eps.harvard.edu/cbet/001000/CBET001042.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"LLA",
+				"alias":"4"
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"5"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"19",
+		"discoverer":"Koichi Itagaki",
+		"discovermonth":"8",
+		"discoveryear":"2007",
+		"galdec":[
+			{
+				"value":"+57:44:15",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"12:11:33",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"NGC 4161",
+				"source":"1,2,3,5"
+			}
+		],
+		"hvel":[
+			{
+				"value":"4941",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"73",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-18.8",
+		"maxappmag":"15.5",
+		"maxday":"19",
+		"maxmonth":"8",
+		"maxyear":"2007",
+		"redshift":[
+			{
+				"value":"0.0163",
+				"source":"2,3"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+57:44:15.9",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"12:11:34.60",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54331.5",
+				"band":"",
+				"abmag":"15.5",
+				"source":"2,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54339.813",
+				"band":"CR",
+				"abmag":"16.7",
+				"source":"4,3"
+			}
+		]
+	}
 }

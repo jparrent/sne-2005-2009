@@ -1,141 +1,236 @@
 {
-    "SN2006on": {
-        "name": "SN2006on",
-        "aliases": [
-            "SN2006on"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://dau.itep.ru/sn/node/72'>Sternberg Astronomical Institute Supernova Light Curve Catalogue</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2009arXiv0901.4787H'>2009arXiv0901.4787H</a>",
-                "alias": "2"
-            },
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "4",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iau/cbet/000700/CBET000745.txt'>CBET 745</a>",
-                "alias": "5"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "6"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "3,4"
-            }
-        ],
-        "discoverday": "10",
-        "discoverer": "SDSS Collaboration",
-        "discovermonth": "11",
-        "discoveryear": "2006",
-        "galdec": "-010412",
-        "galra": "215558",
-        "host": "A215558-0104",
-        "hvel": "21000",
-        "lumdist": "341",
-        "maxabsmag": "-18.9",
-        "maxappmag": "18.75",
-        "maxday": "22",
-        "maxmonth": "11",
-        "maxyear": "2006",
-        "redshift": "0.073",
-        "sndec": "-01:04:12.7",
-        "snra": "21:55:58.49",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54049.5",
-                "band": "",
-                "abmag": "20.7",
-                "source": "5,4"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54060.695",
-                "band": "V",
-                "abmag": "18.801",
-                "aberr": "0.047",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54060.698",
-                "band": "B",
-                "abmag": "19.013",
-                "aberr": "0.042",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54061.644",
-                "band": "V",
-                "abmag": "18.752",
-                "aberr": "0.042",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54062.616",
-                "band": "V",
-                "abmag": "18.757",
-                "aberr": "0.039",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54075.58",
-                "band": "V",
-                "abmag": "19.097",
-                "aberr": "0.064",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54081.589",
-                "band": "V",
-                "abmag": "19.541",
-                "aberr": "0.098",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54084.556",
-                "band": "V",
-                "abmag": "19.722",
-                "aberr": "0.115",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54085.603",
-                "band": "V",
-                "abmag": "19.608",
-                "aberr": "0.076",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54085.606",
-                "band": "B",
-                "abmag": "20.99",
-                "aberr": "0.217",
-                "source": "1,2"
-            }
-        ]
-    }
+	"SN2006on":{
+		"name":"SN2006on",
+		"aliases":[
+			"SN2006on"
+		],
+		"sources":[
+			{
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"2009arXiv0901.4787H",
+				"url":"http://adsabs.harvard.edu/abs/2009arXiv0901.4787H",
+				"bibcode":"2009arXiv0901.4787H",
+				"alias":"2"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"CBET 745",
+				"url":"http://www.cbat.eps.harvard.edu/iau/cbet/000700/CBET000745.txt",
+				"alias":"4"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
+			},
+			{
+				"name":"NED-D",
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"7",
+				"secondary":true
+			},
+			{
+				"name":"2010ApJ...716..712A",
+				"url":"http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+				"bibcode":"2010ApJ...716..712A",
+				"alias":"8"
+			},
+			{
+				"name":"2015Sci...347.1459K",
+				"url":"http://adsabs.harvard.edu/abs/2015Sci...347.1459K",
+				"bibcode":"2015Sci...347.1459K",
+				"alias":"9"
+			},
+			{
+				"name":"2013MNRAS.433.2240G",
+				"url":"http://adsabs.harvard.edu/abs/2013MNRAS.433.2240G",
+				"bibcode":"2013MNRAS.433.2240G",
+				"alias":"10"
+			},
+			{
+				"name":"2014ApJ...795...44R",
+				"url":"http://adsabs.harvard.edu/abs/2014ApJ...795...44R",
+				"bibcode":"2014ApJ...795...44R",
+				"alias":"11"
+			},
+			{
+				"name":"2009ApJ...700.1097H",
+				"url":"http://adsabs.harvard.edu/abs/2009ApJ...700.1097H",
+				"bibcode":"2009ApJ...700.1097H",
+				"alias":"12"
+			},
+			{
+				"name":"2011ApJS..192....1C",
+				"url":"http://adsabs.harvard.edu/abs/2011ApJS..192....1C",
+				"bibcode":"2011ApJS..192....1C",
+				"alias":"13"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"3,4,5"
+			}
+		],
+		"discoverday":"10",
+		"discoverer":"SDSS Collaboration",
+		"discovermonth":"11",
+		"discoveryear":"2006",
+		"galdec":[
+			{
+				"value":"-01:04:12",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"21:55:58",
+				"source":"3"
+			}
+		],
+		"host":[
+			{
+				"value":"A215558-0104",
+				"source":"3"
+			},
+			{
+				"value":"(APMUKS(BJ)B215323.93-11829.9)",
+				"source":"6"
+			}
+		],
+		"hvel":[
+			{
+				"value":"21000",
+				"source":"3"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"368",
+				"error":"10",
+				"source":"13,7"
+			}
+		],
+		"maxabsmag":"-19.1",
+		"maxappmag":"18.75",
+		"maxday":"22",
+		"maxmonth":"11",
+		"maxyear":"2006",
+		"redshift":[
+			{
+				"value":"0.07",
+				"source":"4,5,6"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-01:04:12.7",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"21:55:58.49",
+				"source":"3,4,5"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54049.5",
+				"band":"",
+				"abmag":"20.7",
+				"source":"4,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54060.695",
+				"band":"V",
+				"abmag":"18.801",
+				"aberr":"0.047",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54060.698",
+				"band":"B",
+				"abmag":"19.013",
+				"aberr":"0.042",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54061.644",
+				"band":"V",
+				"abmag":"18.752",
+				"aberr":"0.042",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54062.616",
+				"band":"V",
+				"abmag":"18.757",
+				"aberr":"0.039",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54075.58",
+				"band":"V",
+				"abmag":"19.097",
+				"aberr":"0.064",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54081.589",
+				"band":"V",
+				"abmag":"19.541",
+				"aberr":"0.098",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54084.556",
+				"band":"V",
+				"abmag":"19.722",
+				"aberr":"0.115",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54085.603",
+				"band":"V",
+				"abmag":"19.608",
+				"aberr":"0.076",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54085.606",
+				"band":"B",
+				"abmag":"20.99",
+				"aberr":"0.217",
+				"source":"1,2"
+			}
+		]
+	}
 }

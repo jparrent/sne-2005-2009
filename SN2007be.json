@@ -1,104 +1,149 @@
 {
-    "SN2007be": {
-        "name": "SN2007be",
-        "aliases": [
-            "SN2007be"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/000900/CBET000917.txt'>CBET 917</a>",
-                "alias": "3"
-            },
-            {
-                "name": "Nic",
-                "alias": "4"
-            },
-            {
-                "name": "LLA",
-                "alias": "5"
-            },
-            {
-                "name": "Van",
-                "alias": "6"
-            },
-            {
-                "name": "VAN",
-                "alias": "7"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "8"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "6",
-        "discoverer": "Stefano Moretti",
-        "discovermonth": "4",
-        "discoveryear": "2007",
-        "galdec": "-000141",
-        "galra": "123806",
-        "host": "UGC 7800",
-        "hvel": "3766",
-        "lumdist": "56.481",
-        "maxabsmag": "-16.96",
-        "maxappmag": "16.8",
-        "maxday": "6",
-        "maxmonth": "4",
-        "maxyear": "2007",
-        "redshift": "0.01264",
-        "sndec": "-00:01:51.4",
-        "snra": "12:38:06.65",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54196.5",
-                "band": "",
-                "abmag": "16.8",
-                "source": "3,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54209.881",
-                "band": "CR",
-                "abmag": "17.3",
-                "source": "4,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54213.864",
-                "band": "CR",
-                "abmag": "16.9",
-                "source": "5,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54221.909",
-                "band": "CR",
-                "abmag": "17.1",
-                "source": "6,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54243.919",
-                "band": "CR",
-                "abmag": "18.1",
-                "source": "7,2"
-            }
-        ]
-    }
+	"SN2007be":{
+		"name":"SN2007be",
+		"aliases":[
+			"SN2007be"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 917",
+				"url":"http://www.cbat.eps.harvard.edu/cbet/000900/CBET000917.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"Nic",
+				"alias":"4"
+			},
+			{
+				"name":"LLA",
+				"alias":"5"
+			},
+			{
+				"name":"Van",
+				"alias":"6"
+			},
+			{
+				"name":"VAN",
+				"alias":"7"
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"8"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"6",
+		"discoverer":"Stefano Moretti",
+		"discovermonth":"4",
+		"discoveryear":"2007",
+		"galdec":[
+			{
+				"value":"-00:01:41",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"12:38:06",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"UGC 7800",
+				"source":"1,2,3,8"
+			}
+		],
+		"hvel":[
+			{
+				"value":"3766",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"55.8",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-16.9",
+		"maxappmag":"16.8",
+		"maxday":"6",
+		"maxmonth":"4",
+		"maxyear":"2007",
+		"redshift":[
+			{
+				"value":"0.0125",
+				"source":"2,3"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-00:01:51.4",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"12:38:06.65",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54196.5",
+				"band":"",
+				"abmag":"16.8",
+				"source":"2,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54209.881",
+				"band":"CR",
+				"abmag":"17.3",
+				"source":"4,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54213.864",
+				"band":"CR",
+				"abmag":"16.9",
+				"source":"5,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54221.909",
+				"band":"CR",
+				"abmag":"17.1",
+				"source":"6,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54243.919",
+				"band":"CR",
+				"abmag":"18.1",
+				"source":"7,3"
+			}
+		]
+	}
 }

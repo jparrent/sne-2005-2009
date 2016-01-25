@@ -1,78 +1,131 @@
 {
-    "SN2008ig": {
-        "name": "SN2008ig",
-        "aliases": [
-            "SN2008ig"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/001600/CBET001620.txt'>CBET 1620</a>",
-                "alias": "3"
-            },
-            {
-                "name": "Stan Howerton",
-                "alias": "4"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "15",
-        "discoverer": "Italian Supernovae Search Project",
-        "discovermonth": "12",
-        "discoveryear": "2008",
-        "galdec": "-431948",
-        "galra": "125808",
-        "host": "ESO 269-G20",
-        "hvel": "9026",
-        "lumdist": "138.43",
-        "maxabsmag": "-19.906",
-        "maxappmag": "15.8",
-        "maxday": "15",
-        "maxmonth": "12",
-        "maxyear": "2008",
-        "redshift": "0.03057",
-        "sndec": "-43:20:03.6",
-        "snra": "12:58:05.70",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54815.5",
-                "band": "",
-                "abmag": "15.8",
-                "source": "3,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54817.745",
-                "band": "C",
-                "abmag": "16.3",
-                "source": "4,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "54821.707",
-                "band": "V",
-                "abmag": "16.7",
-                "source": "4,2"
-            }
-        ]
-    }
+	"SN2008ig":{
+		"name":"SN2008ig",
+		"aliases":[
+			"SN2008ig"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 1620",
+				"url":"http://www.cbat.eps.harvard.edu/cbet/001600/CBET001620.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"Stan Howerton",
+				"alias":"4"
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"5"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"15",
+		"discoverer":"Italian Supernovae Search Project",
+		"discovermonth":"12",
+		"discoveryear":"2008",
+		"galdec":[
+			{
+				"value":"-43:19:48",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"12:58:08",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"E269-G20",
+				"source":"1"
+			},
+			{
+				"value":"ESO 269-G20",
+				"source":"2,3"
+			},
+			{
+				"value":"E269-20",
+				"source":"5"
+			}
+		],
+		"hvel":[
+			{
+				"value":"9026",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"100",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"15.8",
+		"maxday":"15",
+		"maxmonth":"12",
+		"maxyear":"2008",
+		"redshift":[
+			{
+				"value":"0.03",
+				"source":"2,3,5"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-43:20:03.6",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"12:58:05.70",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54815.5",
+				"band":"",
+				"abmag":"15.8",
+				"source":"2,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54817.745",
+				"band":"C",
+				"abmag":"16.3",
+				"source":"4,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"54821.707",
+				"band":"V",
+				"abmag":"16.7",
+				"source":"4,3"
+			}
+		]
+	}
 }

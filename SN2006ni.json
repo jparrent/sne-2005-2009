@@ -1,60 +1,134 @@
 {
-    "SN2006ni": {
-        "name": "SN2006ni",
-        "aliases": [
-            "SN2006ni"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iau/cbet/000700/CBET000740.txt'>CBET 740</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "20",
-        "discoverer": "SDSS Collaboration",
-        "discovermonth": "10",
-        "discoveryear": "2006",
-        "galdec": "-001141",
-        "galra": "205452",
-        "host": "A205452-0011",
-        "hvel": "49000",
-        "lumdist": "900",
-        "maxabsmag": "-17",
-        "maxappmag": "22.9",
-        "maxday": "20",
-        "maxmonth": "10",
-        "maxyear": "2006",
-        "redshift": "0.18",
-        "sndec": "-00:11:41.4",
-        "snra": "20:54:52.41",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54028.5",
-                "band": "",
-                "abmag": "22.9",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN2006ni":{
+		"name":"SN2006ni",
+		"aliases":[
+			"SN2006ni"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 740",
+				"url":"http://www.cbat.eps.harvard.edu/iau/cbet/000700/CBET000740.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			},
+			{
+				"name":"NED-D",
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2013MNRAS.434.1443X",
+				"url":"http://adsabs.harvard.edu/abs/2013MNRAS.434.1443X",
+				"bibcode":"2013MNRAS.434.1443X",
+				"alias":"6"
+			},
+			{
+				"name":"2011ApJ...740...92G",
+				"url":"http://adsabs.harvard.edu/abs/2011ApJ...740...92G",
+				"bibcode":"2011ApJ...740...92G",
+				"alias":"7"
+			},
+			{
+				"name":"2013ApJ...763...88C",
+				"url":"http://adsabs.harvard.edu/abs/2013ApJ...763...88C",
+				"bibcode":"2013ApJ...763...88C",
+				"alias":"8"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"20",
+		"discoverer":"SDSS Collaboration",
+		"discovermonth":"10",
+		"discoveryear":"2006",
+		"galdec":[
+			{
+				"value":"-00:11:41",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"20:54:52",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A205452-0011",
+				"source":"1"
+			},
+			{
+				"value":"(SDSSJ205452.51-1144.9)",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"49000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"658",
+				"error":"34",
+				"source":"7,5"
+			}
+		],
+		"maxabsmag":"-16.2",
+		"maxappmag":"22.9",
+		"maxday":"20",
+		"maxmonth":"10",
+		"maxyear":"2006",
+		"redshift":[
+			{
+				"value":"0.18",
+				"source":"1,2,3,4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-00:11:41.4",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"20:54:52.41",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54028.5",
+				"band":"",
+				"abmag":"22.9",
+				"source":"2,3"
+			}
+		]
+	}
 }

@@ -1,60 +1,136 @@
 {
-    "SN2005ky": {
-        "name": "SN2005ky",
-        "aliases": [
-            "SN2005ky"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08600/08636.html#Item3'>IAUC 8636</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "23",
-        "discoverer": "Supernova Legacy Survey",
-        "discovermonth": "11",
-        "discoveryear": "2005",
-        "galdec": "-041054",
-        "galra": "022436",
-        "host": "A022436-0410",
-        "hvel": "41100",
-        "lumdist": "726",
-        "maxabsmag": "-18.3",
-        "maxappmag": "21",
-        "maxday": "23",
-        "maxmonth": "11",
-        "maxyear": "2005",
-        "redshift": "0.148",
-        "sndec": "-04:10:54.94",
-        "snra": "02:24:36.254",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "53697.5",
-                "band": "",
-                "abmag": "21.0",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN2005ky":{
+		"name":"SN2005ky",
+		"aliases":[
+			"SN2005ky"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 8636",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/08600/08636.html#Item3",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			},
+			{
+				"name":"NED-D",
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2009ApJ...704.1036F",
+				"url":"http://adsabs.harvard.edu/abs/2009ApJ...704.1036F",
+				"bibcode":"2009ApJ...704.1036F",
+				"alias":"6"
+			},
+			{
+				"name":"2010A&A...523A...7G",
+				"url":"http://adsabs.harvard.edu/abs/2010A&A...523A...7G",
+				"bibcode":"2010A&A...523A...7G",
+				"alias":"7"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"23",
+		"discoverer":"Supernova Legacy Survey",
+		"discovermonth":"11",
+		"discoveryear":"2005",
+		"galdec":[
+			{
+				"value":"-04:10:54",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"02:24:36",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A022436-0410",
+				"source":"1"
+			},
+			{
+				"value":"(APMUKS(BJ)B022205.44-42424.0)",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"41100",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"646",
+				"error":"53",
+				"source":"7,5"
+			}
+		],
+		"maxabsmag":"-18.1",
+		"maxappmag":"21",
+		"maxday":"23",
+		"maxmonth":"11",
+		"maxyear":"2005",
+		"redshift":[
+			{
+				"value":"0.148",
+				"source":"1,2,3"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-04:10:54.9",
+				"source":"1"
+			},
+			{
+				"value":"-04:10:54.94",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"02:24:36.25",
+				"source":"1"
+			},
+			{
+				"value":"02:24:36.254",
+				"source":"2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"53697.5",
+				"band":"",
+				"abmag":"21.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

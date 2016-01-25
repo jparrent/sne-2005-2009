@@ -1,60 +1,105 @@
 {
-    "SN2009mn": {
-        "name": "SN2009mn",
-        "aliases": [
-            "SN2009mn"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/cbet/002000/CBET002089.txt'>CBET 2089</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "1"
-            }
-        ],
-        "discoverday": "14",
-        "discoverer": "Canada-France-Hawaii Telescope",
-        "discovermonth": "10",
-        "discoveryear": "2009",
-        "galdec": "+251935",
-        "galra": "063136",
-        "host": "A063136+2519",
-        "hvel": "66000",
-        "lumdist": "1300",
-        "maxabsmag": "-19",
-        "maxappmag": "21.8",
-        "maxday": "14",
-        "maxmonth": "10",
-        "maxyear": "2009",
-        "redshift": "0.25",
-        "sndec": "+25:19:35.9",
-        "snra": "06:31:36.88",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "55118.5",
-                "band": "",
-                "abmag": "21.8",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN2009mn":{
+		"name":"SN2009mn",
+		"aliases":[
+			"SN2009mn"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 2089",
+				"url":"http://www.cbat.eps.harvard.edu/cbet/002000/CBET002089.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1"
+			}
+		],
+		"discoverday":"14",
+		"discoverer":"Canada-France-Hawaii Telescope",
+		"discovermonth":"10",
+		"discoveryear":"2009",
+		"galdec":[
+			{
+				"value":"+25:19:35",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"06:31:36",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A063136+2519",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"66000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"1300",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-19",
+		"maxappmag":"21.8",
+		"maxday":"14",
+		"maxmonth":"10",
+		"maxyear":"2009",
+		"redshift":[
+			{
+				"value":"0.25",
+				"source":"1,2,3,4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+25:19:35.9",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"06:31:36.88",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"55118.5",
+				"band":"",
+				"abmag":"21.8",
+				"source":"2,3"
+			}
+		]
+	}
 }

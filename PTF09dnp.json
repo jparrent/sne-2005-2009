@@ -1,44 +1,82 @@
 {
-    "PTF09dnp": {
-        "name": "PTF09dnp",
-        "aliases": [
-            "PTF09dnp"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.astronomerstelegram.org/?read=2174'>ATEL 2174</a>",
-                "alias": "2"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "1"
-            }
-        ],
-        "discoverday": "17",
-        "discoverer": "PTF",
-        "discovermonth": "8",
-        "discoveryear": "2009",
-        "maxappmag": "16.8",
-        "maxday": "17",
-        "maxmonth": "8",
-        "maxyear": "2009",
-        "sndec": "+49:29:56.4",
-        "snra": "15:19:24.432",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "55060.5",
-                "band": "",
-                "abmag": "16.8",
-                "source": "2,1"
-            }
-        ]
-    }
+	"PTF09dnp":{
+		"name":"PTF09dnp",
+		"aliases":[
+			"PTF09dnp"
+		],
+		"sources":[
+			{
+				"name":"ATEL 2174",
+				"url":"http://www.astronomerstelegram.org/?read=2174",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			},
+			{
+				"name":"NED-D",
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2014MNRAS.438.1391P",
+				"url":"http://adsabs.harvard.edu/abs/2014MNRAS.438.1391P",
+				"bibcode":"2014MNRAS.438.1391P",
+				"alias":"4"
+			},
+			{
+				"name":"2012MNRAS.426.2359M",
+				"url":"http://adsabs.harvard.edu/abs/2012MNRAS.426.2359M",
+				"bibcode":"2012MNRAS.426.2359M",
+				"alias":"5"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2"
+			}
+		],
+		"discoverday":"17",
+		"discoverer":"PTF",
+		"discovermonth":"8",
+		"discoveryear":"2009",
+		"lumdist":[
+			{
+				"value":"147",
+				"error":"1",
+				"source":"4,3"
+			}
+		],
+		"maxabsmag":"-19",
+		"maxappmag":"16.8",
+		"maxday":"17",
+		"maxmonth":"8",
+		"maxyear":"2009",
+		"sndec":[
+			{
+				"value":"+49:29:56.4",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"15:19:24.432",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"55060.5",
+				"band":"",
+				"abmag":"16.8",
+				"source":"1,2"
+			}
+		]
+	}
 }

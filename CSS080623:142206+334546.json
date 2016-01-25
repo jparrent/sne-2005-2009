@@ -1,44 +1,56 @@
 {
-    "CSS080623:142206+334546": {
-        "name": "CSS080623:142206+334546",
-        "aliases": [
-            "CSS080623:142206+334546"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.astronomerstelegram.org/?read=1604'>ATEL 1604</a>",
-                "alias": "2"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "1"
-            }
-        ],
-        "discoverday": "22",
-        "discoverer": "CRTS",
-        "discovermonth": "6",
-        "discoveryear": "2008",
-        "maxappmag": "18.3",
-        "maxday": "22",
-        "maxmonth": "6",
-        "maxyear": "2008",
-        "sndec": "+33:45:46.11",
-        "snra": "14:22:05.77",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "54639.5",
-                "band": "",
-                "abmag": "18.3",
-                "source": "2,1"
-            }
-        ]
-    }
+	"CSS080623:142206+334546":{
+		"name":"CSS080623:142206+334546",
+		"aliases":[
+			"CSS080623:142206+334546"
+		],
+		"sources":[
+			{
+				"name":"ATEL 1604",
+				"url":"http://www.astronomerstelegram.org/?read=1604",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2"
+			}
+		],
+		"discoverday":"22",
+		"discoverer":"CRTS",
+		"discovermonth":"6",
+		"discoveryear":"2008",
+		"maxappmag":"18.3",
+		"maxday":"22",
+		"maxmonth":"6",
+		"maxyear":"2008",
+		"sndec":[
+			{
+				"value":"+33:45:46.11",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"14:22:05.77",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"54639.5",
+				"band":"",
+				"abmag":"18.3",
+				"source":"1,2"
+			}
+		]
+	}
 }
